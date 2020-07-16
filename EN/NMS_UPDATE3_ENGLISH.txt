@@ -1461,12 +1461,22 @@ FREIGHTER_NAME_21	{Unknown Doomed Freighter}
 FREIGHTER_NAME_22	{Wreck of the SV %PROCNAME% III}
 FREIGHTER_NAME_23	{Hull of the MV %PROCNAME% IX}
 FREIGHTER_NAME_24	{Remains of the MS %PROCNAME% II}
-FREIGHTER_NAME_25	{Log from the Sea of %PROCNAME%}
-FREIGHTER_NAME_26	{Log of the %PROCNAME% Hauler}
-FREIGHTER_NAME_27	{Damaged Log, SS %PROCNAME%}
+FREIGHTER_NAME_25	{Remnants of the Sea of %PROCNAME%}
+FREIGHTER_NAME_26	{The %PROCNAME% Hauler}
+FREIGHTER_NAME_27	{Smashed Remains, SS %PROCNAME%}
 FREIGHTER_NAME_28	{MV Winds of %PROCNAME%}
 FREIGHTER_NAME_29	{MV Graceful %PROCNAME%}
 FREIGHTER_NAME_30	{Wreck of the MS %PROCNAME% VII}
+FREIGHTER_NAME_31	{MS %PROCNAME% Hammer}
+FREIGHTER_NAME_32	{SV Butcher of %PROCNAME%}
+FREIGHTER_NAME_33	{MS Claw of %PROCNAME%}
+FREIGHTER_NAME_34	{MS %PROCNAME%'s Pride}
+FREIGHTER_NAME_35	{MS %PROCNAME%'s Glory}
+FREIGHTER_NAME_36	{MS Sister of %PROCNAME%}
+FREIGHTER_NAME_37	{MV Daughter of %PROCNAME%}
+FREIGHTER_NAME_38	{Abandoned Hulk}
+FREIGHTER_NAME_39	{Hollowed core of the MS %PROCNAME%}
+FREIGHTER_NAME_40	{SV Yellow %PROCNAME%}
 GLITCH_NAME_1	{BREACH // Label: '%PROCNAME%'}
 GLITCH_NAME_2	{ANOMALY // Label: '%PROCNAME%'}
 GLITCH_NAME_3	{BOUNDS LOSS // Label: '%PROCNAME%'}
@@ -2371,7 +2381,7 @@ ITEMGEN_TREASURE_COMMON_5	{Approximately <VAL_ON>%AGE%<> years old.
 Was this artifact part of a horde buried with its owner? The remains of a secret cache? Or just forgotten rubbish? Time has rendered it impossible to tell.}
 ITEMGEN_TREASURE_UNCOMMON_1	{Approximately <VAL_ON>%AGE%<> years old.
 
-Valuable in and of itself, this artifact is made by priceless the glimpse it gives into the society that once ruled this planet.}
+Valuable in and of itself, this artifact is made priceless by the glimpse it gives into the society that once ruled this planet.}
 ITEMGEN_TREASURE_UNCOMMON_2	{Approximately <VAL_ON>%AGE%<> years old.
 
 What caused this artifact's owner to bury it underground? Did they hope to return to claim it one day? Such questions may now never be answered.}
@@ -2761,7 +2771,7 @@ HELP_WHEN_SYSTEM_UNSELECTED	{<IMG>GALAXYWARP<> Select targeted system <IMG>SLASH
 UI_GALAXYMAP_GOHOME	{<IMG>GALAXYHOME<> Select my location}
 UI_GALAXYMAP_SELECT	{<IMG>GALAXYWARP<> Select targeted system}
 UI_GALAXYMAP_MOVEVIEWVR	{<IMG>GALAXY_GESTURE<> Move View}
-DISTANCE_FROM_CENTRE_TITLE	{Galactic Core}
+DISTANCE_FROM_CENTRE_TITLE	{Galactic Core (%NAME%)}
 DISTANCE_FROM_CENTRE_LY	{%DIST% LY}
 UI_GALAXYMAP_PLANETNAME	{%PLANET% (%DIST% LY)}
 UI_GALAXYMAP_SYSNAME	{%SYSTEM% System}
@@ -2988,56 +2998,56 @@ UI_TRADE_ITEM_ALLOY_5_DESC	{A densely layered package of superconducting fibres.
 Powerful, flexible, and water-resistant; the controlled magnetic weave of these fibres is vital in the creation of many <SPECIAL>scientific components<>.}
 UI_TRADE_ITEM_ALLOY_5_NAME	{SUPERCONDUCTING FIBRE}
 UI_TRADE_ITEM_ALLOY_5_NAME_L	{Superconducting Fibre}
-UI_TRADE_ITEM_COMMODITY_1_DESC	{A crate packed with hard drives, each of which contain vast amounts of decrypted user data.
+UI_TRADE_ITEM_COMMOD_1_DESC	{A crate packed with hard drives, each of which contain vast amounts of decrypted user data.
 
 Individually of low value, taken together these repositories can be processed and scanned for valuable data. This processing occurs in systems with <SPECIAL>advanced material<> economies.}
-UI_TRADE_ITEM_COMMODITY_1_NAME	{DECRYPTED USER DATA}
-UI_TRADE_ITEM_COMMODITY_1_NAME_	{Decrypted User Data}
-UI_TRADE_ITEM_COMMODITY_2_DESC	{Several spools of star silk.
+UI_TRADE_ITEM_COMMOD_1_NAME	{DECRYPTED USER DATA}
+UI_TRADE_ITEM_COMMOD_1_NAME_L	{Decrypted User Data}
+UI_TRADE_ITEM_COMMOD_2_DESC	{Several spools of star silk.
 
 Star silk is woven on enormous solar looms in orbit around trading planets. Cosmic ray impact triggers the pattern of the weave, which can then be used in <SPECIAL>advanced material<> processing.}
-UI_TRADE_ITEM_COMMODITY_2_NAME	{STAR SILK}
-UI_TRADE_ITEM_COMMODITY_2_NAME_	{Star Silk}
-UI_TRADE_ITEM_COMMODITY_3_DESC	{Several canisters of comet droplets.
+UI_TRADE_ITEM_COMMOD_2_NAME	{STAR SILK}
+UI_TRADE_ITEM_COMMOD_2_NAME_L	{Star Silk}
+UI_TRADE_ITEM_COMMOD_3_DESC	{Several canisters of comet droplets.
 
 An elaborate trading name for chunks of meteorite, these rocks are nonetheless extremely valuable to the <SPECIAL>advanced material<> economies that can process them.}
-UI_TRADE_ITEM_COMMODITY_3_NAME	{COMET DROPLETS}
-UI_TRADE_ITEM_COMMODITY_3_NAME_	{Comet Droplets}
-UI_TRADE_ITEM_COMMODITY_4_DESC	{A packed crate of ion spheres.
+UI_TRADE_ITEM_COMMOD_3_NAME	{COMET DROPLETS}
+UI_TRADE_ITEM_COMMOD_3_NAME_L	{Comet Droplets}
+UI_TRADE_ITEM_COMMOD_4_DESC	{A packed crate of ion spheres.
 
 These delicate glass spheres house a small-scale replica of the upper atmosphere. Sparkly and hypnotic to look at, these baubles are also of importance in the manufacture of <SPECIAL>advanced material<> alloys.}
-UI_TRADE_ITEM_COMMODITY_4_NAME	{ION SPHERE}
-UI_TRADE_ITEM_COMMODITY_4_NAME_	{Ion Sphere}
-UI_TRADE_ITEM_COMMODITY_5_DESC	{A bundle of precisely calibrated teleport coordinators.
+UI_TRADE_ITEM_COMMOD_4_NAME	{ION SPHERE}
+UI_TRADE_ITEM_COMMOD_4_NAME_L	{Ion Sphere}
+UI_TRADE_ITEM_COMMOD_5_DESC	{A bundle of precisely calibrated teleport coordinators.
 
 These pin-prick sized circuits are vital to the delicate process of inserting reinforcing material into <SPECIAL>advanced alloys<>. They can also aid long-distance sales efforts.}
-UI_TRADE_ITEM_COMMODITY_5_NAME	{TELEPORT COORDINATORS}
-UI_TRADE_ITEM_COMMODITY_5_NAME_	{Teleport Coordinators}
-UI_TRADE_ITEM_COMPONENT_1_DESC	{Several huge cogs.
+UI_TRADE_ITEM_COMMOD_5_NAME	{TELEPORT COORDINATORS}
+UI_TRADE_ITEM_COMMOD_5_NAME_L	{Teleport Coordinators}
+UI_TRADE_ITEM_COMP_1_DESC	{Several huge cogs.
 
 Sturdy, well-made metal gears. While not advanced technology themselves, they're a vital component in countless pieces of <SPECIAL>high-tech<> machinery all over the galaxy.}
-UI_TRADE_ITEM_COMPONENT_1_NAME	{ENORMOUS METAL COG}
-UI_TRADE_ITEM_COMPONENT_1_NAME_	{Enormous Metal Cog}
-UI_TRADE_ITEM_COMPONENT_2_DESC	{Wrapped and greased pistons, ready for shipping.
+UI_TRADE_ITEM_COMP_1_NAME	{ENORMOUS METAL COG}
+UI_TRADE_ITEM_COMP_1_NAME_L	{Enormous Metal Cog}
+UI_TRADE_ITEM_COMP_2_DESC	{Wrapped and greased pistons, ready for shipping.
 
 <SPECIAL>High-tech<> components frequently require rapidly moving parts, or high-endurance motors. Without specially coated pistons, the failure rate of such parts would be significantly higher.}
-UI_TRADE_ITEM_COMPONENT_2_NAME	{NON-STICK PISTON}
-UI_TRADE_ITEM_COMPONENT_2_NAME_	{Non-Stick Piston}
-UI_TRADE_ITEM_COMPONENT_3_DESC	{A crate of mesh decouplers.
+UI_TRADE_ITEM_COMP_2_NAME	{NON-STICK PISTON}
+UI_TRADE_ITEM_COMP_2_NAME_L	{Non-Stick Piston}
+UI_TRADE_ITEM_COMP_3_DESC	{A crate of mesh decouplers.
 
 The creation of <SPECIAL>high-tech<> components often involves accidental mesh-coupling. These decouplers are particularly powerful, being able to deploy six prongs simultaneously.}
-UI_TRADE_ITEM_COMPONENT_3_NAME	{SIX-PRONGED MESH DECOUPLER}
-UI_TRADE_ITEM_COMPONENT_3_NAME_	{Six-Pronged Mesh Decoupler}
-UI_TRADE_ITEM_COMPONENT_4_DESC	{Packed and separated data containers for holographic crankshafts.
+UI_TRADE_ITEM_COMP_3_NAME	{SIX-PRONGED MESH DECOUPLER}
+UI_TRADE_ITEM_COMP_3_NAME_L	{Six-Pronged Mesh Decoupler}
+UI_TRADE_ITEM_COMP_4_DESC	{Packed and separated data containers for holographic crankshafts.
 
 Real crankshafts are frequently too large, noisy or hard-to-maintain for use in delicate machines. When faced with such a situation, <SPECIAL>high-tech<> manufacturers turn to these holographic substitutes.}
-UI_TRADE_ITEM_COMPONENT_4_NAME	{HOLOGRAPHIC CRANKSHAFT}
-UI_TRADE_ITEM_COMPONENT_4_NAME_	{Holographic Crankshaft}
-UI_TRADE_ITEM_COMPONENT_5_DESC	{A large crate of vector compressors.
+UI_TRADE_ITEM_COMP_4_NAME	{HOLOGRAPHIC CRANKSHAFT}
+UI_TRADE_ITEM_COMP_4_NAME_L	{Holographic Crankshaft}
+UI_TRADE_ITEM_COMP_5_DESC	{A large crate of vector compressors.
 
 The creation of interstellar drives often requires dimensions to be condensed and then re-rendered. Such <SPECIAL>high-tech<> component manufacture would not be possible without industrial-grade compressors such as these.}
-UI_TRADE_ITEM_COMPONENT_5_NAME	{HIGH CAPACITY VECTOR COMPRESSOR}
-UI_TRADE_ITEM_COMPONENT_5_NAME_	{High Capacity Vector Compressor}
+UI_TRADE_ITEM_COMP_5_NAME	{HIGH CAPACITY VECTOR COMPRESSOR}
+UI_TRADE_ITEM_COMP_5_NAME_L	{High Capacity Vector Compressor}
 UI_TRADE_ITEM_ENERGY_1_DESC	{A crate packed with spark canisters.
 
 Many industrial and <SPECIAL>mining<> processes have considerable power demands. A counterpart to the slow release of a battery, spark canisters are able to meet these demands instantaneously.}
@@ -3838,12 +3848,12 @@ The universe has been regenerated to make room for the various changes and featu
 Hello Games has been hard at work to improve and expand No Man’s Sky. We hope you enjoy :)
 Thank you so much,
 Hello Games}
-UI_TERRAIN_EDIT_TIP_PAD	{Shape & material options <IMG>TERRAINMENU<>
-Undo last edit  <IMG>UNDOTERRAIN<>
-Back to mining <IMG>TOGGLETERRAIN<>}
-UI_TERRAIN_EDIT_TIP_PC	{Shape & material options <IMG>TERRAINMENU<>
-Undo last edit  <IMG>UNDOTERRAIN<>
-Back to mining <IMG>TOGGLETERRAIN<>}
+UI_TERRAIN_EDIT_TIP_PAD	{<STELLAR>Hold<> <IMG>ATTACK<> to draw large shapes in <TECHNOLOGY>Create<> Mode
+Use <TECHNOLOGY>Flatten<> mode to quickly smooth an area
+<TECHNOLOGY>Restore<> mode allows edits to be removed and terrain restored}
+UI_TERRAIN_EDIT_TIP_PC	{<STELLAR>Hold<> <IMG>ATTACK<> to draw large shapes in <TECHNOLOGY>Create<> Mode
+Use <TECHNOLOGY>Flatten<> mode to quickly smooth an area
+<TECHNOLOGY>Restore<> mode allows edits to be removed}
 UI_TERRAIN_EDIT_TIP_PLANE_PAD	{<IMG>ROTTERRAINLEFT<>/<IMG>ROTTERRAINRIGHT<> Rotate Plane
 <IMG>TERRAINMENU<> Shape & material options 
 <IMG>UNDOTERRAIN<> Undo last edit 
@@ -4044,6 +4054,10 @@ In space, consult the Galaxy Map with <IMG>QUICK_MENU<>}
 UI_SCANEVENT_GOTO_MAP_TELE	{Mission target is in another system
 Use a <TECHNOLOGY>Teleporter<> to instantly return to previous systems
 Find Teleporters in <COMMODITY>Space Stations<> or the <SPECIAL>Anomaly<>}
+UI_SCANEVENT_GOTO_NEXUS	{Mission target is aboard the Space Anomaly
+In space, summon the Anomaly from the Quick Menu (<IMG>QUICK_MENU<>)}
+UI_SCANEVENT_GOTO_PORTAL	{Mission target is in another system
+Return through the portal to complete objectives}
 UI_PREVIOUS	{Previous Page <IMG>FE_BACK<>}
 UI_PORTAL_ERROR	{ATLAS TRANSPORT ERROR <IMG>SLASH<> LOCATION CORRUPTED <IMG>SLASH<> APPROXIMATING DESTINATION}
 UI_LIGHT_YEARS_AWAY	{%AMOUNT% light-years away}
@@ -4121,6 +4135,7 @@ UI_BASE_MOVE_WARNING	{In version 1.3 (Atlas Rises), the universe has been regene
 UI_UNIT_SOLS	{SOLS}
 UI_UNIT_U	{u}
 UI_UNIT_KS	{ks}
+UI_UNIT_US	{u/s}
 UI_PIN_OBJ	{Gather %ITEM%}
 UI_PIN_OBJ_TIP	{Progress: %CURRENT%/%AMOUNT%}
 UI_FREIGHTER_DRIVE_SUB	{Lightspeed Warp Drive}
@@ -4128,17 +4143,23 @@ UI_FREIGHTER_DRIVE_NAME	{FREIGHTER HYPERDRIVE}
 UI_FREIGHTER_DRIVE_NAME_L	{Freighter Hyperdrive}
 UI_FREIGHTER_DRIVE_DESC	{FTL propulsion drive that allows starship to attain warp speed and jump between neighbouring systems.}
 UI_FREIGHTER_DRIVE1_SUB	{Hyperdrive Companion Unit}
-UI_FREIGHTER_DRIVE1_NAME	{FREIGHTER WARP REACTOR SIGMA}
-UI_FREIGHTER_DRIVE1_NAME_L	{Freighter Warp Reactor Sigma}
-UI_FREIGHTER_DRIVE1_DESC	{Hyperdrive is granted more robust deep space exploration capabilities and ability to leap to stars previously out of reach.}
+UI_FREIGHTER_DRIVE1_NAME	{WARP CORE RESONATOR}
+UI_FREIGHTER_DRIVE1_NAME_L	{Warp Core Resonator}
+UI_FREIGHTER_DRIVE1_DESC	{An augmentation for the colossal hyperdrive engine of an <STELLAR>interstellar freighter<>.
+
+Quantum resonation improves the robustness of the drive during FTL travel, granting the ability to leap to stars previously out of reach.}
 UI_FREIGHTER_DRIVE2_SUB	{Hyperdrive Companion Unit}
-UI_FREIGHTER_DRIVE2_NAME	{FREIGHTER WARP REACTOR TAU}
-UI_FREIGHTER_DRIVE2_NAME_L	{Freighter Warp Reactor Tau}
-UI_FREIGHTER_DRIVE2_DESC	{Hyperdrive benefits from advanced fusion that brings starship to higher warp speed and intensity. User's craft will become able to leap deeper into space, and into more distant planetary systems.}
+UI_FREIGHTER_DRIVE2_NAME	{PLASMATIC WARP INJECTOR}
+UI_FREIGHTER_DRIVE2_NAME_L	{Plasmatic Warp Injector}
+UI_FREIGHTER_DRIVE2_DESC	{An augmentation for the colossal hyperdrive engine of an <STELLAR>interstellar freighter<>.
+
+Hyperdrive benefits from advanced fusion that brings starship to higher warp speed and intensity. User's craft will become able to leap deeper into space, and into more distant planetary systems.}
 UI_FREIGHTER_DRIVE3_SUB	{Hyperdrive Companion Unit}
-UI_FREIGHTER_DRIVE3_NAME	{FREIGHTER WARP REACTOR THETA}
-UI_FREIGHTER_DRIVE3_NAME_L	{Freighter Warp Reactor Theta}
-UI_FREIGHTER_DRIVE3_DESC	{Uncapped, yet stabilised, fusion systems are threaded into user's hyperdrive. Allows starship to jump ever longer distances in deep space.}
+UI_FREIGHTER_DRIVE3_NAME	{REALITY DE-THREADER}
+UI_FREIGHTER_DRIVE3_NAME_L	{Reality De-Threader}
+UI_FREIGHTER_DRIVE3_DESC	{An augmentation for the colossal hyperdrive engine of an <STELLAR>interstellar freighter<>.
+
+Uncapped, yet stabilised, fusion systems are threaded into user's hyperdrive. Allows starship to jump ever longer distances in deep space.}
 UI_FREIGHTER_FUEL_1_NAME	{FRIGATE FUEL (50 TONNES)}
 UI_FREIGHTER_FUEL_1_NAME_L	{Frigate Fuel (50 Tonnes)}
 UI_FREIGHTER_FUEL_1_DESC	{A small barrel of frigate fuel.
@@ -4257,6 +4278,8 @@ UI_UPLOAD_FAUNA	{UPLOAD ALL FAUNA}
 UI_UPLOAD_FAUNA_SUB	{Upload all pending creature discoveries}
 UI_UPLOAD_FLORA	{UPLOAD ALL FLORA}
 UI_UPLOAD_FLORA_SUB	{Upload all pending plant discoveries}
+UI_UPLOAD_MINERALS	{UPLOAD ALL MINERALS}
+UI_UPLOAD_MINERALS_SUB	{Upload all pending geological discoveries}
 UI_UPLOAD_WAYPOINT	{UPLOAD ALL WAYPOINTS}
 UI_UPLOAD_WAYPOINT_SUB	{Upload all pending planetary waypoints}
 SHIP_TURNLEFT	{Turn Left}
@@ -4266,6 +4289,7 @@ CONTROL_FLIGHT_ALT	{Tethered}
 CONTROL_FLIGHT_OLD	{Locked}
 OPTION_CTRL_RETICLE	{Flight Reticle: %OPTION%}
 GROWTIME_HEADER	{Growing Time}
+GROWTIME_FABRICATOR_HEADER	{Fabrication Time}
 UI_ABANDONED_INFO	{%RACE% (Abandoned)}
 FE_DESTROY	{Discard Item}
 SHIPNAME_HEADER	{Name}
@@ -4403,21 +4427,21 @@ REFINER_LOST_TITLE	{Warning: Portable Refiner Lost}
 REFINER_LOST_NOTIFY	{Locate the <TECHNOLOGY>Portable Refiner<> with the Analysis Visor (<IMG>AIM<>)
 Portable technology can be picked up with <IMG>DECONSTRUCT<> and redeployed}
 TEACHWORD	{Learn Word}
-RGB_WARP_1_DESC	{Hyperdrive computational matrix is upgraded, preventing rapid disassembly when attempting to reach rare-class <FUEL>red stellar bodies<>.
+RGB_WARP_1_DESC	{Upgrades the hyperdrive's core bounding magnets, preventing rapid disassembly when attempting to reach rare-class <FUEL>red stellar bodies<>.
 
 User is advised to access Hyperdrive systems via the <VAL_ON>Galactic Map<>.}
-RGB_WARP_1_NAME	{WARP SHIELDING SIGMA}
-RGB_WARP_1_NAME_L	{Warp Shielding Sigma}
-RGB_WARP_2_DESC	{Hyperdrive shield matrix is upgraded, preventing temporal anomalies when attempting to reach rare-class <TRADEABLE>green stellar bodies<>.
+RGB_WARP_1_NAME	{AMPLIFIED WARP SHIELDING}
+RGB_WARP_1_NAME_L	{Amplified Warp Shielding}
+RGB_WARP_2_DESC	{Upgrades the hyperdrive's shield integrity, preventing reality glitches when attempting to reach rare-class <TRADEABLE>green stellar bodies<>.
 
 User is advised to access Hyperdrive systems via the <VAL_ON>Galactic Map<>.}
-RGB_WARP_2_NAME	{WARP SHIELDING TAU}
-RGB_WARP_2_NAME_L	{Warp Shielding Tau}
-RGB_WARP_3_DESC	{Hyperdrive protection matrix is upgraded, preventing reality glitches when attempting to reach rare-class <TECHNOLOGY>blue stellar bodies<>.
+RGB_WARP_2_NAME	{CHROMATIC WARP SHIELDING}
+RGB_WARP_2_NAME_L	{Chromatic Warp Shielding}
+RGB_WARP_3_DESC	{Upgrades the hyperdrive's computational matrix,  preventing temporal anomalies when attempting to reach rare-class <TECHNOLOGY>blue stellar bodies<>.
 
 User is advised to access Hyperdrive systems via the <VAL_ON>Galactic Map<>.}
-RGB_WARP_3_NAME	{WARP SHIELDING THETA}
-RGB_WARP_3_NAME_L	{Warp Shielding Theta}
+RGB_WARP_3_NAME	{TEMPORAL WARP COMPUTER}
+RGB_WARP_3_NAME_L	{Temporal Warp Computer}
 CHARGEBUTTON_DESC	{Charge technology with this element}
 SHIPJUMP1_DAMAGED	{Provides space and atmospheric flight propulsion.
 
@@ -4882,7 +4906,7 @@ And what better way than to attack a Korvax factory? They are both robotic life 
 Enter the factory and hack the terminal within. If we gain data about the Sentinels? Good. If not, we'll have summoned enough of them to trace any energy spikes on that world of yours. The portals will be ours in no time.}
 NPC_CORE_ACT1_10C_OPT_A	{NPC_CORE_ACT1_3C_OPT_A}
 NPC_CORE_ACT1_11_LANG	{NPC_CORE_ACT1_2_LANG}
-NPC_CORE_ACT1_11_DESC	{The terminal houses a <TECHNOLOGY>upgrade module<>for my <AUDIO>TXT_RadioNoise<> <STELLAR>Exosuit<>. However, I find few clues for Apollo. 
+NPC_CORE_ACT1_11_DESC	{The terminal houses a <TECHNOLOGY>upgrade module<> for my <AUDIO>TXT_RadioNoise<> <STELLAR>Exosuit<>. However, I find few clues for Apollo. 
 It seems the Korvax within left this world many days ago, apparently recalled on a priority transmission to their species' flotilla. Something has them worried.}
 NPC_CORE_ACT1_11_OPT_A	{Probe factory logs}
 NPC_CORE_ACT1_11_OPT_B	{NPC_CORE_ACT1_2_OPT_B}
@@ -5488,7 +5512,7 @@ EXP_CORE_ACT2_17_RES_A	{The lifeform grabs at me and in the moment of contact, N
 EXP_CORE_ACT2_17_RES_B	{The Korvax does nothing. They remain there, arms outstretched.}
 EXP_CORE_ACT2_17A_DESC	{Even as I stand in space, my mind travels across the cosmos. I see life as the Korvax see it: a vast tapestry of wonder, of memories shared between countless beings and times.
 
-I stand on the Korvax homeworld as Gek ships fill the skies... I see the moment the first Korvax was melted down for its rare minerals.
+I stand on the Korvax homeworld as Gek ships fill the skies... I see the moment the first Korvax was melted down for their rare minerals.
 
 But even in the depths of their subjugation, there was hope. A bargain, a prayer to a greater being.
 
@@ -6828,8 +6852,8 @@ TUTORIAL_ANTIMATTER_TITLE	{The Eye of the Anomaly}
 TUTORIAL_ANTIMATTER_LANG	{TERMINAL ONLINE... SELECTING KEY... DECRYPTING...
 <AUDIO>UI_Destination_Reached<>SUCCESS!}
 TUTORIAL_ANTIMATTER_DESC	{The terminal is clogged with an unnerving, p<DELAY>0.1<>u<DELAY>0.1<>l<DELAY>0.1<>s<DELAY>0.1<>a<DELAY>0.1<>ting, slime. Nevertheless, it appears to function. As I touch the input panel, the alien substance reacts violently.<DELAY>0.4<> I make a note to avoid getting closer.
-The device opens, revealing a single, unblinking, crimson eye<AUDIO>UI_Destination_Reached<>.<DELAY>0.4<> It deposits a sample of antimatter, accompanied by a strange message...}
-TUTORIAL_ANTIMATTER_OPT_A	{Read log and take antimatter}
+The device opens, revealing a single, unblinking, crimson eye<AUDIO>UI_Destination_Reached<>.<DELAY>0.4<> It prints out a <TECHNOLOGY>blueprint<> for <FUEL>Antimatter<>, accompanied by a strange message...}
+TUTORIAL_ANTIMATTER_OPT_A	{Take blueprint and read log}
 TUTORIAL_ANTIMATTER_OPT_B	{Leave}
 TUTORIAL_ANTIMATTER_RES_A	{<IMG>SLASH<> YOU WILL FIND US, WHEN THE TIME IS RIGHT <IMG>SLASH<>
 <IMG>SLASH<> 16 16<AUDIO>UI_Nanites_Received<> 16 16<AUDIO>UI_Nanites_Received<> 16 16 <AUDIO>UI_Nanites_Received<>16 <IMG>SLASH<>}
@@ -7011,6 +7035,11 @@ Hold <IMG>INTERACT<> and lift a <TRADEABLE>cockpit handle<> to exit}
 UI_CORE_TUTORIAL1_OSD3	{STARSHIP REPAIRED <IMG>SLASH<> LAUNCH SYSTEMS ONLINE}
 UI_CORE_TUTORIAL1_MSG4	{<STELLAR>All systems functional<>
 Seek answers among the stars}
+UI_CORE_TUTORIAL1_MSG4A	{<STELLAR>All systems functional<>
+Fly up and into <SPECIAL>space<>
+Hold <IMG>THRUST<> to accelerate}
+UI_CORE_TUTORIAL1_MSG4_VR	{<STELLAR>All systems functional<>
+Fly up and into <SPECIAL>space<>}
 UI_CORE_TUTORIAL1_MSG_STARS1	{<STELLAR>Orbital Flight Achieved<>
 Test Starship Systems: 0 / 3
 Test flight controls and thrust (<IMG>THRUST<>)}
@@ -7301,7 +7330,7 @@ UI_CORE_TUTORIAL2_OBJ1_TIP	{Use the Starship Scanner (<IMG>SCAN<>) to pinpoint t
 UI_CORE_TUTORIAL2_OBJ2	{Visit the Signal Transmitter}
 UI_CORE_TUTORIAL2_OBJ2_TIP	{Follow the mysterious signal to learn more.}
 UI_CORE_TUTORIAL2_OBJ3	{Reach the Decoded Coordinates}
-UI_CORE_TUTORIAL2_OBJ3_TIP	{The signal appears to be a sit of coordinates on a distress frequency.
+UI_CORE_TUTORIAL2_OBJ3_TIP	{The signal appears to be a set of coordinates on a distress frequency.
 Follow the signal to locate the source.}
 UI_CORE_TUTORIAL2_OBJ4	{Install the Hyperdrive}
 UI_CORE_TUTORIAL2_OBJ4B	{Acquire Hyperdrive Components: Chromatic Metal}
@@ -7355,7 +7384,7 @@ Use a <VAL_ON>Technology Slot<> to save space for cargo}
 UI_CORE_TUTORIAL2_MSG7	{Complete the <TECHNOLOGY>Hyperdrive<>
 Access the ship inventory and install components with <IMG>TECHMENU<>}
 UI_CORE_TUTORIAL3_DESC	{A strange signal led me to the rusted remains of freighter. I found a hyperdrive blueprint among the wreckage, accompanied by a strange message. It appears that someone has been leaving me messages.}
-UI_CORE_TUTORIAL3_OBJ1	{Craft Warp Fuel: Find Antimatter}
+UI_CORE_TUTORIAL3_OBJ1	{Craft Warp Fuel: Find Antimatter Recipe}
 UI_CORE_TUTORIAL3_OBJ1_TIP	{Interstellar flight requires <FUEL>Warp Fuel<> to power the hyperdrive.
 Follow the signal and locate a source of <FUEL>Antimatter<> to create warp fuel.}
 UI_CORE_TUTORIAL3_OBJ2	{Craft Warp Fuel}
@@ -7655,8 +7684,8 @@ UI_CORE_ACT1_STEP2_OBJ_TIP	{UI_CORE_ACT1_STEP1_OBJ_TIP}
 UI_CORE_ACT1_STEP2_MSG	{Travel to the stranger's coordinates}
 UI_CORE_ACT1_STEP2_MSGA	{Repair the stranger's <TECHNOLOGY>Distress Beacon<>
 Refine %ITEM% from <STELLAR>Copper<>: %CURRENT%/%AMOUNT%}
-UI_CORE_ACT1_STEP2_MSGB	{Repair the stranger's <TECHNOLOGY>Distress Beacon<>
-Use a <TECHNOLOGY>Refiner<> to make %ITEM% from <CATALYST>Sodium<>}
+UI_CORE_ACT1_STEP2_MSGB	{Repair the stranger's <TECHNOLOGY>Distress Beacon<> with %ITEM%: %CURRENT%/%AMOUNT%
+Use the <TECHNOLOGY>Scanner<> (<IMG>SCAN<>) to find <CATALYST>Sodium-rich plants<>}
 UI_CORE_ACT1_STEP2_MSGC	{Repair the stranger's <TECHNOLOGY>Distress Beacon<>
 All materials acquired. Return to the Beacon to begin repair.}
 UI_CORE_ACT1_STEP2_OSD	{COORDINATES RECEIVED}
@@ -8191,6 +8220,9 @@ UI_CORE_ACT2_STEP8_MSG2A	{Read the log of the crashed freighter}
 UI_CORE_ACT2_STEP8_MSG2A1	{Read the log of the crashed freighter: 0 / <STELLAR>3<>}
 UI_CORE_ACT2_STEP8_MSG2A2	{Read the log of the crashed freighter: 1 / <STELLAR>3<>}
 UI_CORE_ACT2_STEP8_MSG2A3	{Read the log of the crashed freighter: 2 / <STELLAR>3<>}
+UI_CORE_ACT2_STEP8_MSG_RET	{<STELLAR>Log Encryption Key<> required
+Return to the freighter crash site
+Search the crash site for <SPECIAL>Secure Containers<>}
 UI_CORE_ACT2_STEP8_MSG2B	{<STELLAR>Log Encryption Key<> required: 0 / 1
 Search the crash site for <SPECIAL>Secure Containers<>
 Use the <TECHNOLOGY>Analysis Visor<> and <TECHNOLOGY>Terrain Manipulator<> to search underground}
@@ -11083,6 +11115,8 @@ UI_DELIVERY_OBJ1_OSD_FAIL	{Delivery goods misplaced}
 UI_DELIVERY_OBJ1_MARKER_FAIL	{Secure Depot}
 UI_COLLECT_OBJ	{Source items for the client}
 UI_COLLECT_OBJ_TIP	{There are many ways to source an item. Locate them through planetary adventures; purchase them from shops or the galactic market; or craft them.}
+UI_COLLECT_OBJ_FORMAT	{Source %ITEM%: %CURRENT%/%AMOUNT%}
+UI_COLLECT_OBJ_FORMAT_TIP	{%TIP%}
 UI_COLLECT_OBJ1_MSG1	{Gather %PRIMARYITEM%: <STELLAR>%CURRENT%/%AMOUNT%<>
 Scan a planet (<IMG>SCAN<>) from space to identify resources
 Use the <TECHNOLOGY>Analysis Visor<> to find mineral deposits}
@@ -11145,7 +11179,7 @@ Time Remaining: <RED>%TIME%<>}
 UI_HIDE_SEEK_FAIL_OSD	{TARGET ESCAPED <IMG>SLASH<> MISSION FAILED}
 UI_HIDE_SEEK_SUCCESS_OSD	{TARGET LOCATION REACHED}
 UI_HIDE_SEEK_BRIBE_DESC	{The lifeform gestures that they have recently seen the target. They seem amenable to an offer...}
-UI_HIDE_SEEK_TIMED_DESC	{The lifeform gestures frantically, indicating that they are not who I am looking for. They have recently seen the target, but mime that the fugative was in rather a hurry to leave...}
+UI_HIDE_SEEK_TIMED_DESC	{The lifeform gestures frantically, indicating that they are not who I am looking for. They have recently seen the target, but mime that the fugitive was in rather a hurry to leave...}
 UI_HIDE_SEEK_BRIBE_OPT_A	{Bribe}
 UI_HIDE_SEEK_BRIBE_RES_A	{The lifeform transmits navigational data to my exosuit.}
 DNT_EXP_HIDE_SEEK_BRIBE_LANG_1	{Korvax notes lifeform fled. Korvax notes direction. Korvax notes Korvax has own needs.}
@@ -12667,7 +12701,7 @@ TRA_FILLER_OPT_B_17	{Panic}
 TRA_FILLER_RES_A_17	{Nothing I do calms the Gek. They were anxious before I arrived, and will remain anxious after I leave.}
 TRA_FILLER_RES_B_17	{My panic only seems to increase the Gek's alarm. I leave, both of us screaming.}
 TRA_REQUEST_TEXT_37	{%NAME% squirms nervously. They seem worried about what I might ask.}
-TRA_FILLER_DESC_18	{The Gek gestures at me angrily as I approach. They wave their tiny hands and snap their break with considerable fury.}
+TRA_FILLER_DESC_18	{The Gek gestures at me angrily as I approach. They wave their tiny hands and snap their beak with considerable fury.}
 DNT_TRA_FILLER_LANG_18	{Not again! Too many like you, insulting Gek, laughing at pheromones! Go away!}
 TRA_FILLER_OPT_A_18	{Cower}
 TRA_FILLER_OPT_B_18	{Laugh}
@@ -13689,7 +13723,7 @@ FTH_NPC_RES_B_9	{Have you not felt it? The very fact that you and I are talking,
 Things are breaking apart. Give it time, you'll see. Nothing lasts forever.}
 FTH_NPC_RES_C_9	{I don't know whether to laugh or cry...
 Here, take this. I suppose I won't be needing it anymore. Do what you like.}
-FTH_NPC_DESC_10	{The Traveller does not say anything else. They just stare at me, occasionally seeming as if they are about to wretch.}
+FTH_NPC_DESC_10	{The Traveller does not say anything else. They just stare at me, occasionally seeming as if they are about to retch.}
 FTH_NPC_LANG_10	{Do not -<STELLAR> kzzkkkt <>- trust the water.}
 FTH_NPC_OPT_A_10	{Ask about the water}
 FTH_NPC_OPT_B_10	{Ask if they are alright}
