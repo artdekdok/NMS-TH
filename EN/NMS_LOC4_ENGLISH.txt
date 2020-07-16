@@ -66,7 +66,7 @@ Different styles of Multi-Tool can dramatically increase your ability to <STELLA
 
 Some damaged Multi-Tools may be acquired for free. This is an excellent way to acquire high-value technology on a limited budget. The slots in these tools will need to be repaired to restore the device to full capabilities.}
 UI_GUIDE_TOPIC_SHIPS	{Buying New Ships}
-UI_GUIDE_BODY_SHIPS	{Purchase ships wherever you see pilots landing: at <COMMODITY<>Space Stations<>, <STELLAR>Freighters<>, <TECHNOLOGY>Planetary Outposts<>,  or <VAL_ON>other small buildings<>. 
+UI_GUIDE_BODY_SHIPS	{Purchase ships wherever you see pilots landing: at <COMMODITY<>Space Stations<>, STELLAR>Freighters<>, <TECHNOLOGY>Planetary Outposts<>,  or <VAL_ON>other small buildings<>. 
 
 After purchase, your new ship can be <STELLAR>renamed<>. You can own up to <VAL_ON>six<> ships in your fleet. Use the <TECHNOLOGY>Quick Menu<> to summon your ships at any time.
 
@@ -305,15 +305,16 @@ Use the <TECHNOLOGY>Hyperdrive<> to travel to a new star system. Craft <FUEL>War
 To travel to a new system, open your <VAL_ON>Galaxy Map<> (<IMG>QUICK_MENU<>). Select a system and use <IMG>GALAXYWARP<> to engage the hyperdrive.
 
 Star systems are <VAL_ON>colour graded<>: Yellow, Red, Green and Blue. Non-yellow systems require <VAL_ON>upgraded hyperdrive technology<> to visit.}
-UI_GUIDE_BODY_EXPLORATION_6	{Unlock Exocraft by purchasing plans for <STELLAR>Geobays<> at the <TECHNOLOGY>Construction Research Unit<> on the Space Anomaly.
+UI_GUIDE_BODY_EXPLORATION_6	{Unlock Exocraft by building an <TECHNOLOGY>Exocraft Terminal<> in your base and hiring a Vy’keen Technician.
 
 To summon an Exocraft, build an <TECHNOLOGY>Exocraft Geobay<>. Geobays can be built anywhere and are not restricted to your home planet.
 
+There are three Exocraft: the fast, lightweight <VAL_ON>Nomad<>; the all-round <VAL_ON>Roamer<>; and the slow but mighty <VAL_ON>Colossus<>.
+To change the active exocraft, visit the appropriate Geobay.
+
 When driving an Exocraft, press <IMG>EXOBOOST<> for a short <VAL_ON>speed boost<>. Use <IMG>EXOJUMP<> to <VAL_ON>jump<>.
 
-When driving an Exocraft, use <IMG>SCAN<> to ping for nearby points of interest. This is more powerful than the Multi-Tool scanner and will reveal additional locations. 
-
-Use <IMG>QUICK_MENU<> to access a portable <TECHNOLOGY>Signal Booster<> and scan for specific nearby buildings.
+When driving an Exocraft, use <IMG>QUICK_MENU<> to access a portable <TECHNOLOGY>Signal Booster<> and scan for points of interest.
 
 Fire your weapon or Mining Beam using <IMG>ATTACK<>. Cycle weapon/mining attachments using <IMG>CYCLEWEAPON<>. 
 
@@ -497,8 +498,8 @@ The Terrain Manipulator is vital for the mining of <STELLAR>large resource depos
 
 Terrain will <VAL_ON>conform to buildings<>, allowing the creation of bases embedded in the rock.
 
-Use <IMG>EDITTERRAIN<> to toggle between <TRADEABLE>placement<>, <FUEL>deletion<>, <TRADEABLE>restore<> and <FUEL>flatten<>.
-<IMG>SIZETERRAIN_UP<>/<IMG>SIZETERRAIN_DN<> changes the <VAL_ON>size<> of the edit.}
+Use <IMG>EDITTERRAIN<> to toggle between <TRADEABLE>placement<> and <FUEL>deletion<>.
+<IMG>SIZETERRAIN_UP<>/<IMG>SIZETERRAIN_DN<> changes the <VAL_ON>size<> of the edit. <IMG>UNDOTERRAIN<> undoes previous edits.}
 UI_GUIDE_TOPIC_PORTALS	{Portals}
 UI_GUIDE_BODY_PORTALS	{Portals create <VAL_ON>connections between worlds<>. Visit a <SPECIAL>Monolith<> to learn the location of a planet's Portal.
 
@@ -830,9 +831,7 @@ UI_HUD_EXTERNAL_HAZARD	{External %CONDITION%:
 %VALUE%}
 UI_HUD_HAZARD_TEMP	{Temperature}
 UI_HUD_HAZARD_RAD	{Radiation}
-UI_HUD_HAZARD_RAD_S	{Rad}
 UI_HUD_HAZARD_TOX	{Toxicity}
-UI_HUD_HAZARD_TOX_S	{Tox}
 UI_HUD_HAZARD_DEAD	{Low Atmosphere Detected}
 UI_HUD_HAZARD_ANOMALY	{Anomaly Strength: %VALUE%0
 Boundary Failing}
@@ -871,8 +870,6 @@ QUICK_MENU_NO_EMOTE	{Gesture Unavailable}
 BINOC_SIGNAL_STRENGTH	{Scanning: %VALUE%%}
 UI_JETPACK_BOOST_OSD	{JETPACK POWER SURGE DETECTED}
 UI_JETPACK_BOOST_OVER_OSD	{JETPACK POWER SURGE FADING}
-UI_SPRINT_BOOST_OSD	{SPRINT POWER SURGE DETECTED}
-UI_SPRINT_BOOST_OVER_OSD	{SPRINT POWER SURGE FADING}
 UI_KELP_SAC	{Harvest Oxygen Sac}
 UI_RESTORE_O2	{Replenish Oxygen}
 UI_RESTORE_HAZARD	{Charge Hazard Protection}
@@ -881,7 +878,7 @@ UI_FLORA_HAZARD	{Hazardous Flora}
 UI_HOST_KICK	{REMOVED BY HOST}
 UI_NO_GAMES_FOUND	{NO GAMES FOUND}
 UI_MULTIPLAYER	{Multiplayer}
-UI_MULTIPLAYER_U	{AVAILABLE SESSIONS}
+UI_MULTIPLAYER_U	{MULTIPLAYER}
 UI_RANDOM_MULTIPLAYER	{Join Random Game}
 UI_LOBBY_CONNECTING	{CONNECTING}
 UI_STORY_CRATE	{Holo-Archive}
@@ -943,7 +940,7 @@ UI_BUILD_PATH_STORAGE	{Storage}
 UI_BUILD_PATH_LIGHTS	{Lights}
 UI_BUILD_PATH_DECALS	{Decals}
 UI_BUILD_PATH_VEHICLES	{Exocraft}
-UI_BUILD_PATH_FREIGHTER	{Freighter Parts}
+UI_BUILD_PATH_FREIGHTER	{Freighter}
 UI_BUILD_PATH_FOLIAGE	{Foliage}
 UI_BUILD_PATH_CONSTRUCT_ADV	{Specialist}
 UI_BUILD_PATH_TECH_ADV	{Specialist}
@@ -1162,9 +1159,8 @@ UI_BUILD_L	{Build}
 UI_PIN_L	{Pin}
 UI_DISCARD_L	{Discard}
 UI_CRAFT_MORE_L	{Craft More}
-UI_PICK_TIP_WITH_POPUP	{<IMG>UI_SPLITUP<>/<IMG>UI_SPLITDOWN<> Change Stack Size   <IMG>TRADETOGGLEINV<> Quick Split   <IMG>QUICK_LEFT<>/<IMG>QUICK_RIGHT<> Change Quick Target}
-UI_PICK_TIP_REFINER	{<IMG>UI_SPLITUP<>/<IMG>UI_SPLITDOWN<> Change Stack Size   <IMG>TRADETOGGLEINV<> Quick Split}
-UI_PICK_TIP_CHARGE_TECH	{<IMG>UI_SPLITUP<>/<IMG>UI_SPLITDOWN<> Change Stack Size   <IMG>TRADETOGGLEINV<> Quick Split   <IMG>SELECT<> Insert Fuel}
+UI_PICK_TIP_WITH_POPUP	{<IMG>UI_SPLITUP<>/<IMG>UI_SPLITDOWN<> Change Stack Size   <IMG>QUICK_LEFT<>/<IMG>QUICK_RIGHT<> Change Quick Target}
+UI_PICK_TIP_REFINER	{<IMG>UI_SPLITUP<>/<IMG>UI_SPLITDOWN<> Change Stack Size}
 TRANSFER_MORE	{ADD MORE}
 TRANSFER_MORE_DESC	{Add more of this element}
 QUICK_TRANSFER	{QUICK TRANSFER}
@@ -1203,14 +1199,13 @@ UI_PIN_REFINE	{Refine %ITEM%}
 UI_PIN_CRAFT	{Craft %ITEM%}
 UI_TITLE_MILESTONES	{MILESTONES}
 PHOTO_MODE_CONTROLS_NEW	{<IMG>PHOTO_HIDE<> Hide Menu  <IMG>PHOTO_SUN<> Move Sun to Cursor  <IMG>PHOTO_CAM<> Save Effects  <IMG>PHOTO_EXIT<> Exit Photo Mode}
-PHOTO_MODE_CONTROLS_NEW_VR	{<IMG>PHOTO_HIDE<> Hide Menu  <IMG>PHOTO_CAM<> Save Effects  <IMG>PHOTO_EXIT<> Exit Photo Mode}
 PHOTO_CAMMODE_CONTROLS_NEW	{<IMG>PHOTO_HIDE<> Hide Menu  <IMG>PHOTO_SUN<> Move Sun  <IMG>PHOTO_CAMDOWN<>/<IMG>PHOTO_CAMUP<> Change Camera Height <IMG>PHOTO_CAM<> Camera Effects  <IMG>PHOTO_CAPTURE<> Take Screenshot  <IMG>PHOTO_EXIT<> Exit Photo Mode}
 UI _UNLOCK_INFO	{Topics will unlock as you progress through the game.}
 UI_ENABLED	{Enabled}
 UI_LEAVE	{<IMG>FE_BACK<> Go Back}
-UI_JOINGAME	{Multiplayer}
+UI_JOINGAME	{Join Game}
 UI_PLAYGAME	{Play Game}
-UI_JOINGAME_SUB	{Play with friends and instantly visit their worlds.}
+UI_JOINGAME_SUB	{Join a session with friends or random explorers.}
 UI_PLAYGAME_SUB	{Other explorers may join your session.}
 UI_NMS	{NO MAN'S SKY}
 UI_SAVESLOT	{Load Save}
@@ -1609,7 +1604,6 @@ UI_FRIGATE_LIST	{Frigate List}
 UI_NO_MP_UGC_DISABLED	{MULTIPLAYER DISABLED}
 UGC RESTRICTED MULTIPLAYER DISA	{Multiplayer permissions disabled}
 NET_MP_UNAVAILABLE	{You have lost connection to online services}
-UI_ONLINE_PLAY_DISABLED	{Unable to join: Multiplayer privileges are currently disabled}
 BASE_UPLOADING	{Base Uploading to Servers}
 BASE_UPLOADABLE	{Base Uploadable}
 BASE_NOT_UPLOADABLE	{Base Not Uploadable (%AMOUNT%)}
@@ -1619,10 +1613,10 @@ BASE_BUILDING_NO_UPLOAD_TEXT	{Upload Unavailable (Base Limit Exceeded)}
 BASE_BUILDING_UPLOAD_COOLDOWN	{Upload Unavailable for %TIME%}
 SWITCH_BASE	{<IMG>SWITCH_BASE<> Switch Base}
 PIN_MATERIAL_BASE	{<IMG>PIN_BUILD<> Pin Construction Recipe}
-UI_INV_SWITCH_TIP_SUIT	{<IMG>UI_LEFT<>/<IMG>UI_RIGHT<> Switch Inventory   <IMG>UI_LEFT_SUB<>/<IMG>UI_RIGHT_SUB<> Cycle Exosuit Sub-Inventory   <IMG>UI_SPLITUP<>/<IMG>UI_SPLITDOWN<> Change Stack Size   <IMG>TRADETOGGLEINV<> Quick Split}
-UI_INV_SWITCH_TIP_SHIP	{<IMG>UI_LEFT<>/<IMG>UI_RIGHT<> Switch Inventory   <IMG>UI_LEFT_SUB<>/<IMG>UI_RIGHT_SUB<> Cycle Starship Sub-Inventory   <IMG>UI_SPLITUP<>/<IMG>UI_SPLITDOWN<> Change Stack Size   <IMG>TRADETOGGLEINV<> Quick Split}
-UI_INV_SWITCH_TIP_EXO	{<IMG>UI_LEFT<>/<IMG>UI_RIGHT<> Switch Inventory   <IMG>UI_SPLITUP<>/<IMG>UI_SPLITDOWN<> Change Stack Size   <IMG>TRADETOGGLEINV<> Quick Split}
-UI_INV_SWITCH_TIP_FREIGHTER	{<IMG>UI_LEFT<>/<IMG>UI_RIGHT<> Switch Inventory   <IMG>UI_LEFT_SUB<>/<IMG>UI_RIGHT_SUB<> Cycle Freighter Sub-Inventory   <IMG>UI_SPLITUP<>/<IMG>UI_SPLITDOWN<> Change Stack Size   <IMG>TRADETOGGLEINV<> Quick Split}
+UI_INV_SWITCH_TIP_SUIT	{<IMG>UI_LEFT<>/<IMG>UI_RIGHT<> Switch Inventory   <IMG>QUICK_LEFT<>/<IMG>QUICK_RIGHT<> Cycle Exosuit Sub-Inventory   <IMG>UI_SPLITUP<>/<IMG>UI_SPLITDOWN<> Change Stack Size}
+UI_INV_SWITCH_TIP_SHIP	{<IMG>UI_LEFT<>/<IMG>UI_RIGHT<> Switch Inventory   <IMG>QUICK_LEFT<>/<IMG>QUICK_RIGHT<> Cycle Starship Sub-Inventory   <IMG>UI_SPLITUP<>/<IMG>UI_SPLITDOWN<> Change Stack Size}
+UI_INV_SWITCH_TIP_EXO	{<IMG>UI_LEFT<>/<IMG>UI_RIGHT<> Switch Inventory   <IMG>UI_SPLITUP<>/<IMG>UI_SPLITDOWN<> Change Stack Size}
+UI_INV_SWITCH_TIP_FREIGHTER	{<IMG>UI_LEFT<>/<IMG>UI_RIGHT<> Switch Inventory   <IMG>QUICK_LEFT<>/<IMG>QUICK_RIGHT<> Cycle Freighter Sub-Inventory   <IMG>UI_SPLITUP<>/<IMG>UI_SPLITDOWN<> Change Stack Size}
 UI_INV_SWITCH_TIP_WEAPON	{<IMG>UI_LEFT<>/<IMG>UI_RIGHT<> Switch Inventory}
 UI_UNLIMITED	{Unlimited}
 UI_TECH_SLOT_ERROR	{Cannot place item in Technology Slot}
@@ -1632,7 +1626,7 @@ NANITES_COST_STRING	{%COST% Nanites}
 SPECIALS_COST_STRING	{%COST% Quicksilver}
 AMOUNT_NANITES	{%AMOUNT% Nanites}
 AMOUNT_SPECIALS	{%AMOUNT% Quicksilver}
-PLAYER_SPECIALS_TITLE	{Quicksilver}
+PLAYER_SPECIALS_TITLE	{Quicksilver:}
 BLD_SPECIALTERMINAL_NAME	{Quicksilver Synthesis Companion}
 SPECIALSHOP_DESC	{Quicksilver Synthesis Companion}
 SPECIALTERMINAL_HEADING	{boot sequence initialised...............
@@ -1677,7 +1671,7 @@ Your desires have been studied and fed into my synthesis routines. Observe the o
 
 
 
-Use Quicksilver to turn these creations into reality. A new Quicksilver mission is available at the Nexus every day, up to a maximum stack of 3.}
+Use Quicksilver to turn these creations into reality. Earn weekly Quicksilver from the Nexus.}
 TRADE_BUY_SPECIAL_SHOP	{Create exotic items from Quicksilver}
 TRADE_SPECIAL_TITLE	{Exotic collectables}
 TRADE_SPECIAL_SUB	{Create exotic items from Quicksilver}
@@ -1685,10 +1679,8 @@ TRADE_SPECIAL_BUY_FROM	{Synthesise item}
 TRADE_SPECIAL_CM_TITLE	{Universal %MISSIONID% Progress}
 TRADE_SPECIAL_CM_TIER_COMPLETE	{Tier %TIER% Complete!}
 TRADE_SPECIAL_CM_TIER_PROGRESS	{Tier %TIER% %PROGRESS%}
-TRADE_SPECIAL_CM_1TIER_PROGRESS	{Progress: %PROGRESS%}
 TRADE_SPECIAL_CM_TIER	{Tier %TIER%}
 TRADE_SPECIAL_CM_LOCKED	{Unlocks at Tier %TIER%}
-TRADE_SPECIAL_CM_1TIER_LOCKED	{%PROGRESS% Unlocked}
 TRADE_SPECIAL_CM_UNAVAILABLE	{Unavailable}
 TRADE_BUY_L	{Buy}
 TRADE_SELL_L	{Sell}
@@ -1700,22 +1692,14 @@ TRADE_TOGGLE_INV	{Switch <IMG>TRADE_TOGGLE_INV<>}
 TRADE_AMOUNT_AVAILABLE	{%AMOUNT% Available}
 TRADE_BUY_NANITES	{<IMG>SELECT<> Buy for <IMG>NANITE<> %PRICE%}
 TRADE_BUY_UNITS	{<IMG>SELECT<> Buy for <IMG>UNITS<> %PRICE%}
-TRADE_BUY_UNITS_POS	{<IMG>SELECT<> Buy for <POS_AV><IMG>UNITS<> %PRICE%<>}
-TRADE_BUY_UNITS_NEG	{<IMG>SELECT<> Buy for <NEG_AV><IMG>UNITS<> %PRICE%<>}
 TRADE_BUY_SPECIALS	{<TRADE_SPECIALS><IMG>SELECT<> Buy for <IMG>QUICKSILVER<> %PRICE%<>}
 TRADE_BUY_SPECIALS_SIMPLE	{<IMG>SELECT<> Buy for <IMG>QUICKSILVER<> %PRICE%}
 TRADE_BUY_SPECIALS_OWNED	{Already Owned}
-TRADE_SELL_UNITS	{<IMG>SELECT<> Sell %AMOUNT% for <IMG>UNITS<> %PRICE%}
-TRADE_SELL_UNITS_WANTED	{<IMG>SELECT<> Buying for <IMG>UNITS<> %PRICE%}
-TRADE_SELL_UNITS_POS	{<IMG>SELECT<> Sell %AMOUNT% for <POS_AVG><IMG>UNITS<> %PRICE%<>}
-TRADE_SELL_UNITS_WANTED_POS	{<IMG>SELECT<> Buying for <POS_AVG><IMG>UNITS<> %PRICE%<>}
-TRADE_SELL_UNITS_NEG	{<IMG>SELECT<> Sell %AMOUNT% for <NEG_AV><IMG>UNITS<> %PRICE%<>}
-TRADE_SELL_UNITS_WANTED_NEG	{<IMG>SELECT<> Buying for <NEG_AVG><IMG>UNITS<> %PRICE%<>}
+TRADE_SELL_UNITS	{<IMG>SELECT<> Sell for <IMG>UNITS<> %PRICE%}
 TRADE_SELL_NANITES	{Sell for %PRICE% Nanite Clusters}
 TRADE_BUY_BUILDING_PRICE	{<IMG>SELECT<> Learn for %PRICE% x Salvage Module}
 TRADE_RANK_REQUIRED	{%RACE% Rank %NUM% required}
 INSUFFICIENT_SPECIALS	{INSUFFICIENT QUICKSILVER}
-INSUFFICIENT_SPECIALS_L	{Insufficient Quicksilver}
 SPECIALS_COST	{Buy for %PRICE% Quicksilver}
 TRADE_IN_DEMAND	{In Demand!}
 TRADE_FILTER_ALL	{All Items}
@@ -1734,13 +1718,12 @@ TRADE_BUY_BUILDING_PROD	{Research plans (%AMOUNT% x %ITEM%)}
 TRADE_BUY_BUILDING_PROD_SUB	{Learn construction blueprint}
 TRADE_BUY_BUILDING_TITLE	{Research Construction Blueprints}
 TRADE_BUY_BUILDING_NO_ITEMS	{Insufficient Salvage Modules}
-TRADE_BUY_RESEARCH_NO_TOKEN	{Insufficient Research Tokens}
 BUILD_PROD_DEPLOY	{INSTALL}
 BUILD_PROD_DEPLOY_SUB	{Choose slot and install technology}
-UI_DEPLOY_PROD_TIP_SUIT	{<IMG>SELECT<> Choose slot to install the new technology   <IMG>UI_LEFT<>/<IMG>UI_RIGHT<> Switch Inventory   <IMG>UI_LEFT_SUB<>/<IMG>UI_RIGHT_SUB<> Cycle Exosuit Sub-Inventory}
-UI_DEPLOY_PROD_TIP_SHIP	{<IMG>SELECT<> Choose slot to install the new technology   <IMG>UI_LEFT<>/<IMG>UI_RIGHT<> Switch Inventory   <IMG>UI_LEFT_SUB<>/<IMG>UI_RIGHT_SUB<> Cycle Starship Sub-Inventory}
+UI_DEPLOY_PROD_TIP_SUIT	{<IMG>SELECT<> Choose slot to install the new technology   <IMG>UI_LEFT<>/<IMG>UI_RIGHT<> Switch Inventory   <IMG>QUICK_LEFT<>/<IMG>QUICK_RIGHT<> Cycle Exosuit Sub-Inventory}
+UI_DEPLOY_PROD_TIP_SHIP	{<IMG>SELECT<> Choose slot to install the new technology   <IMG>UI_LEFT<>/<IMG>UI_RIGHT<> Switch Inventory   <IMG>QUICK_LEFT<>/<IMG>QUICK_RIGHT<> Cycle Starship Sub-Inventory}
 UI_DEPLOY_PROD_TIP_EXO	{<IMG>SELECT<> Choose slot to install the new technology   <IMG>UI_LEFT<>/<IMG>UI_RIGHT<> Switch Inventory}
-UI_DEPLOY_PROD_TIP_FREIGHTER	{<IMG>SELECT<> Choose slot to install the new technology   <IMG>UI_LEFT<>/<IMG>UI_RIGHT<> Switch Inventory   <IMG>UI_LEFT_SUB<>/<IMG>UI_RIGHT_SUB<> Cycle Freighter Sub-Inventory}
+UI_DEPLOY_PROD_TIP_FREIGHTER	{<IMG>SELECT<> Choose slot to install the new technology   <IMG>UI_LEFT<>/<IMG>UI_RIGHT<> Switch Inventory   <IMG>QUICK_LEFT<>/<IMG>QUICK_RIGHT<> Cycle Freighter Sub-Inventory}
 UI_DEPLOY_PROD_TIP_WEAPON	{<IMG>SELECT<> Choose slot to install the new technology   <IMG>UI_LEFT<>/<IMG>UI_RIGHT<> Switch Inventory}
 UI_TECH_DEPLOY_ERROR	{Cannot install in this Inventory Type}
 UI_YOU	{You}
@@ -1803,7 +1786,7 @@ UI_MISSION_COMPLETE	{Mission Complete: %MISSION%}
 UI_CREW_SPACECOMBAT	{<IMG>DIAMONDBULLET<>SQUADRON: %CURRENT%/%TOTAL%}
 UI_CREW_GROUNDCOMBAT	{<IMG>DIAMONDBULLET<>AWAY TEAM: %CURRENT%/%TOTAL%}
 UI_CREW_RESEARCH	{<IMG>DIAMONDBULLET<>RESEARCH CREW: %CURRENT%/%TOTAL%}
-UI_CREW_MISSINGPERSON	{<IMG>DIAMONDBULLET<>SEARCH TEAM: %CURRENT%/%TOTAL%}
+UI_CREW_MISSINGPERSON	{<IMG>DIAMONDBULLET<>SEARCH TIME: %CURRENT%/%TOTAL%}
 UI_CREW_REPAIR	{<IMG>DIAMONDBULLET<>GROUND CREW: %CURRENT%/%TOTAL%}
 UI_CREW_CARGO	{<IMG>DIAMONDBULLET<>DELIVERY AGENTS: %CURRENT%/%TOTAL%}
 UI_CREW_PIRACY	{<IMG>DIAMONDBULLET<>SQUADRON: %CURRENT%/%TOTAL%}
@@ -1826,14 +1809,11 @@ UI_FIEND_TIMER	{MONSTROSITIES SWARMING: %TIME%}
 UI_FIEND_NOTIFY_TITLE	{Biological Horror detected}
 UI_FIEND_NOTIFY	{Monstrosities swarm to protect their eggs
 Swarm time remaining: %TIME%}
-DEATH_LOSTINSPACE	{Death by cosmic ray bombardment.}
-DEATH_FIEND	{Death by stalking monstrosity.}
-DEATH_FISHFIEND	{Death by abyssal horror.}
-DEATH_JELLYFISH	{Death by gelatinous sea creature.}
+DEATH_LOSTINSPACE	{Death by cosmic ray bombardment}
+DEATH_FIEND	{Death by stalking monstrosity}
 UI_EMOTE_CHAT_DIED	{%NAME% died (%HOW%)}
 UI_EMOTE_CHAT_HELP	{Help!}
 UI_EMOTE_CHAT_HELP_HEALTH	{Help! Health low!}
-UI_EMOTE_CHAT_HELP_DAMAGE	{Help! Taking damage!}
 UI_EMOTE_CHAT_HELP_ENERGY	{Help! Life support low!}
 UI_EMOTE_CHAT_HELP_HAZARD	{Help! Hazard protection low!}
 UI_EMOTE_CHAT_OVER_HERE	{Over here!}
@@ -1868,7 +1848,6 @@ UI_EMOTE_CHAT_NEXUS_OUT	{%NAME% has left the Anomaly}
 UI_EMOTE_CHAT_ATTACK_PIRATE	{%NAME% has engaged pirates}
 UI_EMOTE_CHAT_ATTACK_CREATURE	{%NAME% has engaged local wildlife}
 UI_EMOTE_CHAT_ATTACK_SENTINEL	{%NAME% has engaged Sentinels}
-UI_EMOTE_CHAT_ATTACK_C_SENTINEL	{%NAME% has engaged Corrupted Sentinels}
 UI_EMOTE_CHAT_DISCOVER_CRE	{%NAME% has discovered a creature (%DISC_NAME%)}
 UI_EMOTE_CHAT_DISCOVER_MIN	{%NAME% has discovered a mineral (%DISC_NAME%)}
 UI_EMOTE_CHAT_DISCOVER_PLANT	{%NAME% has discovered a plant (%DISC_NAME%)}
@@ -1881,9 +1860,7 @@ UI_EMOTE_KILLED_PIRATE	{%NAME% destroyed a pirate vessel}
 UI_EMOTE_KILLED_SENTINEL	{%NAME% destroyed a Sentinel Drone}
 UI_EMOTE_KILLED_QUAD	{%NAME% destroyed a Sentinel Quad}
 UI_EMOTE_KILLED_WALKER	{%NAME% destroyed a Sentinel Walker}
-UI_EMOTE_KILLED_C_SENTINEL	{%NAME% destroyed a Corrupted Sentinel}
 UI_EMOTE_GATHERED	{%NAME% collected %ITEM% x %NUM%}
-UI_EMOTE_GATHERED_NO_NUMBER	{%NAME% collected %ITEM%}
 UI_EMOTE_FREIGHTER	{%NAME% has purchased the capital ship %FREIGHTER%}
 UI_EMOTE_FRIGATE	{%NAME% has purchased the frigate %FRIGATE%}
 UI_EMOTE_CHAT_TAME_CREATURE	{%NAME% tamed a creature}
@@ -1941,24 +1918,10 @@ UI_SHIPSLOT_DMG5_NAME	{CONTAINMENT FAILURE}
 UI_SHIPSLOT_DMG5_NAME_L	{Containment Failure}
 UI_SHIPSLOT_DMG6_NAME	{DAMAGED GEARS}
 UI_SHIPSLOT_DMG6_NAME_L	{Damaged Gears}
-UI_SHIPSLOT_DMG7_NAME	{HYDRAULICS DAMAGE}
-UI_SHIPSLOT_DMG7_NAME_L	{Hydraulics Damage}
-UI_SHIPSLOT_DMG8_NAME	{EXPLODED PANEL}
-UI_SHIPSLOT_DMG8_NAME_L	{Exploded Panel}
-UI_SHIPSLOT_DMG9_NAME	{CORRODED TANKS}
-UI_SHIPSLOT_DMG9_NAME_L	{Corroded Tanks}
-UI_SHIPSLOT_DMG10_NAME	{BURNT-OUT COMPRESSOR}
-UI_SHIPSLOT_DMG10_NAME_L	{Burnt-Out Compressor}
-UI_SHIPSLOT_DMG11_NAME	{SCORCHED PLATING}
-UI_SHIPSLOT_DMG11_NAME_L	{Scorched Plating}
-UI_SHIPSLOT_DMG12_NAME	{MELTED FUEL CELL}
-UI_SHIPSLOT_DMG12_NAME_L	{Melted Fuel Cell}
 UI_SHIPSLOT_DMG_SUB	{Damaged Starship Component}
 UI_SHIPSLOT_DMG_DESC	{Starship subsystem <FUEL>critically damaged<>.
 
-Slot cannot be used for <STELLAR>storage<> or <TECHNOLOGY>technology<> until damage is repaired. Use <IMG>REPAIR<> to begin repair process.
-
-Repairing will free slot up for general use.}
+Slot cannot be used for <STELLAR>storage<> or <TECHNOLOGY>technology<> until damage is repaired. Use <IMG>REPAIR<> to begin repair process.}
 UI_EXO_MAINT1_NAME	{FAULTY HOLOGRAM}
 UI_EXO_MAINT1_NAME_L	{Faulty Hologram}
 UI_EXO_MAINT2_NAME	{DAMAGED ELECTRODE}
@@ -1981,24 +1944,10 @@ UI_WEAPSLOT_DMG5_NAME	{CORRUPT MODULE}
 UI_WEAPSLOT_DMG5_NAME_L	{Corrupt Module}
 UI_WEAPSLOT_DMG6_NAME	{LOOM DAMAGE}
 UI_WEAPSLOT_DMG6_NAME_L	{Loom Damage}
-UI_WEAPSLOT_DMG7_NAME	{CORRODED ACTUATOR}
-UI_WEAPSLOT_DMG7_NAME_L	{Corroded Actuator}
-UI_WEAPSLOT_DMG8_NAME	{BURNT-OUT TERMINAL}
-UI_WEAPSLOT_DMG8_NAME_L	{Burnt-Out Terminal}
-UI_WEAPSLOT_DMG9_NAME	{MELTED SERVOS}
-UI_WEAPSLOT_DMG9_NAME_L	{Melted Servos}
-UI_WEAPSLOT_DMG10_NAME	{SHATTERED LENS}
-UI_WEAPSLOT_DMG10_NAME_L	{Shattered Lens}
-UI_WEAPSLOT_DMG11_NAME	{LEAKING MEMBRANE}
-UI_WEAPSLOT_DMG11_NAME_L	{Leaking Membrane}
-UI_WEAPSLOT_DMG12_NAME	{FAILED RESISTOR}
-UI_WEAPSLOT_DMG12_NAME_L	{Failed Resistor}
 UI_WEAPSLOT_DMG_SUB	{Damaged Multi-Tool Component}
 UI_WEAPSLOT_DMG_DESC	{Multi-Tool subsystem <FUEL>critically damaged<>.
 
-Slot cannot be used until damage is repaired. Use <IMG>REPAIR<> to begin repair process.
-
-Repairing will free slot up for general use.}
+Slot cannot be used until damage is repaired. Use <IMG>REPAIR<> to begin repair process.}
 UI_BINOCS_LOCATION	{Current Location: %LATLONG%}
 UI_PALETTE_WHITE_ORANGE	{White & Orange}
 UI_PALETTE_BLACK_OLIVE	{Black & Yellow}
@@ -2023,10 +1972,8 @@ UI_DROPPOD_MAINT_SUB	{Repair system to acquire new Exosuit slots}
 UI_RETURN	{RETURN <IMG>EXITMENU<>}
 NOTIFY_LAND_TOOFAST	{Unable to initiate landing <IMG>SLASH<> Flying too fast}
 NOTIFY_LAND_INVERTED	{Unable to initiate landing <IMG>SLASH<> Starship Inverted}
-NO_JOIN_MP_OLD_SAVE	{This save must be loaded in single player to be compatible with this version of No Man's Sky}
-NO_LOAD_INVALID_SAVE	{This save is incompatible with this version of No Man's Sky, and cannot be loaded}
+NO_JOIN_MP_OLD_SAVE	{This save must be loaded in single player to be compatible with No Man's Sky NEXT}
 UI_SAVESLOT_OLD	{UPGRADE REQUIRED}
-UI_SAVESLOT_INVALID	{INCOMPATIBLE SAVE}
 UI_HANDIN_MP_MISSION	{Complete Mission}
 UI_HANDIN_MP_MISSION_U	{COMPLETE MISSION}
 UI_HANDIN_MP_MISSION_SUB	{Hand in mission & receive rewards}
@@ -2058,7 +2005,6 @@ UI_PRIV_TEXT_CHAT	{Text Chat: %VALUE%}
 UI_PRIV_PVP_DAMAGE	{Can damage players: %VALUE%}
 UI_PRIV_ADD_PARTS	{Can add base parts: %VALUE%}
 UI_PRIV_DELETE_PARTS	{Can delete base parts: %VALUE%}
-UI_PRIV_EDIT_TERRAIN	{Can edit base terrain: %VALUE%}
 UI_PRIV_SEE_SHIP	{Show ship marker to: %VALUE%}
 UI_PRIV_SEE_ONFOOT	{Show on-foot marker to: %VALUE%}
 UI_PRIV_OPT_ME	{Me only}
@@ -2077,8 +2023,7 @@ SHIP_NEXTTARGET	{Next Target}
 SHIP_PREVIOUSTARGET	{Previous Target}
 SHIP_CLOSESTTARGET	{Closest Target}
 UI_CAPACITY_FULL	{Capacity: %AMOUNT% of %MAX%}
-UI_NO_SUMMON_POD	{Cannot Summon: No Exocraft Summoning Station in System}
-UI_NO_SUMMON_POD_FREIGHTER	{Cannot Call From Freighter: Freighter Not In Current System}
+UI_NO_SUMMON_POD	{Cannot Summon: No Exocraft Summoning Station on Planet}
 EXO_SUMMON_POD_NAME	{EXOCRAFT SUMMONING STATION}
 EXO_SUMMON_POD_NAME_L	{Exocraft Summoning Station}
 EXO_SUMMON_POD_DESC	{Construction allows the user to summon any owned Exocraft from anywhere else on that planet.
@@ -2609,73 +2554,57 @@ UI_PIN_VENTGEM_OBJ	{Gather %ITEM% from around sea vents}
 UI_PIN_CLAMPEARL_OBJ	{Harvest %ITEM% from armoured deep-water clams}
 UI_PIN_FISHCORE_OBJ_TIP	{<SPECIAL>Hadal Cores<> are found around <COMMODITY>alluring plant specimens<> on the sea bed. Use the Galaxy Map to locate systems with ocean planets.
 <FUEL>CAUTION<>: Hadal cores attract biological anomalies.
-While swimming, identify <STELLAR>Alluring Specimens<> with the <TECHNOLOGY>Analysis Visor<>.
+While swimming, identify <STELLAR>Aluuring Specimens<> with the <TECHNOLOGY>Analysis Visor<>.
 Increase marine efficiency by upgrading the Exosuit <TECHNOLOGY>Aeration Membrane<>, refilling oxygen supplies from <TRADEABLE>Kelp Sacs<>, or travelling in a <STELLAR>Nautilon Submarine<>.}
 UI_SUB_AND_POD	{Aquatic Technology: Nautilon Submarine and Marine Shelter}
 UI_WATER_BASE_PARTS	{Aquatic Construction Modules}
-UP_EXOSUB1_NAME	{HUMBOLDT DRIVE MODULE}
-UP_EXOSUB1_NAME_L	{Humboldt Drive Module}
-UP_EXOSUB1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Humboldt Drive<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXOSUB1_NAME	{HUMBOLDT DRIVE MODULE (C)}
+UP_EXOSUB1_NAME_L	{Humboldt Drive Module (C)}
+UP_EXOSUB1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Humboldt Drive<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>acceleration<>, <STELLAR>fuel efficiency<> and <STELLAR>top speed<>.}
+Can improve <STELLAR>acceleration<>, <STELLAR>fuel efficiency<> and <STELLAR>top speed<>.}
 UP_EXOSUB1_SUB	{Submarine Drive Upgrade}
-UP_EXOSUB2_NAME	{HUMBOLDT DRIVE MODULE}
-UP_EXOSUB2_NAME_L	{Humboldt Drive Module}
-UP_EXOSUB2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Humboldt Drive<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXOSUB2_NAME	{HUMBOLDT DRIVE MODULE (B)}
+UP_EXOSUB2_NAME_L	{Humboldt Drive Module (B)}
+UP_EXOSUB2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Humboldt Drive<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>acceleration<>, <STELLAR>fuel efficiency<> and <STELLAR>top speed<>.}
+Can significantly improve <STELLAR>acceleration<>, <STELLAR>fuel efficiency<> and <STELLAR>top speed<>.}
 UP_EXOSUB2_SUB	{Significant Submarine Drive Upgrade}
-UP_EXOSUB3_NAME	{HUMBOLDT DRIVE MODULE}
-UP_EXOSUB3_NAME_L	{Humboldt Drive Module}
-UP_EXOSUB3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Humboldt Drive<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXOSUB3_NAME	{HUMBOLDT DRIVE MODULE (A)}
+UP_EXOSUB3_NAME_L	{Humboldt Drive Module (A)}
+UP_EXOSUB3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Humboldt Drive<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>acceleration<>, <STELLAR>fuel efficiency<> and <STELLAR>top speed<>.}
+Can dramatically improve <STELLAR>acceleration<>, <STELLAR>fuel efficiency<> and <STELLAR>top speed<>.}
 UP_EXOSUB3_SUB	{Powerful Submarine Drive Upgrade}
-UP_EXOSUB4_NAME	{HUMBOLDT DRIVE MODULE}
-UP_EXOSUB4_NAME_L	{Humboldt Drive Module}
-UP_EXOSUB4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Humboldt Drive<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXOSUB4_NAME	{HUMBOLDT DRIVE MODULE (S)}
+UP_EXOSUB4_NAME_L	{Humboldt Drive Module (S)}
+UP_EXOSUB4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Humboldt Drive<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>acceleration<>, <STELLAR>fuel efficiency<> and <STELLAR>top speed<>.}
+Can dramatically improve <STELLAR>acceleration<>, <STELLAR>fuel efficiency<> and <STELLAR>top speed<>.}
 UP_EXOSUB4_SUB	{Supreme Submarine Drive Upgrade}
-UP_SUBGUN1_NAME	{NAUTILON CANNON MODULE}
-UP_SUBGUN1_NAME_L	{Nautilon Cannon Module}
-UP_SUBGUN1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Nautilon Cannon<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SUBGUN1_NAME	{NAUTILON CANNON MODULE (C)}
+UP_SUBGUN1_NAME_L	{Nautilon Cannon Module (C)}
+UP_SUBGUN1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Nautilon Cannon<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include <STELLAR>damage<> and/or <STELLAR>fire rate<>.}
+Can improve <STELLAR>damage<> and <STELLAR>fire rate<>.}
 UP_SUBGUN1_SUB	{Nautilon Cannon Upgrade}
-UP_SUBGUN2_NAME	{NAUTILON CANNON MODULE}
-UP_SUBGUN2_NAME_L	{Nautilon Cannon Module}
-UP_SUBGUN2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Nautilon Cannon<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SUBGUN2_NAME	{NAUTILON CANNON MODULE (B)}
+UP_SUBGUN2_NAME_L	{Nautilon Cannon Module (B)}
+UP_SUBGUN2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Nautilon Cannon<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include <STELLAR>damage<> and/or <STELLAR>fire rate<>.}
+Can significantly improve <STELLAR>damage<> and <STELLAR>fire rate<>.}
 UP_SUBGUN2_SUB	{Significant Nautilon Cannon Upgrade}
-UP_SUBGUN3_NAME	{NAUTILON CANNON MODULE}
-UP_SUBGUN3_NAME_L	{Nautilon Cannon Module}
-UP_SUBGUN3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Nautilon Cannon<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SUBGUN3_NAME	{NAUTILON CANNON MODULE (A)}
+UP_SUBGUN3_NAME_L	{Nautilon Cannon Module (A)}
+UP_SUBGUN3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Nautilon Cannon<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include <STELLAR>damage<> and/or <STELLAR>fire rate<>.}
+Can dramatically improve <STELLAR>damage<> and <STELLAR>fire rate<>.}
 UP_SUBGUN3_SUB	{Powerful Nautilon Cannon Upgrade}
-UP_SUBGUN4_NAME	{NAUTILON CANNON MODULE}
-UP_SUBGUN4_NAME_L	{Nautilon Cannon Module}
-UP_SUBGUN4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Nautilon Cannon<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SUBGUN4_NAME	{NAUTILON CANNON MODULE (S)}
+UP_SUBGUN4_NAME_L	{Nautilon Cannon Module (S)}
+UP_SUBGUN4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Nautilon Cannon<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include <STELLAR>damage<> and/or <STELLAR>fire rate<>.}
+Can dramatically improve <STELLAR>damage<> and <STELLAR>fire rate<>.}
 UP_SUBGUN4_SUB	{Supreme Nautilon Cannon Upgrade}
 UP_EXOSUBGUN_COMP_1	{Sonar Array}
 UP_EXOSUBGUN_COMP_2	{Sonic Batteries}
@@ -3147,86 +3076,50 @@ Transform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>
 UI_SPEC_EXOTICHEAD_01_NAME	{ITERATION: ARIADNE VISAGE}
 UI_SPEC_EXOTICHEAD_01_NAME_L	{Iteration: Ariadne Visage}
 SPEC_EXOTIC_HEAD1_DESC	{An exclusive <STELLAR>Exosuit Appearance Override<>.
-
-This part silicone, part biological helmet can detect and replicate the facial muscle movements of the wearer, creating the appearance of a natural head. It is fully compatible with exosuit technology and provides all protection of a traditional helmet.
-
 Transform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.}
 UI_SPEC_EXOTICHEAD_02_NAME	{ITERATION: GEMINI VISAGE}
 UI_SPEC_EXOTICHEAD_02_NAME_L	{Iteration: Gemini Visage}
 SPEC_EXOTIC_HEAD2_DESC	{An exclusive <STELLAR>Exosuit Appearance Override<>.
-
-This part silicone, part biological helmet can detect and replicate the facial muscle movements of the wearer, creating the appearance of a natural head. It is fully compatible with exosuit technology and provides all protection of a traditional helmet.
-
 Transform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.}
 UI_SPEC_EXOTICHEAD_03_NAME	{ITERATION: MERCURY VISAGE}
 UI_SPEC_EXOTICHEAD_03_NAME_L	{Iteration: Mercury Visage}
 SPEC_EXOTIC_HEAD3_DESC	{An exclusive <STELLAR>Exosuit Appearance Override<>.
-
-This part silicone, part biological helmet can detect and replicate the facial muscle movements of the wearer, creating the appearance of a natural head. It is fully compatible with exosuit technology and provides all protection of a traditional helmet.
-
 Transform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.}
 UI_SPEC_EXOTICHEAD_04_NAME	{ITERATION: CRONUS VISAGE}
 UI_SPEC_EXOTICHEAD_04_NAME_L	{Iteration: Cronus Visage}
 SPEC_EXOTIC_HEAD4_DESC	{An exclusive <STELLAR>Exosuit Appearance Override<>.
-
-This part silicone, part biological helmet can detect and replicate the facial muscle movements of the wearer, creating the appearance of a natural head. It is fully compatible with exosuit technology and provides all protection of a traditional helmet.
-
 Transform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.}
 UI_SPEC_EXOTICHEAD_05_NAME	{ITERATION: SELENE VISAGE}
 UI_SPEC_EXOTICHEAD_05_NAME_L	{Iteration: Selene Visage}
 SPEC_EXOTIC_HEAD5_DESC	{An exclusive <STELLAR>Exosuit Appearance Override<>.
-
-This part silicone, part biological helmet can detect and replicate the facial muscle movements of the wearer, creating the appearance of a natural head. It is fully compatible with exosuit technology and provides all protection of a traditional helmet.
-
 Transform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.}
 UI_SPEC_EXOTICHEAD_06_NAME	{ITERATION: HELIOS VISAGE}
 UI_SPEC_EXOTICHEAD_06_NAME_L	{Iteration: Helios Visage}
 SPEC_EXOTIC_HEAD6_DESC	{An exclusive <STELLAR>Exosuit Appearance Override<>.
-
-This part silicone, part biological helmet can detect and replicate the facial muscle movements of the wearer, creating the appearance of a natural head. It is fully compatible with exosuit technology and provides all protection of a traditional helmet.
-
 Transform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.}
 UI_SPEC_EXOTICHEAD_07_NAME	{ITERATION: HYPERION VISAGE}
 UI_SPEC_EXOTICHEAD_07_NAME_L	{Iteration: Hyperion Visage}
 SPEC_EXOTIC_HEAD7_DESC	{An exclusive <STELLAR>Exosuit Appearance Override<>.
-
-This part silicone, part biological helmet can detect and replicate the facial muscle movements of the wearer, creating the appearance of a natural head. It is fully compatible with exosuit technology and provides all protection of a traditional helmet.
-
 Transform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.}
 UI_SPEC_EXOTICHEAD_08_NAME	{ITERATION: TETHYS VISAGE}
 UI_SPEC_EXOTICHEAD_08_NAME_L	{Iteration: Tethys Visage}
 SPEC_EXOTIC_HEAD8_DESC	{An exclusive <STELLAR>Exosuit Appearance Override<>.
-
-This part silicone, part biological helmet can detect and replicate the facial muscle movements of the wearer, creating the appearance of a natural head. It is fully compatible with exosuit technology and provides all protection of a traditional helmet.
-
 Transform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.}
 UI_SPEC_EXOTICHEAD_09_NAME	{ITERATION: PERSES VISAGE}
 UI_SPEC_EXOTICHEAD_09_NAME_L	{Iteration: Perses Visage}
 SPEC_EXOTIC_HEAD9_DESC	{An exclusive <STELLAR>Exosuit Appearance Override<>.
-
-This part silicone, part biological helmet can detect and replicate the facial muscle movements of the wearer, creating the appearance of a natural head. It is fully compatible with exosuit technology and provides all protection of a traditional helmet.
-
 Transform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.}
 UI_SPEC_EXOTICHEAD_10_NAME	{ITERATION: ARES VISAGE}
 UI_SPEC_EXOTICHEAD_10_NAME_L	{Iteration: Ares Visage}
 SPEC_EXOTIC_HEAD10_DESC	{An exclusive <STELLAR>Exosuit Appearance Override<>.
-
-This part silicone, part biological helmet can detect and replicate the facial muscle movements of the wearer, creating the appearance of a natural head. It is fully compatible with exosuit technology and provides all protection of a traditional helmet.
-
 Transform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.}
 UI_SPEC_EXOTICHEAD_11_NAME	{ITERATION: HESPERUS VISAGE}
 UI_SPEC_EXOTICHEAD_11_NAME_L	{Iteration: Hesperus Visage}
 SPEC_EXOTIC_HEAD11_DESC	{An exclusive <STELLAR>Exosuit Appearance Override<>.
-
-This part silicone, part biological helmet can detect and replicate the facial muscle movements of the wearer, creating the appearance of a natural head. It is fully compatible with exosuit technology and provides all protection of a traditional helmet.
-
 Transform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.}
 UI_SPEC_EXOTICHEAD_12_NAME	{ITERATION: EOS VISAGE}
 UI_SPEC_EXOTICHEAD_12_NAME_L	{Iteration: Eos Visage}
 SPEC_EXOTIC_HEAD12_DESC	{An exclusive <STELLAR>Exosuit Appearance Override<>.
-
-This part silicone, part biological helmet can detect and replicate the facial muscle movements of the wearer, creating the appearance of a natural head. It is fully compatible with exosuit technology and provides all protection of a traditional helmet.
-
 Transform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.}
 BLD_ROBOTTOY_NAME	{ROBOTIC COMPANION}
 BLD_ROBOTTOY_NAME_L	{Robotic Companion}
@@ -5500,12 +5393,12 @@ UI_BASEFLAG_OBJ_3	{Install the <TECHNOLOGY>Teleport Receiver<> in your starship}
 UI_BASEFLAG_OBJ_TIP_3	{Upgrade your starship by building a <TECHNOLOGY>Teleport Receiver<>.
 Select an empty <STELLAR>Inventory<> or <TECHNOLOGY>Technology<> slot and begin installation with <IMG>TECHMENU<>.
 Pin required components with <IMG>PIN<>.}
-UI_BASEFLAG_OBJ_4	{Install the <TECHNOLOGY>Neural Stimulator<> in your Exosuit}
-UI_BASEFLAG_OBJ_TIP_4	{Upgrade your Exosut by building a <TECHNOLOGY>Neural Stimulator<>.
+UI_BASEFLAG_OBJ_4	{Install the <TECHNOLOGY>Personal Forcefield<> in your Multi-Tool.}
+UI_BASEFLAG_OBJ_TIP_4	{Upgrade your Multi-Tool by building a <TECHNOLOGY>Personal Forcefield<>.
 Select an empty <STELLAR>Inventory<> or <TECHNOLOGY>Technology<> slot and begin installation with <IMG>TECHMENU<>.
 Pin required components with <IMG>PIN<>.}
-UI_BASEFLAG_OBJ_5	{Install the <TECHNOLOGY>Efficient Thrusters<> in your Starship.}
-UI_BASEFLAG_OBJ_TIP_5	{Upgrade your starship by installing the <TECHNOLOGY>Efficient Thrusters<>.
+UI_BASEFLAG_OBJ_5	{Install the <TECHNOLOGY>Advanced Mining Laser<> in your Multi-Tool.}
+UI_BASEFLAG_OBJ_TIP_5	{Upgrade your Multi-Tool by installing an <TECHNOLOGY>Advanced Mining Laser<>.
 Select an empty <STELLAR>Inventory<> or <TECHNOLOGY>Technology<> slot and begin installation with <IMG>TECHMENU<>.
 Pin required components with <IMG>PIN<>.}
 UI_BASEFLAG_OBJ_6	{Construct the <TECHNOLOGY>Appearance Modifier<>}
@@ -6388,24 +6281,22 @@ UI_OVEN_DESC	{A portable <TECHNOLOGY>nutrient extractor<>, able to process and r
 
 User is advised that consumption of generated products is entirely at their own risk.}
 UI_OVEN_TIP	{Insert ingredients to begin cooking process}
-FOOD_VEG_DESC	{An animal byproduct, this nutritious morsel can be easily farmed without harm to the animal that produces it.
+FOOD_VEG_DESC	{An animal byproduct, this nutrious morsel can be easily farmed without harm to the animal that produces it.
 
 Process in a <TECHNOLOGY>Nutrient Processor<> to generate edible products.}
-FOOD_MEAT_DESC	{A nutritious meat product, harvested from the corpse of the creature that once contained it.
+FOOD_MEAT_DESC	{A nutrious meat product, harvested from the corpse of the creature that once contained it.
 
 Process in a <TECHNOLOGY>Nutrient Processor<> to generate edible products.}
 FOOD_PLANT_DESC	{An edible plant, harvested from planetary flora.
 
 Process in a <TECHNOLOGY>Nutrient Processor<> to generate edible products.}
-FOOD_REFINED_DESC	{A refined food product, created in the <TECHNOLOGY>Nutrient Processor<>. Food such as this can be <STELLAR>highly valuable<>. It has both the identifying shapes and aromas of an actual food item, in stark contrast with conventional nutrition paste or pellets.
+FOOD_REFINED_DESC	{A refined food product, created in the <TECHNOLOGY>Nutrient Processor<>.
 
 Can be consumed as it stands or subjected to further processing.}
-FOOD_DRINK_DESC	{A consumable liquid, created in the <TECHNOLOGY>Nutrient Processor<>. Prized across the galaxy for its pleasing mouth-feel and authentically natural flavours.
+FOOD_DRINK_DESC	{A consumable liquid, created in the <TECHNOLOGY>Nutrient Processor<>.
 
 Can be ingested as it stands or subjected to further processing.}
-FOOD_REFINED_DESC_FINAL	{A highly refined food product, created in the <TECHNOLOGY>Nutrient Processor<>. It has both the identifying shapes and aromas of an actual food item, in stark contrast with conventional nutrition paste or pellets.
-
-Food such as this can be <STELLAR>highly valuable<>.}
+FOOD_REFINED_DESC_FINAL	{A highly refined food product, created in the <TECHNOLOGY>Nutrient Processor<>.}
 FOOD_MEAT_COOKED_NAME	{COOKED MEAT}
 FOOD_MEAT_COOKED_NAME_L	{Cooked Meat}
 FOOD_MEAT_SMOKED_NAME	{SMOKED MEAT}
@@ -7919,349 +7810,263 @@ UP_PULSEDRIVE_COMP_7	{Plasma Exhaust}
 UP_PULSEDRIVE_COMP_8	{Fuel Pipes}
 UP_PULSEDRIVE_COMP_9	{Neutrino Injector}
 UP_PULSEDRIVE_COMP_10	{Electron Loom}
-UP_LASER1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Mining Beam<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_LASER1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Mining Beam<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>power output<>, <STELLAR>heat toleration<> and <STELLAR>fuel efficiency<>.}
-UP_LASER1_NAME	{MINING BEAM MODULE}
-UP_LASER1_NAME_L	{Mining Beam Module}
+Upgrades Mining Laser core optics, <STELLAR>increasing device effectiveness<>.}
+UP_LASER1_NAME	{MINING BEAM MODULE (C)}
+UP_LASER1_NAME_L	{Mining Beam Module (C)}
 UP_LASER1_SUB	{Mining Beam Upgrade}
-UP_LASER2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Mining Beam<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_LASER2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Mining Beam<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>power output<>, <STELLAR>heat toleration<> and <STELLAR>fuel efficiency<>.}
-UP_LASER2_NAME	{MINING BEAM MODULE}
-UP_LASER2_NAME_L	{Mining Beam Module}
+Upgrades the Mining Laser's primary crystal chamber, boosting core <STELLAR>beam energy<> while decreasing unwanted <STELLAR>heat spill<>.}
+UP_LASER2_NAME	{MINING BEAM MODULE (B)}
+UP_LASER2_NAME_L	{Mining Beam Module (B)}
 UP_LASER2_SUB	{Significant Mining Beam Upgrade}
-UP_LASER3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Mining Beam<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_LASER3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Mining Beam<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>power output<>, <STELLAR>heat toleration<> and <STELLAR>fuel efficiency<>.}
-UP_LASER3_NAME	{MINING BEAM MODULE}
-UP_LASER3_NAME_L	{Mining Beam Module}
+Upgrades the Mining Laser's core components. <STELLAR>Power output<> and <STELLAR>heat tolerance<> are significantly increased.}
+UP_LASER3_NAME	{MINING BEAM MODULE (A)}
+UP_LASER3_NAME_L	{Mining Beam Module (A)}
 UP_LASER3_SUB	{Powerful Mining Beam Upgrade}
-UP_LASER4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Mining Beam<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_LASER4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Mining Beam<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>power output<>, <STELLAR>heat toleration<> and <STELLAR>fuel efficiency<>.}
-UP_LASER4_NAME	{MINING BEAM MODULE}
-UP_LASER4_NAME_L	{Mining Beam Module}
+Upgrades the Mining Laser's core components. <STELLAR>Power output<> and <STELLAR>heat tolerance<> are significantly increased.}
+UP_LASER4_NAME	{MINING BEAM MODULE (S)}
+UP_LASER4_NAME_L	{Mining Beam Module (S)}
 UP_LASER4_SUB	{Supreme Mining Beam Upgrade}
-UP_SCANNER1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Multi-Tool Scanning Systems<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SCANNER1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Multi-Tool Scanning Systems<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>scan radius<> and/or significantly increasing the <STELLAR>value<> of <TECHNOLOGY>discovery data<>.}
-UP_SCANNER1_NAME	{SCANNER MODULE}
-UP_SCANNER1_NAME_L	{Scanner Module}
+Internal chip upgrades improve <STELLAR>scan radius<>, as well as significantly increasing the <STELLAR>value<> of <TECHNOLOGY>discovery data<>.}
+UP_SCANNER1_NAME	{SCANNER MODULE (C)}
+UP_SCANNER1_NAME_L	{Scanner Module (C)}
 UP_SCANNER1_SUB	{Scanning System Upgrade}
-UP_SCANNER2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Multi-Tool Scanning Systems<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SCANNER2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Multi-Tool Scanning Systems<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>scan radius<> and/or significantly increasing the <STELLAR>value<> of <TECHNOLOGY>discovery data<>.}
-UP_SCANNER2_NAME	{SCANNER MODULE}
-UP_SCANNER2_NAME_L	{Scanner Module}
+Internal chip upgrades improve <STELLAR>scan radius<>, as well as dramatically increasing the <STELLAR>value<> of <TECHNOLOGY>discovery data<>.}
+UP_SCANNER2_NAME	{SCANNER MODULE (B)}
+UP_SCANNER2_NAME_L	{Scanner Module (B)}
 UP_SCANNER2_SUB	{Significant Scanning System Upgrade}
-UP_SCANNER3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Multi-Tool Scanning Systems<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SCANNER3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Multi-Tool Scanning Systems<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>scan radius<> and/or significantly increasing the <STELLAR>value<> of <TECHNOLOGY>discovery data<>.}
-UP_SCANNER3_NAME	{SCANNER MODULE}
-UP_SCANNER3_NAME_L	{Scanner Module}
+Internal chip upgrades improve <STELLAR>scan radius<>, as well as massively increasing the <STELLAR>value<> of <TECHNOLOGY>discovery data<>.}
+UP_SCANNER3_NAME	{SCANNER MODULE (A)}
+UP_SCANNER3_NAME_L	{Scanner Module (A)}
 UP_SCANNER3_SUB	{Powerful Scanning System Upgrade}
-UP_SCANNER4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Multi-Tool Scanning Systems<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SCANNER4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Multi-Tool Scanning Systems<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>scan radius<> and/or significantly increasing the <STELLAR>value<> of <TECHNOLOGY>discovery data<>.}
-UP_SCANNER4_NAME	{SCANNER MODULE}
-UP_SCANNER4_NAME_L	{Scanner Module}
+Internal chip upgrades improve <STELLAR>scan radius<>, as well as massively increasing the <STELLAR>value<> of <TECHNOLOGY>discovery data<>.}
+UP_SCANNER4_NAME	{SCANNER MODULE (S)}
+UP_SCANNER4_NAME_L	{Scanner Module (S)}
 UP_SCANNER4_SUB	{Supreme Scanning System Upgrade}
-UP_BOLT1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Boltcaster<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_BOLT1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Boltcaster<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>damage output<>, <STELLAR>reload times<>, <STELLAR>clip size<> and <STELLAR>firing rate<>.}
-UP_BOLT1_NAME	{BOLTCASTER MODULE}
-UP_BOLT1_NAME_L	{Boltcaster Module}
+Upgrades the Boltcaster, <STELLAR>decreasing reload times<> and <STELLAR>increasing damage<>.}
+UP_BOLT1_NAME	{BOLTCASTER MODULE (C)}
+UP_BOLT1_NAME_L	{Boltcaster Module (C)}
 UP_BOLT1_SUB	{Boltcaster Upgrade}
-UP_BOLT2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Boltcaster<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_BOLT2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Boltcaster<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>damage output<>, <STELLAR>reload times<>, <STELLAR>clip size<> and <STELLAR>firing rate<>.}
-UP_BOLT2_NAME	{BOLTCASTER MODULE}
-UP_BOLT2_NAME_L	{Boltcaster Module}
+Increases projectile <STELLAR>damage<> and decreases <STELLAR>reload times<>.}
+UP_BOLT2_NAME	{BOLTCASTER MODULE (B)}
+UP_BOLT2_NAME_L	{Boltcaster Module (B)}
 UP_BOLT2_SUB	{Significant Boltcaster Upgrade}
-UP_BOLT3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Boltcaster<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_BOLT3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Boltcaster<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>damage output<>, <STELLAR>reload times<>, <STELLAR>clip size<> and <STELLAR>firing rate<>.}
-UP_BOLT3_NAME	{BOLTCASTER MODULE}
-UP_BOLT3_NAME_L	{Boltcaster Module}
+Increases projectile <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>clip size<>. Decreases <STELLAR>reload times<>.}
+UP_BOLT3_NAME	{BOLTCASTER MODULE (A)}
+UP_BOLT3_NAME_L	{Boltcaster Module (A)}
 UP_BOLT3_SUB	{Powerful Boltcaster Upgrade}
-UP_BOLT4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Boltcaster<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_BOLT4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Boltcaster<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>damage output<>, <STELLAR>reload times<>, <STELLAR>clip size<> and <STELLAR>firing rate<>.}
-UP_BOLT4_NAME	{BOLTCASTER MODULE}
-UP_BOLT4_NAME_L	{Boltcaster Module}
+Increases projectile <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>clip size<>. Decreases <STELLAR>reload times<>.}
+UP_BOLT4_NAME	{BOLTCASTER MODULE (S)}
+UP_BOLT4_NAME_L	{Boltcaster Module (S)}
 UP_BOLT4_SUB	{Supreme Boltcaster Upgrade}
-UP_GRENADE1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Plasma Launcher<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_GRENADE1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Plasma Launcher<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Offers improvements to explosion <STELLAR>damage<> and <STELLAR>radius<>, as well as increasing the maximum number of pre-explosion <STELLAR>bounces<>.}
-UP_GRENADE1_NAME	{PLASMA LAUNCHER MODULE}
-UP_GRENADE1_NAME_L	{Plasma Launcher Module}
+UP_GRENADE1_NAME	{PLASMA LAUNCHER MODULE (C)}
+UP_GRENADE1_NAME_L	{Plasma Launcher Module (C)}
 UP_GRENADE1_SUB	{Plasma Launcher Upgrade}
-UP_GRENADE2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Plasma Launcher<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_GRENADE2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Plasma Launcher<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: Explosion <STELLAR>damage<> and <STELLAR>radius<>, as well as increasing the maximum number of pre-explosion <STELLAR>bounces<>.}
-UP_GRENADE2_NAME	{PLASMA LAUNCHER MODULE}
-UP_GRENADE2_NAME_L	{Plasma Launcher Module}
+Offers improvements to explosion <STELLAR>damage<> and <STELLAR>radius<>, as well as increasing the maximum number of pre-explosion <STELLAR>bounces<>.}
+UP_GRENADE2_NAME	{PLASMA LAUNCHER MODULE (B)}
+UP_GRENADE2_NAME_L	{Plasma Launcher Module (B)}
 UP_GRENADE2_SUB	{Significant Plasma Launcher Upgrade}
-UP_GRENADE3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Plasma Launcher<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_GRENADE3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Plasma Launcher<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: Explosion <STELLAR>damage<> and <STELLAR>radius<>, as well as increasing the maximum number of pre-explosion <STELLAR>bounces<>.}
-UP_GRENADE3_NAME	{PLASMA LAUNCHER MODULE}
-UP_GRENADE3_NAME_L	{Plasma Launcher Module}
+Offers improvements to explosion <STELLAR>damage<> and <STELLAR>radius<>, as well as increasing the maximum number of pre-explosion <STELLAR>bounces<>.}
+UP_GRENADE3_NAME	{PLASMA LAUNCHER MODULE (A)}
+UP_GRENADE3_NAME_L	{Plasma Launcher Module (A)}
 UP_GRENADE3_SUB	{Powerful Plasma Launcher Upgrade}
-UP_GRENADE4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Plasma Launcher<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_GRENADE4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Plasma Launcher<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: Explosion <STELLAR>damage<> and <STELLAR>radius<>, as well as increasing the maximum number of pre-explosion <STELLAR>bounces<>.}
-UP_GRENADE4_NAME	{PLASMA LAUNCHER MODULE}
-UP_GRENADE4_NAME_L	{Plasma Launcher Module}
+Offers improvements to explosion <STELLAR>damage<> and <STELLAR>radius<>, as well as increasing the maximum number of pre-explosion <STELLAR>bounces<>.}
+UP_GRENADE4_NAME	{PLASMA LAUNCHER MODULE (S)}
+UP_GRENADE4_NAME_L	{Plasma Launcher Module (S)}
 UP_GRENADE4_SUB	{Supreme Plasma Launcher Upgrade}
-UP_TGRENADE1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Geology Cannon<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_TGRENADE1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Geology Cannon<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potentially increases <STELLAR>explosion damage<> or <STELLAR>crater radius<>.}
-UP_TGRENADE1_NAME	{GEOLOGY CANNON MODULE}
-UP_TGRENADE1_NAME_L	{Geology Cannon Module}
+Increases both <STELLAR>explosion damage<> and <STELLAR>crater radius<>.}
+UP_TGRENADE1_NAME	{GEOLOGY CANNON MODULE (C)}
+UP_TGRENADE1_NAME_L	{Geology Cannon Module (C)}
 UP_TGRENADE1_SUB	{Geology Cannon Upgrade}
-UP_TGRENADE2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Geology Cannon<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_TGRENADE2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Geology Cannon<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potentially increases both <STELLAR>explosion damage<> and <STELLAR>crater radius<>.}
-UP_TGRENADE2_NAME	{GEOLOGY CANNON MODULE}
-UP_TGRENADE2_NAME_L	{Geology Cannon Module}
+Increases both <STELLAR>explosion damage<> and <STELLAR>crater radius<>.}
+UP_TGRENADE2_NAME	{GEOLOGY CANNON MODULE (B)}
+UP_TGRENADE2_NAME_L	{Geology Cannon Module (B)}
 UP_TGRENADE2_SUB	{Significant Geology Cannon Upgrade}
-UP_TGRENADE3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Geology Cannon<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_TGRENADE3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Geology Cannon<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Increases both <STELLAR>explosion damage<> and <STELLAR>crater radius<>.}
-UP_TGRENADE3_NAME	{GEOLOGY CANNON MODULE}
-UP_TGRENADE3_NAME_L	{Geology Cannon Module}
+UP_TGRENADE3_NAME	{GEOLOGY CANNON MODULE (A)}
+UP_TGRENADE3_NAME_L	{Geology Cannon Module (A)}
 UP_TGRENADE3_SUB	{Powerful Geology Cannon Upgrade}
-UP_TGRENADE4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Geology Cannon<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_TGRENADE4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Geology Cannon<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Increases both <STELLAR>explosion damage<> and <STELLAR>crater radius<>.}
-UP_TGRENADE4_NAME	{GEOLOGY CANNON MODULE}
-UP_TGRENADE4_NAME_L	{Geology Cannon Module}
+UP_TGRENADE4_NAME	{GEOLOGY CANNON MODULE (S)}
+UP_TGRENADE4_NAME_L	{Geology Cannon Module (S)}
 UP_TGRENADE4_SUB	{Supreme Geology Cannon Upgrade}
-UP_RAIL1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Blaze Javelin<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_RAIL1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Blaze Javelin<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>laser damage<> and <STELLAR>recharge time<>.}
-UP_RAIL1_NAME	{BLAZE JAVELIN MODULE}
-UP_RAIL1_NAME_L	{Blaze Javelin Module}
+Increases <STELLAR>laser damage<> and decreases <STELLAR>recharge times<>.}
+UP_RAIL1_NAME	{BLAZE JAVELIN MODULE (C)}
+UP_RAIL1_NAME_L	{Blaze Javelin Module (C)}
 UP_RAIL1_SUB	{Blaze Javelin Upgrade}
-UP_RAIL2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Blaze Javelin<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_RAIL2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Blaze Javelin<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>laser damage<> and <STELLAR>recharge time<>.}
-UP_RAIL2_NAME	{BLAZE JAVELIN MODULE}
-UP_RAIL2_NAME_L	{Blaze Javelin Module}
+Significantly increases <STELLAR>laser damage<> and decreases <STELLAR>recharge times<>.}
+UP_RAIL2_NAME	{BLAZE JAVELIN MODULE (B)}
+UP_RAIL2_NAME_L	{Blaze Javelin Module (B)}
 UP_RAIL2_SUB	{Significant Blaze Javelin Upgrade}
-UP_RAIL3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Blaze Javelin<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_RAIL3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Blaze Javelin<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>laser damage<> and <STELLAR>recharge time<>.}
-UP_RAIL3_NAME	{BLAZE JAVELIN MODULE}
-UP_RAIL3_NAME_L	{Blaze Javelin Module}
+Dramatically increases <STELLAR>laser damage<> and decreases <STELLAR>recharge times<>.}
+UP_RAIL3_NAME	{BLAZE JAVELIN MODULE (A)}
+UP_RAIL3_NAME_L	{Blaze Javelin Module (A)}
 UP_RAIL3_SUB	{Powerful Blaze Javelin Upgrade}
-UP_RAIL4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Blaze Javelin<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_RAIL4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Blaze Javelin<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>laser damage<> and <STELLAR>recharge time<>.}
-UP_RAIL4_NAME	{BLAZE JAVELIN MODULE}
-UP_RAIL4_NAME_L	{Blaze Javelin Module}
+Dramatically increases <STELLAR>laser damage<> and decreases <STELLAR>recharge times<>.}
+UP_RAIL4_NAME	{BLAZE JAVELIN MODULE (S)}
+UP_RAIL4_NAME_L	{Blaze Javelin Module (S)}
 UP_RAIL4_SUB	{Supreme Blaze Javelin Upgrade}
-UP_SHOTGUN1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Scatter Blaster<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHOTGUN1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Scatter Blaster<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>damage output<>, <STELLAR>reload times<>, <STELLAR>clip size<> and <STELLAR>firing rate<>.}
-UP_SHOTGUN1_NAME	{SCATTER BLASTER MODULE}
-UP_SHOTGUN1_NAME_L	{Scatter Blaster Module}
+Increases weapon <STELLAR>damage<> and decreases <STELLAR>reload times<>.}
+UP_SHOTGUN1_NAME	{SCATTER BLASTER MODULE (C)}
+UP_SHOTGUN1_NAME_L	{Scatter Blaster Module (C)}
 UP_SHOTGUN1_SUB	{Scatter Blaster Upgrade}
-UP_SHOTGUN2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Scatter Blaster<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHOTGUN2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Scatter Blaster<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>damage output<>, <STELLAR>reload times<>, <STELLAR>clip size<> and <STELLAR>firing rate<>.}
-UP_SHOTGUN2_NAME	{SCATTER BLASTER MODULE}
-UP_SHOTGUN2_NAME_L	{Scatter Blaster Module}
+Overhauls internal mechanisms to increase <STELLAR>clip size<> and <STELLAR>bullets per shot<>. In addition, increases weapon <STELLAR>damage<> and decreases <STELLAR>reload times<>.}
+UP_SHOTGUN2_NAME	{SCATTER BLASTER MODULE (B)}
+UP_SHOTGUN2_NAME_L	{Scatter Blaster Module (B)}
 UP_SHOTGUN2_SUB	{Significant Scatter Blaster Upgrade}
-UP_SHOTGUN3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Scatter Blaster<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHOTGUN3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Scatter Blaster<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>damage output<>, <STELLAR>reload times<>, <STELLAR>clip size<> and <STELLAR>firing rate<>.}
-UP_SHOTGUN3_NAME	{SCATTER BLASTER MODULE}
-UP_SHOTGUN3_NAME_L	{Scatter Blaster Module}
+Offers significant improvements to weapon <STELLAR>damage<> and <STELLAR>reload times<>. Increases total <STELLAR>clip size<> and offers substantial improvements to <STELLAR>rate of fire<>.}
+UP_SHOTGUN3_NAME	{SCATTER BLASTER MODULE (A)}
+UP_SHOTGUN3_NAME_L	{Scatter Blaster Module (A)}
 UP_SHOTGUN3_SUB	{Powerful Scatter Blaster Upgrade}
-UP_SHOTGUN4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Scatter Blaster<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHOTGUN4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Scatter Blaster<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>damage output<>, <STELLAR>reload times<>, <STELLAR>clip size<> and <STELLAR>firing rate<>.}
-UP_SHOTGUN4_NAME	{SCATTER BLASTER MODULE}
-UP_SHOTGUN4_NAME_L	{Scatter Blaster Module}
+Offers significant improvements to weapon <STELLAR>damage<> and <STELLAR>reload times<>. Increases total <STELLAR>clip size<> and offers substantial improvements to <STELLAR>rate of fire<>.}
+UP_SHOTGUN4_NAME	{SCATTER BLASTER MODULE (S)}
+UP_SHOTGUN4_NAME_L	{Scatter Blaster Module (S)}
 UP_SHOTGUN4_SUB	{Supreme Scatter Blaster Upgrade}
-UP_SMG1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Pulse Spitter<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SMG1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Pulse Spitter<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>damage output<>, <STELLAR>reload times<>, <STELLAR>clip size<> and <STELLAR>firing rate<>.}
-UP_SMG1_NAME	{PULSE SPITTER MODULE}
-UP_SMG1_NAME_L	{Pulse Spitter Module}
+Overloads internal charge systems to increase <STELLAR>fire rate<> and decrease <STELLAR>reload times<>.}
+UP_SMG1_NAME	{PULSE SPITTER MODULE (C)}
+UP_SMG1_NAME_L	{Pulse Spitter Module (C)}
 UP_SMG1_SUB	{Pulse Spitter Upgrade}
-UP_SMG2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Pulse Spitter<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SMG2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Pulse Spitter<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>damage output<>, <STELLAR>reload times<>, <STELLAR>clip size<> and <STELLAR>firing rate<>.}
-UP_SMG2_NAME	{PULSE SPITTER MODULE}
-UP_SMG2_NAME_L	{Pulse Spitter Module}
+Amplifies core optics to increase <STELLAR>clip size<> and <STELLAR>fire rate<>, as well as decreasing <STELLAR>reload times<>.}
+UP_SMG2_NAME	{PULSE SPITTER MODULE (B)}
+UP_SMG2_NAME_L	{Pulse Spitter Module (B)}
 UP_SMG2_SUB	{Significant Pulse Spitter Upgrade}
-UP_SMG3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Pulse Spitter<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SMG3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Pulse Spitter<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>damage output<>, <STELLAR>reload times<>, <STELLAR>clip size<> and <STELLAR>firing rate<>.}
-UP_SMG3_NAME	{PULSE SPITTER MODULE}
-UP_SMG3_NAME_L	{Pulse Spitter Module}
+Localised spacetime distortion significantly increases <STELLAR>clip size<> and <STELLAR>fire rate<>, as well as decreasing <STELLAR>reload times<>.}
+UP_SMG3_NAME	{PULSE SPITTER MODULE (A)}
+UP_SMG3_NAME_L	{Pulse Spitter Module (A)}
 UP_SMG3_SUB	{Powerful Pulse Spitter Upgrade}
-UP_SMG4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Pulse Spitter<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SMG4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Pulse Spitter<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential upgrades include: <STELLAR>damage output<>, <STELLAR>reload times<>, <STELLAR>clip size<> and <STELLAR>firing rate<>.}
-UP_SMG4_NAME	{PULSE SPITTER MODULE}
-UP_SMG4_NAME_L	{Pulse Spitter Module}
+Localised spacetime distortion significantly increases <STELLAR>clip size<> and <STELLAR>fire rate<>, as well as decreasing <STELLAR>reload times<>.}
+UP_SMG4_NAME	{PULSE SPITTER MODULE (S)}
+UP_SMG4_NAME_L	{Pulse Spitter Module (S)}
 UP_SMG4_SUB	{Supreme Pulse Spitter Upgrade}
-UP_ENERGY1_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Life Support System<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_ENERGY1_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Life Support System<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Increases <STELLAR>life support power<>.}
-UP_ENERGY1_NAME	{LIFE SUPPORT MODULE}
-UP_ENERGY1_NAME_L	{Life Support Module}
+UP_ENERGY1_NAME	{LIFE SUPPORT MODULE (B)}
+UP_ENERGY1_NAME_L	{Life Support Module (B)}
 UP_ENERGY1_SUB	{Significant Life Support Upgrade}
-UP_ENERGY2_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Life Support System<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_ENERGY2_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Life Support System<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potentially increases <STELLAR>life support power<> and may offer limited <STELLAR>solar-energy power-offsetting<>, decreasing power use during daylight.}
-UP_ENERGY2_NAME	{LIFE SUPPORT MODULE}
-UP_ENERGY2_NAME_L	{Life Support Module}
+Increases <STELLAR>life support power<> and offers limited <STELLAR>solar-energy power-offsetting<>, decreasing power use during daylight.}
+UP_ENERGY2_NAME	{LIFE SUPPORT MODULE (A)}
+UP_ENERGY2_NAME_L	{Life Support Module (A)}
 UP_ENERGY2_SUB	{Powerful Life Support Upgrade}
-UP_ENERGY3_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Life Support System<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_ENERGY3_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Life Support System<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potentially increases <STELLAR>life support power<> and may offer limited <STELLAR>solar-energy power-offsetting<>, decreasing power use during daylight.}
-UP_ENERGY3_NAME	{LIFE SUPPORT MODULE}
-UP_ENERGY3_NAME_L	{Life Support Module}
+Increases <STELLAR>life support power<> and offers limited <STELLAR>solar-energy power-offsetting<>, decreasing power use during daylight.}
+UP_ENERGY3_NAME	{LIFE SUPPORT MODULE (S)}
+UP_ENERGY3_NAME_L	{Life Support Module (S)}
 UP_ENERGY3_SUB	{Supreme Life Support Upgrade}
-UP_JETBOOST1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Exosuit Movement Systems<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_JETBOOST1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Exosuit Movement Systems<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>jetpack tank capacity<>, <STELLAR>jetpack fuel efficiency<>and Exosuit <STELLAR>speed boost duration<>.}
-UP_JETBOOST1_NAME	{MOVEMENT MODULE}
-UP_JETBOOST1_NAME_L	{Movement Module}
+Offers improvements to jetpack <STELLAR>tank capacity<> and <STELLAR>life support drain rates<>, as well as increasing Exosuit <STELLAR>speed boost duration<>.}
+UP_JETBOOST1_NAME	{MOVEMENT MODULE (C)}
+UP_JETBOOST1_NAME_L	{Movement Module (C)}
 UP_JETBOOST1_SUB	{Movement System Upgrade}
-UP_JETBOOST2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exosuit Movement Systems<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_JETBOOST2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exosuit Movement Systems<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>jetpack tank capacity<>, <STELLAR>jetpack fuel efficiency<>and Exosuit <STELLAR>speed boost duration<>.}
-UP_JETBOOST2_NAME	{MOVEMENT MODULE}
-UP_JETBOOST2_NAME_L	{Movement Module}
+Delivers powerful improvements to jetpack <STELLAR>tank capacity<> and <STELLAR>life support drain rates<>, as well as increasing Exosuit <STELLAR>speed boost duration<>.}
+UP_JETBOOST2_NAME	{MOVEMENT MODULE (B)}
+UP_JETBOOST2_NAME_L	{Movement Module (B)}
 UP_JETBOOST2_SUB	{Significant Movement System Upgrade}
-UP_JETBOOST3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Movement Systems<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_JETBOOST3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Movement Systems<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>jetpack tank capacity<>, <STELLAR>jetpack fuel efficiency<>and Exosuit <STELLAR>speed boost duration<>.}
-UP_JETBOOST3_NAME	{MOVEMENT MODULE}
-UP_JETBOOST3_NAME_L	{Movement Module}
+Offers dramatic improvements to jetpack <STELLAR>tank capacity<> and <STELLAR>life support drain rates<>, as well as increasing Exosuit <STELLAR>speed boost duration<>.}
+UP_JETBOOST3_NAME	{MOVEMENT MODULE (A)}
+UP_JETBOOST3_NAME_L	{Movement Module (A)}
 UP_JETBOOST3_SUB	{Powerful Movement System Upgrade}
-UP_JETBOOST4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Movement Systems<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_JETBOOST4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Movement Systems<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>jetpack tank capacity<>, <STELLAR>jetpack fuel efficiency<>and Exosuit <STELLAR>speed boost duration<>.}
-UP_JETBOOST4_NAME	{MOVEMENT MODULE}
-UP_JETBOOST4_NAME_L	{Movement Module}
+Offers dramatic improvements to jetpack <STELLAR>tank capacity<> and <STELLAR>life support drain rates<>, as well as increasing Exosuit <STELLAR>speed boost duration<>.}
+UP_JETBOOST4_NAME	{MOVEMENT MODULE (S)}
+UP_JETBOOST4_NAME_L	{Movement Module (S)}
 UP_JETBOOST4_SUB	{Supreme Movement System Upgrade}
-UP_SHIELDBOOST1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Exosuit Defensive Systems<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_SHIELDBOOST1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Exosuit Defensive Systems<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Increases <STELLAR>Exosuit shield strength<>.}
-UP_SHIELDBOOST1_NAME	{SHIELD MODULE}
-UP_SHIELDBOOST1_NAME_L	{Shield Module}
+UP_SHIELDBOOST1_NAME	{SHIELD MODULE (C)}
+UP_SHIELDBOOST1_NAME_L	{Shield Module (C)}
 UP_SHIELDBOOST1_SUB	{Defensive Systems Upgrade}
-UP_SHIELDBOOST2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exosuit Defensive Systems<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIELDBOOST2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exosuit Defensive Systems<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>Exosuit shield strength<> and <STELLAR>core health<>.}
-UP_SHIELDBOOST2_NAME	{SHIELD MODULE}
-UP_SHIELDBOOST2_NAME_L	{Shield Module}
+Significantly increases <STELLAR>Exosuit shield strength<>, as well as increasing <STELLAR>core health<>.}
+UP_SHIELDBOOST2_NAME	{SHIELD MODULE (B)}
+UP_SHIELDBOOST2_NAME_L	{Shield Module (B)}
 UP_SHIELDBOOST2_SUB	{Significant Defensive Systems Upgrade}
-UP_SHIELDBOOST3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Defensive Systems<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIELDBOOST3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Defensive Systems<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>Exosuit shield strength<> and <STELLAR>core health<>.}
-UP_SHIELDBOOST3_NAME	{SHIELD MODULE}
-UP_SHIELDBOOST3_NAME_L	{Shield Module}
+Drastically increases <STELLAR>Exosuit shield strength<>, as well as increasing <STELLAR>core health<>.}
+UP_SHIELDBOOST3_NAME	{SHIELD MODULE (A)}
+UP_SHIELDBOOST3_NAME_L	{Shield Module (A)}
 UP_SHIELDBOOST3_SUB	{Powerful Defensive Systems Upgrade}
-UP_SHIELDBOOST4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Defensive Systems<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIELDBOOST4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Defensive Systems<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>Exosuit shield strength<> and <STELLAR>core health<>.}
-UP_SHIELDBOOST4_NAME	{SHIELD MODULE}
-UP_SHIELDBOOST4_NAME_L	{Shield Module}
+Drastically increases <STELLAR>Exosuit shield strength<>, as well as increasing <STELLAR>core health<>.}
+UP_SHIELDBOOST4_NAME	{SHIELD MODULE (S)}
+UP_SHIELDBOOST4_NAME_L	{Shield Module (S)}
 UP_SHIELDBOOST4_SUB	{Supreme Defensive Systems Upgrade}
 HAZ_U1_SUB	{Hazard Protection Upgrade}
 HAZ_U2_SUB	{Significant Hazard Protection Upgrade}
@@ -8270,366 +8075,272 @@ HAZ_U4_SUB	{Supreme Hazard Protection Upgrade}
 UP_UNW1_SUB	{Underwater Oxygen Upgrade}
 UP_UNW2_SUB	{Significant Underwater Oxygen Upgrade}
 UP_UNW3_SUB	{Powerful Underwater Oxygen Upgrade}
-UP_UNW1_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exosuit Aeration Membrane<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_UNW1_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exosuit Aeration Membrane<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Significantly improves survival times <TECHNOLOGY>underwater<>.}
-UP_UNW1_NAME	{UNDERWATER PROTECTION MODULE}
-UP_UNW1_NAME_L	{Underwater Protection Module}
-UP_UNW2_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Aeration Membrane<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_UNW1_NAME	{UNDERWATER PROTECTION MODULE (B)}
+UP_UNW1_NAME_L	{Underwater Protection Module (B)}
+UP_UNW2_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Aeration Membrane<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Drastically improves survival times <TECHNOLOGY>underwater<>.}
-UP_UNW2_NAME	{UNDERWATER PROTECTION MODULE}
-UP_UNW2_NAME_L	{Underwater Protection Module}
-UP_UNW3_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Aeration Membrane<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_UNW2_NAME	{UNDERWATER PROTECTION MODULE (A)}
+UP_UNW2_NAME_L	{Underwater Protection Module (A)}
+UP_UNW3_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Aeration Membrane<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Drastically improves survival times <TECHNOLOGY>underwater<>.}
-UP_UNW3_NAME	{UNDERWATER PROTECTION MODULE}
-UP_UNW3_NAME_L	{Underwater Protection Module}
-UP_RAD1_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exosuit Radiation Protection System<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_UNW3_NAME	{UNDERWATER PROTECTION MODULE (S)}
+UP_UNW3_NAME_L	{Underwater Protection Module (S)}
+UP_RAD1_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exosuit Radiation Protection System<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Significantly improves survival times in <COMMODITY>radioactive environments<>.}
-UP_RAD1_NAME	{RADIATION PROTECTION MODULE}
-UP_RAD1_NAME_L	{Radiation Protection Module}
-UP_RAD2_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Radiation Protection System<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_RAD1_NAME	{RADIATION PROTECTION MODULE (B)}
+UP_RAD1_NAME_L	{Radiation Protection Module (B)}
+UP_RAD2_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Radiation Protection System<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Drastically improves survival times in <COMMODITY>radioactive environments<>.}
-UP_RAD2_NAME	{RADIATION PROTECTION MODULE}
-UP_RAD2_NAME_L	{Radiation Protection Module}
-UP_RAD3_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Radiation Protection System<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_RAD2_NAME	{RADIATION PROTECTION MODULE (A)}
+UP_RAD2_NAME_L	{Radiation Protection Module (A)}
+UP_RAD3_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Radiation Protection System<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Drastically improves survival times in <COMMODITY>radioactive environments<>.}
-UP_RAD3_NAME	{RADIATION PROTECTION MODULE}
-UP_RAD3_NAME_L	{Radiation Protection Module}
-UP_TOX1_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exosuit Toxin Filtering System<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_RAD3_NAME	{RADIATION PROTECTION MODULE (S)}
+UP_RAD3_NAME_L	{Radiation Protection Module (S)}
+UP_TOX1_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exosuit Toxin Filtering System<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Significantly improves survival times in <TRADEABLE>toxic environments<>.}
-UP_TOX1_NAME	{TOXIC PROTECTION MODULE}
-UP_TOX1_NAME_L	{Toxic Protection Module}
-UP_TOX2_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Toxin Filtering System<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_TOX1_NAME	{TOXIC PROTECTION MODULE (B)}
+UP_TOX1_NAME_L	{Toxic Protection Module (B)}
+UP_TOX2_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Toxin Filtering System<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Drastically improves survival times in <TRADEABLE>toxic environments<>.}
-UP_TOX2_NAME	{TOXIC PROTECTION MODULE}
-UP_TOX2_NAME_L	{Toxic Protection Module}
-UP_TOX3_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Toxin Filtering System<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_TOX2_NAME	{TOXIC PROTECTION MODULE (A)}
+UP_TOX2_NAME_L	{Toxic Protection Module (A)}
+UP_TOX3_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Toxin Filtering System<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Drastically improves survival times in <TRADEABLE>toxic environments<>.}
-UP_TOX3_NAME	{TOXIC PROTECTION MODULE}
-UP_TOX3_NAME_L	{Toxic Protection Module}
-UP_COLDPROT1_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exosuit Thermal Protection System<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_TOX3_NAME	{TOXIC PROTECTION MODULE (S)}
+UP_TOX3_NAME_L	{Toxic Protection Module (S)}
+UP_COLDPROT1_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exosuit Thermal Protection System<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Significantly improves survival times in <TECHNOLOGY>sub-zero environments<>.}
-UP_COLDPROT1_NAME	{THERMAL PROTECTION MODULE}
-UP_COLDPROT1_NAME_L	{Thermal Protection Module}
-UP_COLDPROT2_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Thermal Protection System<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_COLDPROT1_NAME	{THERMAL PROTECTION MODULE (B)}
+UP_COLDPROT1_NAME_L	{Thermal Protection Module (B)}
+UP_COLDPROT2_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Thermal Protection System<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Drastically improves survival times in <TECHNOLOGY>sub-zero environments<>.}
-UP_COLDPROT2_NAME	{THERMAL PROTECTION MODULE}
-UP_COLDPROT2_NAME_L	{Thermal Protection Module}
-UP_COLDPROT3_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Thermal Protection System<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_COLDPROT2_NAME	{THERMAL PROTECTION MODULE (A)}
+UP_COLDPROT2_NAME_L	{Thermal Protection Module (A)}
+UP_COLDPROT3_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exosuit Thermal Protection System<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Drastically improves survival times in <TECHNOLOGY>sub-zero environments<>.}
-UP_COLDPROT3_NAME	{THERMAL PROTECTION MODULE}
-UP_COLDPROT3_NAME_L	{Thermal Protection Module}
-UP_HOTPROT1_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exosuit Thermal Protection System<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_COLDPROT3_NAME	{THERMAL PROTECTION MODULE (S)}
+UP_COLDPROT3_NAME_L	{Thermal Protection Module (S)}
+UP_HOTPROT1_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exosuit Thermal Protection System<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Significantly improves survival times in <FUEL>high-temperature environments<>.}
-UP_HOTPROT1_NAME	{THERMAL PROTECTION MODULE}
-UP_HOTPROT1_NAME_L	{Thermal Protection Module}
-UP_HOTPROT2_DESC	{An <SPECIAL>extremely powerful<> upgrade upgrade for the <TECHNOLOGY>Exosuit Thermal Protection System<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_HOTPROT1_NAME	{THERMAL PROTECTION MODULE (B)}
+UP_HOTPROT1_NAME_L	{Thermal Protection Module (B)}
+UP_HOTPROT2_DESC	{An <SPECIAL>extremely powerful<> upgrade upgrade for the <TECHNOLOGY>Exosuit Thermal Protection System<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Drastically improves survival times in <FUEL>high-temperature environments<>.}
-UP_HOTPROT2_NAME	{THERMAL PROTECTION MODULE}
-UP_HOTPROT2_NAME_L	{Thermal Protection Module}
-UP_HOTPROT3_DESC	{A <COMMODITY>supremely powerful<> upgrade upgrade for the <TECHNOLOGY>Exosuit Thermal Protection System<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_HOTPROT2_NAME	{THERMAL PROTECTION MODULE (A)}
+UP_HOTPROT2_NAME_L	{Thermal Protection Module (A)}
+UP_HOTPROT3_DESC	{A <COMMODITY>supremely powerful<> upgrade upgrade for the <TECHNOLOGY>Exosuit Thermal Protection System<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Drastically improves survival times in <FUEL>high-temperature environments<>.}
-UP_HOTPROT3_NAME	{THERMAL PROTECTION MODULE}
-UP_HOTPROT3_NAME_L	{Thermal Protection Module}
-UP_PULSE1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Starship Pulse Engine<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_HOTPROT3_NAME	{THERMAL PROTECTION MODULE (S)}
+UP_HOTPROT3_NAME_L	{Thermal Protection Module (S)}
+UP_PULSE1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Starship Pulse Engine<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>starship maneuverability<> and <STELLAR>speed<>.}
-UP_PULSE1_NAME	{PULSE ENGINE MODULE}
-UP_PULSE1_NAME_L	{Pulse Engine Module}
+Offers improvements to <STELLAR>starship maneuverability<> and <STELLAR>speed<>.}
+UP_PULSE1_NAME	{PULSE ENGINE MODULE (C)}
+UP_PULSE1_NAME_L	{Pulse Engine Module (C)}
 UP_PULSE1_SUB	{Pulse Engine Upgrade}
-UP_PULSE2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Starship Pulse Engine<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_PULSE2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Starship Pulse Engine<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>starship maneuverability<> and <STELLAR>speed<>.}
-UP_PULSE2_NAME	{PULSE ENGINE MODULE}
-UP_PULSE2_NAME_L	{Pulse Engine Module}
+Offers improvements to <STELLAR>starship maneuverability<> and <STELLAR>speed<>.}
+UP_PULSE2_NAME	{PULSE ENGINE MODULE (B)}
+UP_PULSE2_NAME_L	{Pulse Engine Module (B)}
 UP_PULSE2_SUB	{Significant Pulse Engine Upgrade}
-UP_PULSE3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Starship Pulse Engine<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_PULSE3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Starship Pulse Engine<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>starship maneuverability<> and <STELLAR>speed<>.}
-UP_PULSE3_NAME	{PULSE ENGINE MODULE}
-UP_PULSE3_NAME_L	{Pulse Engine Module}
+Offers improvements to <STELLAR>starship maneuverability<> and <STELLAR>speed<>.}
+UP_PULSE3_NAME	{PULSE ENGINE MODULE (A)}
+UP_PULSE3_NAME_L	{Pulse Engine Module (A)}
 UP_PULSE3_SUB	{Powerful Pulse Engine Upgrade}
-UP_PULSE4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Starship Pulse Engine<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_PULSE4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Starship Pulse Engine<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>starship maneuverability<> and <STELLAR>speed<>.}
-UP_PULSE4_NAME	{PULSE ENGINE MODULE}
-UP_PULSE4_NAME_L	{Pulse Engine Module}
+Offers improvements to <STELLAR>starship maneuverability<> and <STELLAR>speed<>.}
+UP_PULSE4_NAME	{PULSE ENGINE MODULE (S)}
+UP_PULSE4_NAME_L	{Pulse Engine Module (S)}
 UP_PULSE4_SUB	{Supreme Pulse Engine Upgrade}
-UP_HYPER1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Hyperdrive<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_HYPER1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Hyperdrive<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>warp-drive efficiency<> and <STELLAR>jump distance<>.}
-UP_HYPER1_NAME	{HYPERDRIVE MODULE}
-UP_HYPER1_NAME_L	{Hyperdrive Module}
+Offers improvements to <STELLAR>warp-drive efficiency<> and <STELLAR>jump distance<>.}
+UP_HYPER1_NAME	{HYPERDRIVE MODULE (C)}
+UP_HYPER1_NAME_L	{Hyperdrive Module (C)}
 UP_HYPER1_SUB	{Hyperdrive Upgrade}
-UP_HYPER2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Hyperdrive<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_HYPER2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Hyperdrive<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>warp-drive efficiency<> and <STELLAR>jump distance<>.}
-UP_HYPER2_NAME	{HYPERDRIVE MODULE}
-UP_HYPER2_NAME_L	{Hyperdrive Module}
+Offers improvements to <STELLAR>warp-drive efficiency<> and <STELLAR>jump distance<>.}
+UP_HYPER2_NAME	{HYPERDRIVE MODULE (B)}
+UP_HYPER2_NAME_L	{Hyperdrive Module (B)}
 UP_HYPER2_SUB	{Significant Hyperdrive Upgrade}
-UP_HYPER3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Hyperdrive<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_HYPER3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Hyperdrive<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>warp-drive efficiency<> and <STELLAR>jump distance<>.}
-UP_HYPER3_NAME	{HYPERDRIVE MODULE}
-UP_HYPER3_NAME_L	{Hyperdrive Module}
+Offers improvements to <STELLAR>warp-drive efficiency<> and <STELLAR>jump distance<>.}
+UP_HYPER3_NAME	{HYPERDRIVE MODULE (A)}
+UP_HYPER3_NAME_L	{Hyperdrive Module (A)}
 UP_HYPER3_SUB	{Powerful Hyperdrive Upgrade}
-UP_HYPER4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Hyperdrive<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_HYPER4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Hyperdrive<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>warp-drive efficiency<> and <STELLAR>jump distance<>.}
-UP_HYPER4_NAME	{HYPERDRIVE MODULE}
-UP_HYPER4_NAME_L	{Hyperdrive Module}
+Offers improvements to <STELLAR>warp-drive efficiency<> and <STELLAR>jump distance<>.}
+UP_HYPER4_NAME	{HYPERDRIVE MODULE (S)}
+UP_HYPER4_NAME_L	{Hyperdrive Module (S)}
 UP_HYPER4_SUB	{Supreme Hyperdrive Upgrade}
-UP_SHIPSHIELD1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Starship Defensive Shielding<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_SHIPSHIELD1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Starship Defensive Shielding<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Improves <STELLAR>ship strength<> for increased combat endurance.}
-UP_SHIPSHIELD1_NAME	{STARSHIP SHIELD MODULE}
-UP_SHIPSHIELD1_NAME_L	{Starship Shield Module}
+UP_SHIPSHIELD1_NAME	{STARSHIP SHIELD MODULE (C)}
+UP_SHIPSHIELD1_NAME_L	{Starship Shield Module (C)}
 UP_SHIPSHIELD1_SUB	{Starship Shield Upgrade}
-UP_SHIPSHIELD2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Starship Defensive Shielding<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_SHIPSHIELD2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Starship Defensive Shielding<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Significantly improves <STELLAR>ship strength<> for increased combat endurance.}
-UP_SHIPSHIELD2_NAME	{STARSHIP SHIELD MODULE}
-UP_SHIPSHIELD2_NAME_L	{Starship Shield Module}
+UP_SHIPSHIELD2_NAME	{STARSHIP SHIELD MODULE (B)}
+UP_SHIPSHIELD2_NAME_L	{Starship Shield Module (B)}
 UP_SHIPSHIELD2_SUB	{Significant Starship Shield Upgrade}
-UP_SHIPSHIELD3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Starship Defensive Shielding<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_SHIPSHIELD3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Starship Defensive Shielding<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Dramatically improves <STELLAR>ship strength<> for increased combat endurance.}
-UP_SHIPSHIELD3_NAME	{STARSHIP SHIELD MODULE}
-UP_SHIPSHIELD3_NAME_L	{Starship Shield Module}
+UP_SHIPSHIELD3_NAME	{STARSHIP SHIELD MODULE (A)}
+UP_SHIPSHIELD3_NAME_L	{Starship Shield Module (A)}
 UP_SHIPSHIELD3_SUB	{Powerful Starship Shield Upgrade}
-UP_SHIPSHIELD4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Starship Defensive Shielding<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
-
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
+UP_SHIPSHIELD4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Starship Defensive Shielding<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
 Dramatically improves <STELLAR>ship strength<> for increased combat endurance.}
-UP_SHIPSHIELD4_NAME	{STARSHIP SHIELD MODULE}
-UP_SHIPSHIELD4_NAME_L	{Starship Shield Module}
+UP_SHIPSHIELD4_NAME	{STARSHIP SHIELD MODULE (S)}
+UP_SHIPSHIELD4_NAME_L	{Starship Shield Module (S)}
 UP_SHIPSHIELD4_SUB	{Supreme Starship Shield Upgrade}
-UP_SHIPGUN1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Starship Photon Cannon<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPGUN1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Starship Photon Cannon<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
-UP_SHIPGUN1_NAME	{PHOTON CANNON MODULE}
-UP_SHIPGUN1_NAME_L	{Photon Cannon Module}
+Improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
+UP_SHIPGUN1_NAME	{PHOTON CANNON MODULE (C)}
+UP_SHIPGUN1_NAME_L	{Photon Cannon Module (C)}
 UP_SHIPGUN1_SUB	{Starship Weapon Upgrade}
-UP_SHIPGUN2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Starship Photon Cannon<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPGUN2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Starship Photon Cannon<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
-UP_SHIPGUN2_NAME	{PHOTON CANNON MODULE}
-UP_SHIPGUN2_NAME_L	{Photon Cannon Module}
+Significantly improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
+UP_SHIPGUN2_NAME	{PHOTON CANNON MODULE (B)}
+UP_SHIPGUN2_NAME_L	{Photon Cannon Module (B)}
 UP_SHIPGUN2_SUB	{Significant Starship Weapon Upgrade}
-UP_SHIPGUN3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Starship Photon Cannon<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPGUN3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Starship Photon Cannon<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
-UP_SHIPGUN3_NAME	{PHOTON CANNON MODULE}
-UP_SHIPGUN3_NAME_L	{Photon Cannon Module}
+Dramatically improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
+UP_SHIPGUN3_NAME	{PHOTON CANNON MODULE (A)}
+UP_SHIPGUN3_NAME_L	{Photon Cannon Module (A)}
 UP_SHIPGUN3_SUB	{Powerful Starship Weapon Upgrade}
-UP_SHIPGUN4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Starship Photon Cannon<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPGUN4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Starship Photon Cannon<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
-UP_SHIPGUN4_NAME	{PHOTON CANNON MODULE}
-UP_SHIPGUN4_NAME_L	{Photon Cannon Module}
+Dramatically improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
+UP_SHIPGUN4_NAME	{PHOTON CANNON MODULE (S)}
+UP_SHIPGUN4_NAME_L	{Photon Cannon Module (S)}
 UP_SHIPGUN4_SUB	{Supreme Starship Weapon Upgrade}
-UP_SHIPLAS1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Starship Phase Beam<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPLAS1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Starship Phase Beam<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, and <STELLAR>overheat tolerance<>.}
-UP_SHIPLAS1_NAME	{PHASE BEAM MODULE}
-UP_SHIPLAS1_NAME_L	{Phase Beam Module}
+Increases combat effectiveness via improvements to both <STELLAR>damage<> and <STELLAR>overheat tolerance<>.}
+UP_SHIPLAS1_NAME	{PHASE BEAM MODULE (C)}
+UP_SHIPLAS1_NAME_L	{Phase Beam Module (C)}
 UP_SHIPLAS1_SUB	{Starship Weapon Upgrade}
-UP_SHIPLAS2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Starship Phase Beam<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPLAS2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Starship Phase Beam<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, and <STELLAR>overheat tolerance<>.}
-UP_SHIPLAS2_NAME	{PHASE BEAM MODULE}
-UP_SHIPLAS2_NAME_L	{Phase Beam Module}
+Increases combat effectiveness via significant improvements to both <STELLAR>damage<> and <STELLAR>overheat tolerance<>.}
+UP_SHIPLAS2_NAME	{PHASE BEAM MODULE (B)}
+UP_SHIPLAS2_NAME_L	{Phase Beam Module (B)}
 UP_SHIPLAS2_SUB	{Significant Starship Weapon Upgrade}
-UP_SHIPLAS3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Starship Phase Beam<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPLAS3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Starship Phase Beam<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, and <STELLAR>overheat tolerance<>.}
-UP_SHIPLAS3_NAME	{PHASE BEAM MODULE}
-UP_SHIPLAS3_NAME_L	{Phase Beam Module}
+Dramatically increases combat effectiveness via large improvements to both <STELLAR>damage<> and <STELLAR>overheat tolerance<>.}
+UP_SHIPLAS3_NAME	{PHASE BEAM MODULE (A)}
+UP_SHIPLAS3_NAME_L	{Phase Beam Module (A)}
 UP_SHIPLAS3_SUB	{Powerful Starship Weapon Upgrade}
-UP_SHIPLAS4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Starship Phase Beam<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPLAS4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Starship Phase Beam<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, and <STELLAR>overheat tolerance<>.}
-UP_SHIPLAS4_NAME	{PHASE BEAM MODULE}
-UP_SHIPLAS4_NAME_L	{Phase Beam Module}
+Dramatically increases combat effectiveness via large improvements to both <STELLAR>damage<> and <STELLAR>overheat tolerance<>.}
+UP_SHIPLAS4_NAME	{PHASE BEAM MODULE (S)}
+UP_SHIPLAS4_NAME_L	{Phase Beam Module (S)}
 UP_SHIPLAS4_SUB	{Supreme Starship Weapon Upgrade}
-UP_SHIPSHOT1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Positron Ejector<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPSHOT1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Positron Ejector<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
-UP_SHIPSHOT1_NAME	{POSITRON MODULE}
-UP_SHIPSHOT1_NAME_L	{Positron Module}
+Improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
+UP_SHIPSHOT1_NAME	{POSITRON MODULE (C)}
+UP_SHIPSHOT1_NAME_L	{Positron Module (C)}
 UP_SHIPSHOT1_SUB	{Starship Weapon Upgrade}
-UP_SHIPSHOT2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Positron Ejector<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPSHOT2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Positron Ejector<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
-UP_SHIPSHOT2_NAME	{POSITRON MODULE}
-UP_SHIPSHOT2_NAME_L	{Positron Module}
+Significantly improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
+UP_SHIPSHOT2_NAME	{POSITRON MODULE (B)}
+UP_SHIPSHOT2_NAME_L	{Positron Module (B)}
 UP_SHIPSHOT2_SUB	{Significant Starship Weapon Upgrade}
-UP_SHIPSHOT3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Positron Ejector<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPSHOT3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Positron Ejector<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
-UP_SHIPSHOT3_NAME	{POSITRON MODULE}
-UP_SHIPSHOT3_NAME_L	{Positron Module}
+Dramatically improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
+UP_SHIPSHOT3_NAME	{POSITRON MODULE (A)}
+UP_SHIPSHOT3_NAME_L	{Positron Module (A)}
 UP_SHIPSHOT3_SUB	{Powerful Starship Weapon Upgrade}
-UP_SHIPSHOT4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Positron Ejector<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPSHOT4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Positron Ejector<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
-UP_SHIPSHOT4_NAME	{POSITRON MODULE}
-UP_SHIPSHOT4_NAME_L	{Positron Module}
+Dramatically improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
+UP_SHIPSHOT4_NAME	{POSITRON MODULE (S)}
+UP_SHIPSHOT4_NAME_L	{Positron Module (S)}
 UP_SHIPSHOT4_SUB	{Supreme Starship Weapon Upgrade}
-UP_SHIPMINI1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Infra-Knife Accelerator<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPMINI1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Infra-Knife Accelerator<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
-UP_SHIPMINI1_NAME	{INFRA-KNIFE MODULE}
-UP_SHIPMINI1_NAME_L	{Infra-Knife Module}
+Improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
+UP_SHIPMINI1_NAME	{INFRA-KNIFE MODULE (C)}
+UP_SHIPMINI1_NAME_L	{Infra-Knife Module (C)}
 UP_SHIPMINI1_SUB	{Starship Weapon Upgrade}
-UP_SHIPMINI2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Infra-Knife Accelerator<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPMINI2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Infra-Knife Accelerator<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
-UP_SHIPMINI2_NAME	{INFRA-KNIFE MODULE}
-UP_SHIPMINI2_NAME_L	{Infra-Knife Module}
+Significantly improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
+UP_SHIPMINI2_NAME	{INFRA-KNIFE MODULE (B)}
+UP_SHIPMINI2_NAME_L	{Infra-Knife Module (B)}
 UP_SHIPMINI2_SUB	{Significant Starship Weapon Upgrade}
-UP_SHIPMINI3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Infra-Knife Accelerator<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPMINI3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Infra-Knife Accelerator<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
-UP_SHIPMINI3_NAME	{INFRA-KNIFE MODULE}
-UP_SHIPMINI3_NAME_L	{Infra-Knife Module}
+Dramatically improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
+UP_SHIPMINI3_NAME	{INFRA-KNIFE MODULE (A)}
+UP_SHIPMINI3_NAME_L	{Infra-Knife Module (A)}
 UP_SHIPMINI3_SUB	{Powerful Starship Weapon Upgrade}
-UP_SHIPMINI4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Infra-Knife Accelerator<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPMINI4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Infra-Knife Accelerator<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
-UP_SHIPMINI4_NAME	{INFRA-KNIFE MODULE}
-UP_SHIPMINI4_NAME_L	{Infra-Knife Module}
+Dramatically improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
+UP_SHIPMINI4_NAME	{INFRA-KNIFE MODULE (S)}
+UP_SHIPMINI4_NAME_L	{Infra-Knife Module (S)}
 UP_SHIPMINI4_SUB	{Supreme Starship Weapon Upgrade}
-UP_SHIPBLOB1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Cyclotron Ballista<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPBLOB1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Cyclotron Ballista<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
-UP_SHIPBLOB1_NAME	{CYCLOTRON MODULE}
-UP_SHIPBLOB1_NAME_L	{Cyclotron Module}
+Improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
+UP_SHIPBLOB1_NAME	{CYCLOTRON MODULE (C)}
+UP_SHIPBLOB1_NAME_L	{Cyclotron Module (C)}
 UP_SHIPBLOB1_SUB	{Starship Weapon Upgrade}
-UP_SHIPBLOB2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Cyclotron Ballista<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPBLOB2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Cyclotron Ballista<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
-UP_SHIPBLOB2_NAME	{CYCLOTRON MODULE}
-UP_SHIPBLOB2_NAME_L	{Cyclotron Module}
+Significantly improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
+UP_SHIPBLOB2_NAME	{CYCLOTRON MODULE (B)}
+UP_SHIPBLOB2_NAME_L	{Cyclotron Module (B)}
 UP_SHIPBLOB2_SUB	{Significant Starship Weapon Upgrade}
-UP_SHIPBLOB3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Cyclotron Ballista<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPBLOB3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Cyclotron Ballista<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
-UP_SHIPBLOB3_NAME	{CYCLOTRON MODULE}
-UP_SHIPBLOB3_NAME_L	{Cyclotron Module}
+Dramatically improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
+UP_SHIPBLOB3_NAME	{CYCLOTRON MODULE (A)}
+UP_SHIPBLOB3_NAME_L	{Cyclotron Module (A)}
 UP_SHIPBLOB3_SUB	{Powerful Starship Weapon Upgrade}
-UP_SHIPBLOB4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Cyclotron Ballista<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_SHIPBLOB4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Cyclotron Ballista<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
-UP_SHIPBLOB4_NAME	{CYCLOTRON MODULE}
-UP_SHIPBLOB4_NAME_L	{Cyclotron Module}
+Dramatically improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>overheat times<>.}
+UP_SHIPBLOB4_NAME	{CYCLOTRON MODULE (S)}
+UP_SHIPBLOB4_NAME_L	{Cyclotron Module (S)}
 UP_SHIPBLOB4_SUB	{Supreme Starship Weapon Upgrade}
 UT_PROTECT_NAME	{SHIELD LATTICE}
 UT_PROTECT_NAME_L	{Shield Lattice}
@@ -8728,133 +8439,101 @@ UT_SMG_SUB	{Pulse Spitter Upgrade}
 UT_SMG_DESC	{Specialist harmonic resonators allow the <TECHNOLOGY>Pulse Spitter<> to split inserted ammunition, effective manufacturing more shots from fewer materials.
 
 Increases <STELLAR>weapon clip size<>.}
-UP_EXOGUN1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Exocraft Mounted Cannon<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXOGUN1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Exocraft Mounted Cannon<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, <STELLAR>fire rate<> and <STELLAR>fuel efficiency<>.}
-UP_EXOGUN1_NAME	{EXOCRAFT CANNON MODULE}
-UP_EXOGUN1_NAME_L	{Exocraft Cannon Module}
+Improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>fuel efficiency<>.}
+UP_EXOGUN1_NAME	{EXOCRAFT CANNON MODULE (C)}
+UP_EXOGUN1_NAME_L	{Exocraft Cannon Module (C)}
 UP_EXOGUN1_SUB	{Exocraft Weapon Upgrade}
-UP_EXOGUN2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exocraft Mounted Cannon<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXOGUN2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exocraft Mounted Cannon<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, <STELLAR>fire rate<> and <STELLAR>fuel efficiency<>.}
-UP_EXOGUN2_NAME	{EXOCRAFT CANNON MODULE}
-UP_EXOGUN2_NAME_L	{Exocraft Cannon Module}
+Significantly improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>fuel efficiency<>.}
+UP_EXOGUN2_NAME	{EXOCRAFT CANNON MODULE (B)}
+UP_EXOGUN2_NAME_L	{Exocraft Cannon Module (B)}
 UP_EXOGUN2_SUB	{Significant Exocraft Weapon Upgrade}
-UP_EXOGUN3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exocraft Mounted Cannon<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXOGUN3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exocraft Mounted Cannon<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, <STELLAR>fire rate<> and <STELLAR>fuel efficiency<>.}
-UP_EXOGUN3_NAME	{EXOCRAFT CANNON MODULE}
-UP_EXOGUN3_NAME_L	{Exocraft Cannon Module}
+Dramatically improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>fuel efficiency<>.}
+UP_EXOGUN3_NAME	{EXOCRAFT CANNON MODULE (A)}
+UP_EXOGUN3_NAME_L	{Exocraft Cannon Module (A)}
 UP_EXOGUN3_SUB	{Powerful Exocraft Weapon Upgrade}
-UP_EXOGUN4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exocraft Mounted Cannon<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXOGUN4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exocraft Mounted Cannon<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>damage output<>, <STELLAR>fire rate<> and <STELLAR>fuel efficiency<>.}
-UP_EXOGUN4_NAME	{EXOCRAFT CANNON MODULE}
-UP_EXOGUN4_NAME_L	{Exocraft Cannon Module}
+Dramatically improves <STELLAR>damage<>, <STELLAR>fire rate<> and <STELLAR>fuel efficiency<>.}
+UP_EXOGUN4_NAME	{EXOCRAFT CANNON MODULE (S)}
+UP_EXOGUN4_NAME_L	{Exocraft Cannon Module (S)}
 UP_EXOGUN4_SUB	{Supreme Exocraft Weapon Upgrade}
-UP_EXOLAS1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Exocraft Mining Laser<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXOLAS1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Exocraft Mining Laser<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>mining power<> and/or <STELLAR>fuel efficiency<>.}
-UP_EXOLAS1_NAME	{EXOCRAFT LASER MODULE}
-UP_EXOLAS1_NAME_L	{Exocraft Laser Module}
+Improves <STELLAR>mining power<> and <STELLAR>fuel efficiency<>.}
+UP_EXOLAS1_NAME	{EXOCRAFT LASER MODULE (C)}
+UP_EXOLAS1_NAME_L	{Exocraft Laser Module (C)}
 UP_EXOLAS1_SUB	{Exocraft Weapon Upgrade}
-UP_EXOLAS2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exocraft Mining Laser<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXOLAS2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exocraft Mining Laser<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>mining power<> and/or <STELLAR>fuel efficiency<>.}
-UP_EXOLAS2_NAME	{EXOCRAFT LASER MODULE}
-UP_EXOLAS2_NAME_L	{Exocraft Laser Module}
+Significantly improves <STELLAR>mining power<> and <STELLAR>fuel efficiency<>.}
+UP_EXOLAS2_NAME	{EXOCRAFT LASER MODULE (B)}
+UP_EXOLAS2_NAME_L	{Exocraft Laser Module (B)}
 UP_EXOLAS2_SUB	{Significant Exocraft Weapon Upgrade}
-UP_EXOLAS3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exocraft Mining Laser<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXOLAS3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exocraft Mining Laser<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>mining power<> and/or <STELLAR>fuel efficiency<>.}
-UP_EXOLAS3_NAME	{EXOCRAFT LASER MODULE}
-UP_EXOLAS3_NAME_L	{Exocraft Laser Module}
+Dramatically improves <STELLAR>mining power<> and <STELLAR>fuel efficiency<>.}
+UP_EXOLAS3_NAME	{EXOCRAFT LASER MODULE (A)}
+UP_EXOLAS3_NAME_L	{Exocraft Laser Module (A)}
 UP_EXOLAS3_SUB	{Powerful Exocraft Weapon Upgrade}
-UP_EXOLAS4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exocraft Mining Laser<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXOLAS4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exocraft Mining Laser<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>mining power<> and/or <STELLAR>fuel efficiency<>.}
-UP_EXOLAS4_NAME	{EXOCRAFT LASER MODULE}
-UP_EXOLAS4_NAME_L	{Exocraft Laser Module}
+Dramatically improves <STELLAR>mining power<> and <STELLAR>fuel efficiency<>.}
+UP_EXOLAS4_NAME	{EXOCRAFT LASER MODULE (S)}
+UP_EXOLAS4_NAME_L	{Exocraft Laser Module (S)}
 UP_EXOLAS4_SUB	{Supreme Exocraft Weapon Upgrade}
-UP_EXOBOOST1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Exocraft Acceleration Module<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXOBOOST1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Exocraft Acceleration Module<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>boost tank capacity<> and/or <STELLAR>boost power<>.}
-UP_EXOBOOST1_NAME	{EXOCRAFT BOOST MODULE}
-UP_EXOBOOST1_NAME_L	{Exocraft Boost Module}
+Improves <STELLAR>boost tank capacity<> and <STELLAR>boost power<>.}
+UP_EXOBOOST1_NAME	{EXOCRAFT BOOST MODULE (C)}
+UP_EXOBOOST1_NAME_L	{Exocraft Boost Module (C)}
 UP_EXOBOOST1_SUB	{Exocraft Boost Upgrade}
-UP_EXOBOOST2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exocraft Acceleration Module<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXOBOOST2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exocraft Acceleration Module<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>boost tank capacity<> and/or <STELLAR>boost power<>.}
-UP_EXOBOOST2_NAME	{EXOCRAFT BOOST MODULE}
-UP_EXOBOOST2_NAME_L	{Exocraft Boost Module}
+Significantly improves <STELLAR>boost tank capacity<> and <STELLAR>boost power<>.}
+UP_EXOBOOST2_NAME	{EXOCRAFT BOOST MODULE (B)}
+UP_EXOBOOST2_NAME_L	{Exocraft Boost Module (B)}
 UP_EXOBOOST2_SUB	{Significant Exocraft Boost Upgrade}
-UP_EXOBOOST3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exocraft Acceleration Module<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXOBOOST3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exocraft Acceleration Module<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>boost tank capacity<> and/or <STELLAR>boost power<>.}
-UP_EXOBOOST3_NAME	{EXOCRAFT BOOST MODULE}
-UP_EXOBOOST3_NAME_L	{Exocraft Boost Module}
+Dramatically improves <STELLAR>boost tank capacity<> and <STELLAR>boost power<>.}
+UP_EXOBOOST3_NAME	{EXOCRAFT BOOST MODULE (A)}
+UP_EXOBOOST3_NAME_L	{Exocraft Boost Module (A)}
 UP_EXOBOOST3_SUB	{Powerful Exocraft Boost Upgrade}
-UP_EXOBOOST4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exocraft Acceleration Module<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXOBOOST4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exocraft Acceleration Module<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>boost tank capacity<> and/or <STELLAR>boost power<>.}
-UP_EXOBOOST4_NAME	{EXOCRAFT BOOST MODULE}
-UP_EXOBOOST4_NAME_L	{Exocraft Boost Module}
+Dramatically improves <STELLAR>boost tank capacity<> and <STELLAR>boost power<>.}
+UP_EXOBOOST4_NAME	{EXOCRAFT BOOST MODULE (S)}
+UP_EXOBOOST4_NAME_L	{Exocraft Boost Module (S)}
 UP_EXOBOOST4_SUB	{Supreme Exocraft Boost Upgrade}
-UP_EXO_ENG1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Exocraft Engine<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXO_ENG1_DESC	{A <TRADEABLE>moderate<> upgrade for the <TECHNOLOGY>Exocraft Engine<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>fuel efficiency<> and/or <STELLAR>top speed<>.}
-UP_EXO_ENG1_NAME	{EXOCRAFT ENGINE MODULE}
-UP_EXO_ENG1_NAME_L	{Exocraft Engine Module}
+Improves <STELLAR>fuel efficiency<> and <STELLAR>top speed<>.}
+UP_EXO_ENG1_NAME	{EXOCRAFT ENGINE MODULE (C)}
+UP_EXO_ENG1_NAME_L	{Exocraft Engine Module (C)}
 UP_EXO_ENG1_SUB	{Exocraft Engine Upgrade}
-UP_EXO_ENG2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exocraft Engine<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXO_ENG2_DESC	{A <TECHNOLOGY>significant<> upgrade for the <TECHNOLOGY>Exocraft Engine<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>fuel efficiency<> and/or <STELLAR>top speed<>.}
-UP_EXO_ENG2_NAME	{EXOCRAFT ENGINE MODULE}
-UP_EXO_ENG2_NAME_L	{Exocraft Engine Module}
+Significantly improves <STELLAR>fuel efficiency<> and <STELLAR>top speed<>.}
+UP_EXO_ENG2_NAME	{EXOCRAFT ENGINE MODULE (B)}
+UP_EXO_ENG2_NAME_L	{Exocraft Engine Module (B)}
 UP_EXO_ENG2_SUB	{Significant Exocraft Engine Upgrade}
-UP_EXO_ENG3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exocraft Engine<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXO_ENG3_DESC	{An <SPECIAL>extremely powerful<> upgrade for the <TECHNOLOGY>Exocraft Engine<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>fuel efficiency<> and/or <STELLAR>top speed<>.}
-UP_EXO_ENG3_NAME	{EXOCRAFT ENGINE MODULE}
-UP_EXO_ENG3_NAME_L	{Exocraft Engine Module}
+Dramatically improves <STELLAR>fuel efficiency<> and <STELLAR>top speed<>.}
+UP_EXO_ENG3_NAME	{EXOCRAFT ENGINE MODULE (A)}
+UP_EXO_ENG3_NAME_L	{Exocraft Engine Module (A)}
 UP_EXO_ENG3_SUB	{Powerful Exocraft Engine Upgrade}
-UP_EXO_ENG4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exocraft Engine<>. Use <VAL_ON><IMG>FE_ALT1<><> to begin upgrade <VAL_ON>installation process<>.
+UP_EXO_ENG4_DESC	{A <COMMODITY>supremely powerful<> upgrade for the <TECHNOLOGY>Exocraft Engine<>. Use <IMG>FE_ALT1<> to begin upgrade installation process.
 
-The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
-
-Potential improvements include: <STELLAR>fuel efficiency<> and/or <STELLAR>top speed<>.}
-UP_EXO_ENG4_NAME	{EXOCRAFT ENGINE MODULE}
-UP_EXO_ENG4_NAME_L	{Exocraft Engine Module}
+Dramatically improves <STELLAR>fuel efficiency<> and <STELLAR>top speed<>.}
+UP_EXO_ENG4_NAME	{EXOCRAFT ENGINE MODULE (S)}
+UP_EXO_ENG4_NAME_L	{Exocraft Engine Module (S)}
 UP_EXO_ENG4_SUB	{Supreme Exocraft Engine Upgrade}
 FLEET_COMBAT_SCAN_OSD_MESSAGE	{Assist the Fleet!}
 FLEET_COMBAT_THANKS_1	{My thanks, %CAP_RACE%! We would never have made it without you. We shall repay your assistance with a long and fruitful voyage!}
@@ -10669,7 +10348,7 @@ FLEET_TRADING_DAMAGE_23	{Bulk purchased heavy mineral ore from mines on planet %
 FLEET_TRADING_DAMAGE_24	{Docked at station in %SYSTEM% System. Conducted a series of 'highly advantageous' trades with local merchant. Trader became suspicious, pursued fleet and opened fire. Hull damaged during retreat.}
 FLEET_TRADING_DAMAGE_25	{Conducted several highly profitable trades in the %SYSTEM%. Attracted the attention of pirates. Repelled attempted boarding, but suffered significant hull damage during the retreat.}
 FLEET_EXPLORE_T1_1	{Planetary survey team excavated Vy'keen burial chamber. Bodies scanned but otherwise left undisturbed. Valuable contents removed respectfully.}
-FLEET_EXPLORE_T1_2	{Planetary survey team uncovered a Gek loot cache. Multiple layers of booby traps disarmed. Substantial quantity of artifacts recovered with minimal finger damage.}
+FLEET_EXPLORE_T1_2	{Planetary survey team uncovered a Gek loot cache. Multiple layers of booty traps disarmed. Substantial quantity of artifacts recovered with minimal finger damage.}
 FLEET_EXPLORE_T1_3	{Planetary survey team excavated Korvax ruins. Chambers devoid of life, but engravings on the wall revealed several treasures.}
 FLEET_EXPLORE_T1_4	{Planetary survey team excavated remarkable cave system. Vast murals covered the walls, revealing further treasures buried under the ground.}
 FLEET_EXPLORE_T1_5	{Planetary survey team excavated site of considerable historical interest. Substantial horde of documents returned to ship for scanning.}
@@ -11164,7 +10843,6 @@ FLEET_UI_TYPE_SUPPORT	{Support}
 FLEET_UI_TYPE_MINING	{Industrial}
 FLEET_UI_TYPE_BALANCED	{Balanced}
 FLEET_UI_NAME_HEADING	{NAME}
-FLEET_UI_SHIP_TOTAL	{FRIGATE TOTAL}
 FLEET_UI_TOTAL	{TOTAL}
 FLEET_UI_CLASS_HEADING	{CLASS}
 FLEET_UI_TYPE_HEADING	{ROLE}
@@ -11283,12 +10961,11 @@ FLEET_UI_EQUIP_MODULE	{Equip Upgrade Modules}
 FLEET_UI_MODULE_FORMAT	{<TECHNOLOGY>%NAME%:<> %DESC% <COMMODITY>+%STAT%<>}
 FLEET_UI_NO_MODULE	{No Upgrade Equipped}
 FLEET_UI_OUTFITTING	{Proceed to Outfitting}
-POWERUPS_MAINTITLE	{EQUIP FLEET TECHNOLOGY}
+POWERUPS_MAINTITLE	{Equip Fleet Technology}
 POWERUPS_TITLE	{Technology Modules}
 POWERUPS_DESC	{Equip <COMMODITY>temporary frigate upgrades<>.
 
 Technology upgrades function for one expedition, boosting the abilities of all ships in the fleet. Module will be consumed on expedition completion.}
-UI_FREI_BONUS_TITLE	{CAPITAL SHIP & UPGRADES}
 FLEET_UI_COMMENCE	{Launch Expedition}
 FLEET_EXPED_EXPLORE_NAME_1	{%JOURNEY1% into %PLACE%}
 FLEET_EXPED_EXPLORE_NAME_2	{%JOURNEY2% in %PLACE%}
@@ -11744,7 +11421,7 @@ UI_LAUNCHSUB2_NAME	{DEUTERIUM}
 UI_LAUNCHSUB2_NAME_L	{Deuterium}
 UI_LAUNCHSUB2_DESC	{A stable hydrogen isotope used heavily in both small-scale fusion reactors and neutron-scattering shield technology.
 
-Deuterium very rarely occurs naturally. Most of the galaxy's supply comes from the processing of <TECHNOLOGY>Di-hydrogen<> and <TECHNOLOGY>Tritium<> in <TECHNOLOGY>Refiners<>.}
+Deuterium very rarely occurs naturally. Most of the galaxy's supply comes from the processing of <TECHNOLOGY>Di-hydrogen<> in <TECHNOLOGY>Refiners<>.}
 UI_WATER1_SYM	{NaCl}
 UI_WATER1_SUB	{Aquatic Mineral Extract}
 UI_WATER2_SYM	{Na}
@@ -12946,221 +12623,6 @@ NAMEGEN_FLORA_ROOT_249	{Spit}
 NAMEGEN_FLORA_ROOT_250	{Lust}
 ALL_TRADER_OSD	{INCOMING MESSAGE // TRADE FREQUENCY}
 ALL_TRADER_REFUSED	{MESSAGE DECLINED // CHANNEL BUSY}
-DNT_EXP_TRADER_TRADE_LANG_1	{Have been gathering exotic goods deep in space}
-DNT_EXP_TRADER_TRADE_LANG_2	{Lonely, lost their wingmen}
-DNT_EXP_TRADER_TRADE_LANG_3	{Hardworking, honest trader}
-DNT_EXP_TRADER_TRADE_LANG_4	{Need to make a sale to please their boss}
-DNT_EXP_TRADER_TRADE_LANG_5	{nearly paid off their ship}
-DNT_EXP_TRADER_TRADE_LANG_6	{selling all their stuff to buy a cool gun or whatever}
-DNT_TRA_TRADER_TRADE_LANG_1	{Have been gathering exotic goods deep in space}
-DNT_TRA_TRADER_TRADE_LANG_2	{Lonely, lost their wingmen}
-DNT_TRA_TRADER_TRADE_LANG_3	{Hardworking, honest trader}
-DNT_TRA_TRADER_TRADE_LANG_4	{Need to make a sale to please their boss}
-DNT_TRA_TRADER_TRADE_LANG_5	{nearly paid off their ship}
-DNT_TRA_TRADER_TRADE_LANG_6	{selling all their stuff to buy a cool gun or whatever}
-DNT_WAR_TRADER_TRADE_LANG_1	{Have been gathering exotic goods deep in space}
-DNT_WAR_TRADER_TRADE_LANG_2	{Lonely, lost their wingmen}
-DNT_WAR_TRADER_TRADE_LANG_3	{Hardworking, honest trader}
-DNT_WAR_TRADER_TRADE_LANG_4	{Need to make a sale to please their boss}
-DNT_WAR_TRADER_TRADE_LANG_5	{nearly paid off their ship}
-DNT_WAR_TRADER_TRADE_LANG_6	{selling all their stuff to buy a cool gun or whatever}
-ALL_TRADER_TRADE_DESC_1	{Although I cannot be sure of their precise meaning, this trader appears keen to do business.}
-ALL_TRADER_TRADE_DESC_2	{The trader gestures happily, pleased to have made contact with a fellow spacefarer.}
-ALL_TRADER_TRADE_DESC_3	{The pilot indicates they wish to trade, but they seem cautious. Eventually they relax, and prepare their manifest.}
-ALL_TRADER_TRADE_DESC_4	{The pilot jabbers at me, excited to have made contact with another trader.}
-ALL_TRADER_TRADE_DESC_5	{Even before I speak, the pilot has already prepared their cargo manifest. They seem keen to do a deal.}
-ALL_TRADER_TRADE_DESC_6	{The pilot prepares their trading systems. Their cargo is ready for inspection.}
-ALL_TRADER_TRADE_DESC_7	{The trader examines my cargo data. They try to appear calm, but they do a poor job. They cannot hide just how keen they are to do a deal.}
-ALL_TRADER_TRADE_DESC_8	{The pilot chatters away, thrilled. They appear to have been travelling through space for a long time, cut off from normal conversation.}
-ALL_TRADER_TRADE_DESC_9	{The trader gestures happily, keen to do business directly, free from the interference and regulation of the Galactic Trade Terminals.}
-ALL_TRADER_TRADE_DESC_10	{Although their speech is garbled and confusing, the pilot's meaning is clear. They speak in the universal language of money.}
-ALL_TRADER_TRADE_OPT_A	{Examine cargo manifest}
-ALL_TRADER_TRADE_OPT_B	{End communication}
-ALL_TRADER_TRADE_OPT_A_ALT	{Buy products}
-ALL_TRADER_TRADE_OPT_B_ALT	{Buy substances}
-ALL_TRADER_TRADE_RES_B_1	{To the disappointment of the trader, I decline to inspect their goods.}
-ALL_TRADER_TRADE_RES_B_2	{I have little need of trade at the moment, and decline the chance to browse the pilot's wares.}
-ALL_TRADER_TRADE_RES_B_3	{This trader looks as if they have little to offer. I would do better to trade elsewhere.}
-DNT_EXP_TRADER_OFFLOAD_LANG_1	{I'm a Korvax! Want to buy these specific items?}
-DNT_EXP_TRADER_OFFLOAD_LANG_2	{I'm a Korvax! Want to buy these specific items?}
-DNT_EXP_TRADER_OFFLOAD_LANG_3	{I'm a Korvax! Want to buy these specific items?}
-DNT_TRA_TRADER_OFFLOAD_LANG_1	{I'm a Gek! Want to buy these specific items?}
-DNT_TRA_TRADER_OFFLOAD_LANG_2	{I'm a Gek! Want to buy these specific items?}
-DNT_TRA_TRADER_OFFLOAD_LANG_3	{I'm a Gek! Want to buy these specific items?}
-DNT_WAR_TRADER_OFFLOAD_LANG_1	{I'm a Vy'keen! Want to buy these specific items?}
-DNT_WAR_TRADER_OFFLOAD_LANG_2	{I'm a Vy'keen! Want to buy these specific items?}
-DNT_WAR_TRADER_OFFLOAD_LANG_3	{I'm a Vy'keen! Want to buy these specific items?}
-ALL_TRADER_OFFLOAD_DESC_1	{Excited to see another pilot, the trader offers me one of their collection of rare and precious items.}
-ALL_TRADER_OFFLOAD_DESC_2	{The pilot seems like a normal trader, but instead of the usual range of goods, they carry only trinkets and curios. I wonder what lead to such an unusual cargo...}
-ALL_TRADER_OFFLOAD_DESC_3	{This trader doesn't speak like the other merchants I've met. They appear to be a specialist, carrying only the most unusual items...}
-ALL_TRADER_OFFLOAD_DESC_4	{I do not know exactly who this pilot is. A trader? A historian? A grave robber? Either way, they appear to be peddling trinkets.}
-ALL_TRADER_OFFLOAD_DESC_5	{The trader transmits their cargo manifest, revealing a strange collection. Their hold is full of relics, items of importance to their people. They appear willing to part with them...}
-ALL_TRADER_OFFLOAD_OPT_A	{Bargain for Relic}
-ALL_TRADER_OFFLOAD_OPT_D	{Decline}
-ALL_TRADER_OFFLOAD_RES_A_1	{I accept the trader's offer. I'm sure I will find a use for this relic, or it will find a use for me...}
-ALL_TRADER_OFFLOAD_RES_A_2	{The relic is worth the asking price. Even if I am unsure what exactly it's for, these items are highly valued by the people who live in this system.}
-ALL_TRADER_OFFLOAD_RES_A_3	{The trader sends me the relic and leaves, happy to have spread whatever it is they think they're spreading.}
-ALL_TRADER_OFFLOAD_RES_B_1	{I decline the trader's strange collection of trinkets.}
-ALL_TRADER_OFFLOAD_RES_B_2	{I thank the trader for their offer, but decline to take one of their relics.}
-ALL_TRADER_OFFLOAD_RES_B_3	{I have no need of the merchant's relics right now. I thank them for the offer, and end the communication.}
-DNT_EXP_TRADER_REPAIR_LANG_1	{I'm a korvax and my ship is busted}
-DNT_EXP_TRADER_REPAIR_LANG_2	{I'm a korvax and my ship is busted}
-DNT_EXP_TRADER_REPAIR_LANG_3	{I'm a korvax and my ship is busted}
-DNT_TRA_TRADER_REPAIR_LANG_1	{I'm a gek and my ship is busted}
-DNT_TRA_TRADER_REPAIR_LANG_2	{I'm a gek and my ship is busted}
-DNT_TRA_TRADER_REPAIR_LANG_3	{I'm a gek and my ship is busted}
-DNT_WAR_TRADER_REPAIR_LANG_1	{I'm a vy'keen and my ship is busted}
-DNT_WAR_TRADER_REPAIR_LANG_2	{I'm a vy'keen and my ship is busted}
-DNT_WAR_TRADER_REPAIR_LANG_3	{I'm a vy'keen and my ship is busted}
-ALL_TRADER_REPAIR_DESC_1	{The communicator image sputters, the signal weakening rapidly. %NAME%'s ship appears to be in urgent need of repair. It may not last another warp.}
-ALL_TRADER_REPAIR_DESC_2	{The communicator image sputters, the signal weakening rapidly. %NAME%'s ship appears to be in urgent need of repair. It may not last another warp.}
-ALL_TRADER_REPAIR_DESC_3	{The communicator image sputters, the signal weakening rapidly. %NAME%'s ship appears to be in urgent need of repair. It may not last another warp.}
-ALL_TRADER_REPAIR_DESC_4	{The communicator image sputters, the signal weakening rapidly. %NAME%'s ship appears to be in urgent need of repair. It may not last another warp.}
-ALL_TRADER_REPAIR_DESC_5	{The communicator image sputters, the signal weakening rapidly. %NAME%'s ship appears to be in urgent need of repair. It may not last another warp.}
-ALL_TRADER_REPAIR_OPT_A	{Offer to Repair}
-ALL_TRADER_REPAIR_OPT_D	{Decline}
-ALL_TRADER_REPAIR_RES_A_1	{The lifeform's eyes widen with gratitude. They give me what they can spare before departing to repair their ship.}
-ALL_TRADER_REPAIR_RES_A_2	{The lifeform's eyes widen with gratitude. They give me what they can spare before departing to repair their ship.}
-ALL_TRADER_REPAIR_RES_A_3	{The lifeform's eyes widen with gratitude. They give me what they can spare before departing to repair their ship.}
-ALL_TRADER_REPAIR_RES_B_1	{%NAME% slumps in dismay. They depart without a word, perhaps to seek help elsewhere.}
-ALL_TRADER_REPAIR_RES_B_2	{%NAME% slumps in dismay. They depart without a word, perhaps to seek help elsewhere.}
-ALL_TRADER_REPAIR_RES_B_3	{%NAME% slumps in dismay. They depart without a word, perhaps to seek help elsewhere.}
-DNT_EXP_TGUILD_GREET_UNKNOWN_1	{Apologies, probable customer entity. Purchase unavailable at this station.}
-DNT_TRA_TGUILD_GREET_UNKNOWN_1	{Merchants Guild trade is only available to registered members. Seek business elsewhere.}
-DNT_WAR_TGUILD_GREET_UNKNOWN_1	{Grah! Interloper must prove trade skill before worthy of Merchants Guild time!}
-DNT_EXP_TGUILD_GREET_LOW_1	{Greetings. Guild discount is not available to low rank members, sorry.}
-DNT_TRA_TGUILD_GREET_LOW_1	{Welcome, initiate trader! Have you brought much to sell?}
-DNT_WAR_TGUILD_GREET_LOW_1	{Greetings, pathetic initiate.}
-DNT_EXP_TGUILD_GREET_MED_1	{Hello, merchant entity. Trade success to report?}
-DNT_TRA_TGUILD_GREET_MED_1	{Greetings, friend in trades. We hope bargains always find you.}
-DNT_WAR_TGUILD_GREET_MED_1	{Grah! Interloper trade strength is improving. Good.}
-DNT_EXP_TGUILD_GREET_HIGH_1	{Ah. Recognised trade entity. This shell is at your service.}
-DNT_TRA_TGUILD_GREET_HIGH_1	{Welcome! Merchants speak of your trade skills, friend.}
-DNT_WAR_TGUILD_GREET_HIGH_1	{Interloper has well-earned triumph in trade. Welcome.}
-DNT_EXP_TGUILD_GREET_BEST_1	{Entity trade intelligence: high. Guild: pleased.}
-DNT_TRA_TGUILD_GREET_BEST_1	{I cower before you, Trade Lord.}
-DNT_WAR_TGUILD_GREET_BEST_1	{I salute your strength in trade, interloper!}
-DNT_EXP_EGUILD_GREET_UNKNOWN_1	{Unknown entity is irrelevance to Guild of Explorers. Goodbye.}
-DNT_TRA_EGUILD_GREET_UNKNOWN_1	{Explorers Guild has not discovered maybe-friend. No time to spend on you!}
-DNT_WAR_EGUILD_GREET_UNKNOWN_1	{Grah! Explorers Guild has no knowledge of interloper! Goodbye!}
-DNT_EXP_EGUILD_GREET_LOW_1	{Welcome, apprentice. Have you discovered much?}
-DNT_TRA_EGUILD_GREET_LOW_1	{Hello, apprentice friend. How much universe have you discovered?}
-DNT_WAR_EGUILD_GREET_LOW_1	{Grah! Interloper is still apprentice! Stop talk, journey further!}
-DNT_EXP_EGUILD_GREET_MED_1	{Greetings, seeker entity. May the creatures be great and the plants many.}
-DNT_TRA_EGUILD_GREET_MED_1	{Hello, fellow member. Many new systems in your logs?}
-DNT_WAR_EGUILD_GREET_MED_1	{Greetings, interloper. Seek, journey, interlope further.}
-DNT_EXP_EGUILD_GREET_HIGH_1	{Superior seeker is acknowledged by Explorers Guild. Greetings.}
-DNT_TRA_EGUILD_GREET_HIGH_1	{Your logs impress the Explorers Guild, friend!}
-DNT_WAR_EGUILD_GREET_HIGH_1	{Interloper has impressed in battle for knowledge.}
-DNT_EXP_EGUILD_GREET_BEST_1	{Excellent navigational record. High value to Explorers Guild.}
-DNT_TRA_EGUILD_GREET_BEST_1	{Friend is rich in knowledge! So much research logged!}
-DNT_WAR_EGUILD_GREET_BEST_1	{I salute you and your wisdom! Grah!}
-DNT_EXP_WGUILD_GREET_UNKNOWN_1	{Hmm. Entity is unknown to Mercenaries Guild. Respect impossible at this time.}
-DNT_TRA_WGUILD_GREET_UNKNOWN_1	{Who are you, maybe-friend? Strong spawn or weak? Mercenaries Guild does not know.}
-DNT_WAR_WGUILD_GREET_UNKNOWN_1	{Grah! Mercenaries Guild has no respect for unknown interloper. Prove strength before you return.}
-DNT_EXP_WGUILD_GREET_LOW_1	{Greetings, apprentice in violence. Combat score is improving.}
-DNT_TRA_WGUILD_GREET_LOW_1	{Your death scent is still weak, new friend. Be quick here.}
-DNT_WAR_WGUILD_GREET_LOW_1	{How is your body count, warrior apprentice? Improving?}
-DNT_EXP_WGUILD_GREET_MED_1	{The Mercenaries Guild welcomes you, entity of combat.}
-DNT_TRA_WGUILD_GREET_MED_1	{Welcome, fellow merchant of death. Enjoy much luck in war!}
-DNT_WAR_WGUILD_GREET_MED_1	{Interloper demonstrates increase in strength. Could soon be great warrior. Grah!}
-DNT_EXP_WGUILD_GREET_HIGH_1	{Biological entity is performing well with weaponry. Commendable.}
-DNT_TRA_WGUILD_GREET_HIGH_1	{Hello, friend in death! Fight hard, take loot, drink rival blood!}
-DNT_WAR_WGUILD_GREET_HIGH_1	{Death! Death! Death! Interloper has slain many foes!}
-DNT_EXP_WGUILD_GREET_BEST_1	{Greetings, superior rank member.}
-DNT_TRA_WGUILD_GREET_BEST_1	{Welcome, admired friend!}
-DNT_WAR_WGUILD_GREET_BEST_1	{I salute you, supreme commander!}
-NPC_TGUILD_GREET_UNKNOWN_DESC_1	{Though their words are unclear, the badge on the lifeform's uniform is unmistakable. They are an envoy of the Merchant's Guild.
-They do not seem particularly interested in trading with me, however.}
-NPC_TGUILD_GREET_UNKNOWN_DESC_2	{I have seen this alien's insignia before. They are a member of the Merchants Guild.
-They do not seem to have any business for me at the moment. Perhaps the <SPECIAL>Mission Listings Agent<> on the station might have a way to prove my worth?}
-NPC_TGUILD_GREET_LOW_DESC_1	{I recognise this alien as a fellow trader, another member of the Merchants Guild.}
-NPC_TGUILD_GREET_LOW_DESC_2	{Their keen mercantile eyes give this lifeform away as a member of the Merchants Guild, a fellow trader looking to make their way in the galaxy.}
-NPC_TGUILD_GREET_LOW_DESC_3	{The lifeform bows gently, more in ritual than respect. They flash their badge, revealing themselves as the Merchants Guild representative in this system.}
-NPC_TGUILD_GREET_MED_DESC_1	{The alien, who appears to be the Merchant Guild envoy in this system, scanned me subtly as I approached. Having seen my rank with the Guild, they apologise for the intrusion and greet me with warmth.}
-NPC_TGUILD_GREET_MED_DESC_2	{The alien transmits a short data sequence, revealing themselves as the Merchants Guild's official representative in this system.
-Despite their apparent friendliness, I cannot help but think they are assessing me, working out how to best me in a deal.}
-NPC_TGUILD_GREET_MED_DESC_3	{The lifeform nods at me. I do not believe I have met them before, but they clearly recognise me. They must be the Merchants Guild representative in this system.}
-NPC_TGUILD_GREET_HIGH_DESC_1	{The alien greets me warmly. They work for the Merchants Guild, keeping an eye on business in this system. They have a message to relay.}
-NPC_TGUILD_GREET_HIGH_DESC_2	{The lifeform identifies themself as the Merchants Guild representative in this system. We perform the mutual exchange of units that Guild protocol demands.}
-NPC_TGUILD_GREET_HIGH_DESC_3	{The lifeform shows their identification, the badge of a middle-ranking envoy of the Merchants Guild. They bow, pleased to have me visit their system.}
-NPC_TGUILD_GREET_BEST_DESC_1	{The lifeform, an envoy of the Merchants Guild, seems excited to see me. They give a short, hesitant gesture, as if apologising for the lack of wealth and status in their system.}
-NPC_TGUILD_GREET_BEST_DESC_2	{The alien jabbers excitedly, transmitting a sequence of recent profitable deals. They are the Merchants Guild envoy in this system, and keen to impress.}
-NPC_TGUILD_GREET_BEST_DESC_3	{The lifeform greets me as a high-ranking member of the Merchants Guild, performing the special gestures required at such a meeting.}
-NPC_EGUILD_GREET_UNKNOWN_DESC_1	{The lifeform carries both the badge of the Explorers Guild and the worldly pose of one who has broken ground on many strange planets.
-For a supposedly curious lifeform, I do not seem to provoked much interest. Perhaps they deem me unworthy of study.}
-NPC_EGUILD_GREET_UNKNOWN_DESC_2	{I have seen this alien's insignia before. They are a member of the Explorers Guild.
-They do not seem interested in the data I have to offer. Perhaps the <SPECIAL>Mission Listings Agent<> on the station might have a way to prove my worth?}
-NPC_EGUILD_GREET_LOW_DESC_1	{The lifeform examines me before revealing their credentials as a member of the Explorers Guild.}
-NPC_EGUILD_GREET_LOW_DESC_2	{The alien reveals themselves as an envoy of the Explorers Guild. They appear to be assessing me, but to what end? To learn my worth as an explorer, or simply as an object of curiosity?}
-NPC_EGUILD_GREET_LOW_DESC_3	{The lifeform presents their Explorers Guild credentials, showing themselves as the official envoy for this system. For some reason, they also transmit a detailed record of every plant they've ever discovered.}
-NPC_EGUILD_GREET_MED_DESC_1	{The lifeform flashes a small holographic display, a 3D token of their status as the Explorers Guild envoy in this system.}
-NPC_EGUILD_GREET_MED_DESC_2	{The alien reveals their Explorers Guild credentials, the paperwork of an official envoy.}
-NPC_EGUILD_GREET_MED_DESC_3	{The lifeform shows their identification as an official of the Explorers Guild, but not before attempting to scan me for data.}
-NPC_EGUILD_GREET_HIGH_DESC_1	{The lifeform jabbers excitedly, happy to share their latest research with a fellow member of the Explorer's Guild.}
-NPC_EGUILD_GREET_HIGH_DESC_2	{The alien reveals themselves as an explorer of some standing with the Guild. They welcome me to their system.}
-NPC_EGUILD_GREET_HIGH_DESC_3	{The lifeform greets me warmly, revealing themselves as the Explorers Guild's leading researcher in this system.}
-NPC_EGUILD_GREET_BEST_DESC_1	{The lifeform subjects me to a brief analysis before bowing deeply. They are the official Explorers Guild representative in this system.}
-NPC_EGUILD_GREET_BEST_DESC_2	{The alien greets me with a selection of interesting images taken in this system. As the Explorers Guild envoy here, they are keen that I see the sights.}
-NPC_EGUILD_GREET_BEST_DESC_3	{The lifeform scans me, scans themselves, and finally scans the Explorers Guild insignia they have projected in front of them. The ritual over, they bow before me.}
-NPC_WGUILD_GREET_UNKNOWN_DESC_1	{The alien's aggressive tone and rough demeanor mark them out as a mercenary. I hope they are here in some official capacity, rather than undertaking a mission.}
-NPC_WGUILD_GREET_UNKNOWN_DESC_2	{The lifeform glares at me briefly, shaking their head. They seem to be a representative of the Guild of Mercenaries.
-Perhaps I could impress them by undertaking work from the <SPECIAL>Mission Listings Agent<>?}
-NPC_WGUILD_GREET_LOW_DESC_1	{The alien gives a terse salute. Their insignia is of a middle-ranking officer of the Mercenaries Guild.}
-NPC_WGUILD_GREET_LOW_DESC_2	{The lifeform barks at me in a grumpy tone. Their badge shows them as an envoy of the Mercenaries Guild.}
-NPC_WGUILD_GREET_LOW_DESC_3	{The alien looks at me, disappointed. They are an official of the Mercenaries Guild, and I think they expected me to salute.}
-NPC_WGUILD_GREET_MED_DESC_1	{The alien, wearing the uniform of a Mercenaries Guild envoy, looks me up and down. I appear to pass muster.}
-NPC_WGUILD_GREET_MED_DESC_2	{The lifeform, a gruff look upon their face, welcomes me to the system on behalf of the Mercenaries Guild.}
-NPC_WGUILD_GREET_MED_DESC_3	{The lifeform makes a gesture of respect, an acknowledgement from one Mercenaries Guild operative to another.}
-NPC_WGUILD_GREET_HIGH_DESC_1	{The lifeform wears the insignia of the Mercenaries Guild, and stands to attention as I approach.}
-NPC_WGUILD_GREET_HIGH_DESC_2	{The alien, scarred from battle, salutes me as I approach. They are the Mercenaries Guild commander in this system.}
-NPC_WGUILD_GREET_HIGH_DESC_3	{The lifeform, with their neatly pressed uniform and alert, precise mannerisms, welcomes me to the system on behalf of the local Mercenaries Guild.}
-NPC_WGUILD_GREET_BEST_DESC_1	{The lifeform snaps to attention as soon as they see me. Their Mercenaries Guild badge has been polished so vigourously that I can see my reflection in it.}
-NPC_WGUILD_GREET_BEST_DESC_2	{The lifeform makes a great show of their salute. As the official Mercenaries Guild envoy in this system, it is their duty to receive high-ranking members in a fitting style.}
-NPC_WGUILD_GREET_BEST_DESC_3	{The alien wears the badge of a Mercenaries Guild commander. They give me a particularly energetic salute.}
-DNT_EXP_GUILD_MISSION_OFFER_1	{The guild requests assistance with this mission.}
-DNT_TRA_GUILD_MISSION_OFFER_1	{The guild requests assistance with this mission.}
-DNT_WAR_GUILD_MISSION_OFFER_1	{The guild requests assistance with this mission.}
-DNT_EXP_GUILD_TITHE_OFFER_1	{Valuable guild entity: please accept this this percent of earning.}
-DNT_TRA_GUILD_TITHE_OFFER_1	{This share of profits is for you, friend.}
-DNT_WAR_GUILD_TITHE_OFFER_1	{This bounty is from the guild, interloper. Well-earned!}
-DNT_EXP_GUILD_PRESENT_OFFER_1	{Valuable guild entity: please accept this gift.}
-DNT_TRA_GUILD_PRESENT_OFFER_1	{This gift is for you, friend.}
-DNT_WAR_GUILD_PRESENT_OFFER_1	{A gift from the guild, interloper.}
-NPC_GUILD_MISSION_OFFER_DESC_1	{They appear to have some special Guild business that needs attending to, and request my assistance.}
-NPC_GUILD_MISSION_OFFER_DESC_2	{They hesitate, clearing hoping I will assist them with some official Guild business.}
-NPC_GUILD_MISSION_OFFER_DESC_3	{They transmit specific data, a mission that they cannot entrust to the listings agent. They hope I will be of assistance.}
-NPC_GUILD_MISSION_OFFER_DESC_4	{They appear to have a problem client, one with a task they feel they can only entrust to a Guild member in good standing.}
-NPC_GUILD_MISSION_OFFER_DESC_5	{They offer me the chance to take on a particularly lucrative mission, a task for a favoured client.}
-NPC_GUILD_TITHE_OFFER_DESC_1	{They have no particular business for me today, but are pleased to be able to present me my share of local operating profits.}
-NPC_GUILD_TITHE_OFFER_DESC_2	{The Guild here has no special tasks at the moment, but they have had a recent windfall. They are sharing the loot with all Guild members.}
-NPC_GUILD_TITHE_OFFER_DESC_3	{They present me with my share of recent Guild profits, accounting for my rank.}
-NPC_GUILD_TITHE_OFFER_DESC_4	{Their greeting over, the envoy turns to business. They tally up what I am due from the Guild, my share of recent profits minus membership fees owed.}
-NPC_GUILD_TITHE_OFFER_DESC_5	{They present me with an itemised list, a transaction record for the Guild's local operations. They offer me a sum of money, my share of the profits.}
-NPC_GUILD_PRESENT_OFFER_DESC_1	{They offer me a present, a product of the local system that they hope will assist me in my work.}
-NPC_GUILD_PRESENT_OFFER_DESC_2	{They have no specific work for me at the moment. They seem apologetic, and offer me a small gift as recompense.}
-NPC_GUILD_PRESENT_OFFER_DESC_3	{The Guild here has matters in hand, and has no need of any special operations. However, the envoy does have a gift for me, to mark the occasion.}
-NPC_GUILD_PRESENT_OFFER_DESC_4	{The Guild here is flourishing, and all members are being offered gifts as thanks for their work. The envoy presents me with an item they claim to have picked out for me specially.}
-NPC_GUILD_PRESENT_OFFER_DESC_5	{They make a great show of presenting me with a gift, an item acquired by a Guild operative on a recent mission.}
-NPC_GUILD_ACCEPT_MISSION	{Accept Mission}
-NPC_GUILD_ACCEPT_GIFT	{Accept Gift}
-NPC_GUILD_ACCEPT_GIFT_RES_1	{I accept the envoy's gift, and make a gesture of thanks.}
-NPC_GUILD_ACCEPT_GIFT_RES_2	{I take the present, thanking the Guild and its official.}
-NPC_GUILD_ACCEPT_GIFT_RES_3	{I take the gift, and promise to commend the envoy's work to their superiors.}
-NPC_GUILD_DECLINE_MISSION	{Decline Mission}
-NPC_GUILD_DECLINE_MISSION_RES_1	{I turn down their mission. I have other things that need doing.}
-NPC_GUILD_DECLINE_MISSION_RES_2	{I decline their task. The client will have to wait.}
-NPC_GUILD_DECLINE_MISSION_RES_3	{I decline to help the envoy with their task. I hope they will not be offended.}
-NPC_GUILD_DECLINE_GIFT	{Decline Gift}
-NPC_GUILD_DECLINE_GIFT_RES_1	{I turn down their offer. I am a member of the Guild, but it does not define me. I take nothing, I owe nothing.}
-NPC_GUILD_DECLINE_GIFT_RES_2	{I decline their offer. I do not need the Guild's assistance.}
-NPC_GUILD_DECLINE_GIFT_RES_3	{I reject the envoy's present. They seem offended.}
-NPC_GUILD_SECONDARY_DESC_1	{The envoy looks busy. I should leave them be.}
-NPC_GUILD_SECONDARY_DESC_2	{I should leave %NAME% be. They have important Guild business to attend to, no doubt.}
-NPC_GUILD_SECONDARY_DESC_3	{The Guild envoy in this system has nothing more to offer me.}
-NPC_GUILD_SECONDARY_DESC_4	{%NAME% has plenty of Guild business to work on without repeating information for me.}
-NPC_GUILD_SECONDARY_DESC_5	{I have caused enough excitement for %NAME% already. I should let them get on with their other Guild work.}
-INTRCT_GUILD_ENVOY	{Guild Envoy}
 DNT_EXP_TRADER_DEMAND_SORRY_LAN	{Korvax assumes this assault was in error. Correct the error and no more will be said.}
 DNT_EXP_TRADER_DEMAND_SORRY_LAN	{Fascinating new data. Pilot believes they can best Korvax in combat. Retract delusion yes / no?}
 DNT_EXP_TRADER_DEMAND_SORRY_LAN	{Eheu! Ship is new, pristine! Repairs will be most costly. Transfer units immediately!}
@@ -13230,6 +12692,41 @@ ALL_TRADER_HOSTILE_RES_A_3	{I will not be bullied by some scheming trader. If th
 ALL_TRADER_HOSTILE_RES_B_1	{The 'trader' accepts my offer. I write it off as the cost of doing business in dangerous space.}
 ALL_TRADER_HOSTILE_RES_B_2	{My offer seems to have calmed the trader. We leave each other in peace, at least for now.}
 ALL_TRADER_HOSTILE_RES_B_3	{The 'trader' made their meaning clear. I hand over a payment, and they fly away happy.}
+DNT_EXP_TRADER_TRADE_LANG_1	{Have been gathering exotic goods deep in space}
+DNT_EXP_TRADER_TRADE_LANG_2	{Lonely, lost their wingmen}
+DNT_EXP_TRADER_TRADE_LANG_3	{Hardworking, honest trader}
+DNT_EXP_TRADER_TRADE_LANG_4	{Need to make a sale to please their boss}
+DNT_EXP_TRADER_TRADE_LANG_5	{nearly paid off their ship}
+DNT_EXP_TRADER_TRADE_LANG_6	{selling all their stuff to buy a cool gun or whatever}
+DNT_TRA_TRADER_TRADE_LANG_1	{Have been gathering exotic goods deep in space}
+DNT_TRA_TRADER_TRADE_LANG_2	{Lonely, lost their wingmen}
+DNT_TRA_TRADER_TRADE_LANG_3	{Hardworking, honest trader}
+DNT_TRA_TRADER_TRADE_LANG_4	{Need to make a sale to please their boss}
+DNT_TRA_TRADER_TRADE_LANG_5	{nearly paid off their ship}
+DNT_TRA_TRADER_TRADE_LANG_6	{selling all their stuff to buy a cool gun or whatever}
+DNT_WAR_TRADER_TRADE_LANG_1	{Have been gathering exotic goods deep in space}
+DNT_WAR_TRADER_TRADE_LANG_2	{Lonely, lost their wingmen}
+DNT_WAR_TRADER_TRADE_LANG_3	{Hardworking, honest trader}
+DNT_WAR_TRADER_TRADE_LANG_4	{Need to make a sale to please their boss}
+DNT_WAR_TRADER_TRADE_LANG_5	{nearly paid off their ship}
+DNT_WAR_TRADER_TRADE_LANG_6	{selling all their stuff to buy a cool gun or whatever}
+ALL_TRADER_TRADE_DESC_1	{Although I cannot be sure of their precise meaning, this trader appears keen to do business.}
+ALL_TRADER_TRADE_DESC_2	{The trader gestures happily, pleased to have made contact with a fellow spacefarer.}
+ALL_TRADER_TRADE_DESC_3	{The pilot seems cautious. Eventually they relax, persuaded of my peaceful intentions.}
+ALL_TRADER_TRADE_DESC_4	{The trader jabbers at me, excited to have made contact with another trader.}
+ALL_TRADER_TRADE_DESC_5	{Even before I speak, the pilot has already prepared their cargo manifest. They seem keen to do a deal.}
+ALL_TRADER_TRADE_DESC_6	{The pilot prepares their trading systems. Their cargo is ready for inspection.}
+ALL_TRADER_TRADE_DESC_7	{The trader examines my cargo data. They try to appear calm, but they do a poor job. They cannot hide just how keen they are to do a deal.}
+ALL_TRADER_TRADE_DESC_8	{The pilot chatters away, thrilled. They appear to have been travelling through space for a long time, cut off from normal conversation.}
+ALL_TRADER_TRADE_DESC_9	{The trader gestures happily, keen to do business directly, free from the interference and regulation of the Galactic Trade Terminals.}
+ALL_TRADER_TRADE_DESC_10	{Although their speech is garbled and confusing, the trader's meaning is clear. They speak in the universal language of money.}
+ALL_TRADER_TRADE_OPT_A	{Examine cargo manifest}
+ALL_TRADER_TRADE_OPT_B	{End communication}
+ALL_TRADER_TRADE_OPT_A_ALT	{Buy products}
+ALL_TRADER_TRADE_OPT_B_ALT	{Buy substances}
+ALL_TRADER_TRADE_RES_B_1	{To the disappointment of the trader, I decline to inspect their goods.}
+ALL_TRADER_TRADE_RES_B_2	{I have little need of trade at the moment, and decline the chance to browse the pilot's wares.}
+ALL_TRADER_TRADE_RES_B_3	{This trader looks as if they have little to offer. I would do better to trade elsewhere.}
 DNT_EXP_TRADER_AMBUSH_LANG_1	{Pretends to have been attacked}
 DNT_EXP_TRADER_AMBUSH_LANG_2	{Wants you to transfer fuel}
 DNT_EXP_TRADER_AMBUSH_LANG_3	{Pretends to have been attacked}
@@ -13308,3 +12805,232 @@ ALL_TRADER_THANK_RES_A_3	{The trader transmit the cargo and hurries away, reliev
 ALL_TRADER_THANK_RES_B_1	{I decline the trader's offer. Destroying pirates is its own reward.}
 ALL_TRADER_THANK_RES_B_2	{I refuse the gift, and wish them luck avoiding pirates in the future.}
 ALL_TRADER_THANK_RES_B_3	{I tell the trader to keep their cargo. They'll need all they can to pay for the repair of their ship.}
+DNT_EXP_TRADER_OFFLOAD_LANG_1	{‘profit share’}
+DNT_EXP_TRADER_OFFLOAD_LANG_2	{Too many luxury goods, needs help carrying them}
+DNT_EXP_TRADER_OFFLOAD_LANG_3	{I'm a Korvax! Want to buy these specific items?}
+DNT_TRA_TRADER_OFFLOAD_LANG_1	{I'm a Gek! Want to buy these specific items?}
+DNT_TRA_TRADER_OFFLOAD_LANG_2	{I'm a Gek! Want to buy these specific items?}
+DNT_TRA_TRADER_OFFLOAD_LANG_3	{I'm a Gek! Want to buy these specific items?}
+DNT_WAR_TRADER_OFFLOAD_LANG_1	{I'm a Vy'keen! Want to buy these specific items?}
+DNT_WAR_TRADER_OFFLOAD_LANG_2	{I'm a Vy'keen! Want to buy these specific items?}
+DNT_WAR_TRADER_OFFLOAD_LANG_3	{I'm a Vy'keen! Want to buy these specific items?}
+ALL_TRADER_OFFLOAD_DESC_1	{Excited to see another pilot, the trader offers me one of their collection of rare and precious items.}
+ALL_TRADER_OFFLOAD_DESC_2	{The pilot seems like a normal trader, but instead of the usual range of goods, they carry only trinkets and curios. I wonder what lead to such an unusual cargo...}
+ALL_TRADER_OFFLOAD_DESC_3	{This trader doesn't speak like the other merchants I've met. They appear to be a specialist, carrying only the most unusual items...}
+ALL_TRADER_OFFLOAD_DESC_4	{I do not know exactly who this pilot is. A trader? A historian? A monk of some sort? Either way, they appear to be peddling trinkets.}
+ALL_TRADER_OFFLOAD_DESC_5	{The trader transmits their cargo manifest, revealing a strange collection. Their hold is full of relics, items of importance to their people. They appear willing to part with them...}
+TRA_TRADER_OFFLOAD_OPT_A	{Buy Gek Relic}
+TRA_TRADER_OFFLOAD_OPT_B	{Buy GekNip}
+TRA_TRADER_OFFLOAD_OPT_C	{Buy Gek Charm}
+EXP_TRADER_OFFLOAD_OPT_A	{Buy Korvax Casing}
+EXP_TRADER_OFFLOAD_OPT_B	{Buy Fascination Bead}
+EXP_TRADER_OFFLOAD_OPT_C	{Buy Convergence Cube}
+WAR_TRADER_OFFLOAD_OPT_A	{Buy Vy'keen Effigy}
+WAR_TRADER_OFFLOAD_OPT_B	{Buy GrahGrah}
+WAR_TRADER_OFFLOAD_OPT_C	{Buy Vy'keen Dagger}
+ALL_TRADER_OFFLOAD_OPT_D	{Decline}
+ALL_TRADER_OFFLOAD_RES_A_1	{I accept the trader's offer. I'm sure I will find a use for this relic.}
+ALL_TRADER_OFFLOAD_RES_A_2	{The relic is worth the asking price. Even if I am unsure what exactly it's for, these items are highly valued by the people who live in this system.}
+ALL_TRADER_OFFLOAD_RES_A_3	{The trader sends me the relic and leaves, happy to have spread whatever it is they think they're spreading.}
+ALL_TRADER_OFFLOAD_RES_B_1	{I decline the trader's strange collection of trinkets.}
+ALL_TRADER_OFFLOAD_RES_B_2	{I thank the trader for their offer, but decline to take one of their relics.}
+ALL_TRADER_OFFLOAD_RES_B_3	{I have no need of the merchant's relics right now. I thank them for the offer, and end the communication.}
+DNT_NPC_TGUILD_GREET_UNKNOWN_1	{Greetings. Are you a customer? Direct purchase is not available at this station.}
+DNT_NPC_TGUILD_GREET_UNKNOWN_2	{Merchants Guild trade is only available to registered members. Seek business elsewhere.}
+DNT_EXP_TGUILD_GREET_UNKNOWN_1	{Apologies, probable customer entity. Purchase unavailable at this station.}
+DNT_TRA_TGUILD_GREET_UNKNOWN_1	{Merchants Guild trade is only available to registered members. Seek business elsewhere.}
+DNT_WAR_TGUILD_GREET_UNKNOWN_1	{Grah! Interloper must prove trade skill before worthy of Merchants Guild time!}
+DNT_NPC_TGUILD_GREETING_LOW_1	{Welcome, trader. Have you brought much to sell?}
+DNT_NPC_TGUILD_GREETING_LOW_2	{Guild discount is not available to low-ranking members. Sorry.}
+DNT_NPC_TGUILD_GREETING_LOW_3	{Greetings, low ranked member.}
+DNT_EXP_TGUILD_GREET_LOW_1	{Greetings. Guild discount is not available to low rank members, sorry.}
+DNT_TRA_TGUILD_GREET_LOW_1	{Welcome, initiate trader! Have you brought much to sell?}
+DNT_WAR_TGUILD_GREET_LOW_1	{Greetings, pathetic initiate.}
+DNT_NPC_TGUILD_GREETING_MED_1	{Greetings, fellow trader. May good deals always find you.}
+DNT_NPC_TGUILD_GREETING_MED_2	{Greetings, fellow trader. May good deals always find you.}
+DNT_NPC_TGUILD_GREETING_MED_3	{Greetings, fellow trader. May good deals always find you.}
+DNT_EXP_TGUILD_GREET_MED_1	{Hello, merchant entity. Trade success to report?}
+DNT_TRA_TGUILD_GREET_MED_1	{Greetings, friend in trades. We hope bargains always find you.}
+DNT_WAR_TGUILD_GREET_MED_1	{Grah! Interloper trade strength is improving. Good.}
+DNT_NPC_TGUILD_GREETING_HIGH_1	{I have heard tell of your deals, merchant.}
+DNT_NPC_TGUILD_GREETING_HIGH_2	{I have heard tell of your deals, merchant.}
+DNT_NPC_TGUILD_GREETING_HIGH_3	{I have heard tell of your deals, merchant.}
+DNT_EXP_TGUILD_GREET_HIGH_1	{Ah. Recognised trade entity. This shell is at your service.}
+DNT_TRA_TGUILD_GREET_HIGH_1	{Welcome! Merchants speak of your trade skills, friend.}
+DNT_WAR_TGUILD_GREET_HIGH_1	{Interloper has well-earned triumph in trade. Welcome.}
+DNT_NPC_TGUILD_GREETING_BEST_1	{I bow before you, Trade Lord.}
+DNT_NPC_TGUILD_GREETING_BEST_2	{I bow before you, Trade Lord.}
+DNT_NPC_TGUILD_GREETING_BEST_3	{I bow before you, Trade Lord.}
+DNT_NPC_TGUILD_GREETING_BEST_4	{I bow before you, Trade Lord.}
+DNT_NPC_TGUILD_GREETING_BEST_5	{I bow before you, Trade Lord.}
+DNT_EXP_TGUILD_GREET_BEST_1	{Entity trade intelligence: high. Guild: pleased.}
+DNT_TRA_TGUILD_GREET_BEST_1	{I cower before you, Trade Lord.}
+DNT_WAR_TGUILD_GREET_BEST_1	{I salute your strength in trade, interloper!}
+DNT_NPC_EGUILD_GREET_UNKNOWN_1	{Unknown entity is irrelevance to Guild of Explorers. Goodbye.}
+DNT_NPC_EGUILD_GREET_UNKNOWN_2	{You are yet to be discovered by the Guild of Explorers.}
+DNT_EXP_EGUILD_GREET_UNKNOWN_1	{Unknown entity is irrelevance to Guild of Explorers. Goodbye.}
+DNT_TRA_EGUILD_GREET_UNKNOWN_1	{Explorers Guild has not discovered maybe-friend. No time to spend on you!}
+DNT_WAR_EGUILD_GREET_UNKNOWN_1	{Grah! Explorers Guild has no knowledge of interloper! Goodbye!}
+DNT_NPC_EGUILD_GREETING_LOW_1	{Welcome, apprentice. Have you discovered much?}
+DNT_NPC_EGUILD_GREETING_LOW_2	{Welcome, apprentice. Have you discovered much?}
+DNT_NPC_EGUILD_GREETING_LOW_3	{Welcome, apprentice. Have you discovered much?}
+DNT_EXP_EGUILD_GREET_LOW_1	{Welcome, apprentice. Have you discovered much?}
+DNT_TRA_EGUILD_GREET_LOW_1	{Hello, apprentice friend. How much universe have you discovered?}
+DNT_WAR_EGUILD_GREET_LOW_1	{Grah! Interloper is still apprentice! Stop talk, journey further!}
+DNT_NPC_EGUILD_GREETING_MED_1	{Greetings, fellow explorer. May the fauna be large and the flora bountiful.}
+DNT_NPC_EGUILD_GREETING_MED_2	{Greetings, fellow explorer. May the fauna be large and the flora bountiful.}
+DNT_NPC_EGUILD_GREETING_MED_3	{Greetings, fellow explorer. May the fauna be large and the flora bountiful.}
+DNT_EXP_EGUILD_GREET_MED_1	{Greetings, seeker entity. May the creatures be great and the plants many.}
+DNT_TRA_EGUILD_GREET_MED_1	{Hello, fellow member. Many new systems in your logs?}
+DNT_WAR_EGUILD_GREET_MED_1	{Greetings, interloper. Seek, journey, interlope further.}
+DNT_NPC_EGUILD_GREETING_HIGH_1	{I have heard tell of your discoveries, explorer.}
+DNT_NPC_EGUILD_GREETING_HIGH_2	{I have heard tell of your discoveries, explorer.}
+DNT_NPC_EGUILD_GREETING_HIGH_3	{I have heard tell of your discoveries, explorer.}
+DNT_EXP_EGUILD_GREET_HIGH_1	{Superior seeker is acknowledged by Explorers Guild. Greetings.}
+DNT_TRA_EGUILD_GREET_HIGH_1	{Your logs impress the Explorers Guild, friend!}
+DNT_WAR_EGUILD_GREET_HIGH_1	{Interloper has impressed in battle for knowledge.}
+DNT_NPC_EGUILD_GREETING_BEST_1	{I salute you and your research!}
+DNT_NPC_EGUILD_GREETING_BEST_2	{I salute you and your research!}
+DNT_NPC_EGUILD_GREETING_BEST_3	{I salute you and your research!}
+DNT_NPC_EGUILD_GREETING_BEST_4	{I salute you and your research!}
+DNT_NPC_EGUILD_GREETING_BEST_5	{I salute you and your research!}
+DNT_EXP_EGUILD_GREET_BEST_1	{Excellent navigational record. High value to Explorers Guild.}
+DNT_TRA_EGUILD_GREET_BEST_1	{Friend is rich in knowledge! So much research logged!}
+DNT_WAR_EGUILD_GREET_BEST_1	{I salute you and your wisdom! Grah!}
+DNT_NPC_WGUILD_GREET_UNKNOWN_1	{Grah! You have not yet earned the respect of the Mercenaries Guild!}
+DNT_NPC_WGUILD_GREET_UNKNOWN_2	{Grah! You have not yet earned the respect of the Mercenaries Guild!}
+DNT_EXP_WGUILD_GREET_UNKNOWN_1	{Hmm. Entity is unknown to Mercenaries Guild. Respect impossible at this time.}
+DNT_TRA_WGUILD_GREET_UNKNOWN_1	{Who are you, maybe-friend? Strong spawn or weak? Mercenaries Guild does not know.}
+DNT_WAR_WGUILD_GREET_UNKNOWN_1	{Grah! Mercenaries Guild has no respect for unknown interloper. Prove strength before you return.}
+DNT_NPC_WGUILD_GREETING_LOW_1	{How is your body count, warrior? Improving?}
+DNT_NPC_WGUILD_GREETING_LOW_2	{How is your body count, warrior? Improving?}
+DNT_NPC_WGUILD_GREETING_LOW_3	{How is your body count, warrior? Improving?}
+DNT_EXP_WGUILD_GREET_LOW_1	{Greetings, apprentice in violence. Combat score is improving.}
+DNT_TRA_WGUILD_GREET_LOW_1	{Your death scent is still weak, new friend. Be quick here.}
+DNT_WAR_WGUILD_GREET_LOW_1	{How is your body count, warrior apprentice? Improving?}
+DNT_NPC_WGUILD_GREETING_MED_1	{Welcome, fellow mercenary. Chase our enemies and find good loot!}
+DNT_NPC_WGUILD_GREETING_MED_2	{Welcome, fellow mercenary. Chase our enemies and find good loot!}
+DNT_NPC_WGUILD_GREETING_MED_3	{Welcome, fellow mercenary. Chase our enemies and find good loot!}
+DNT_EXP_WGUILD_GREET_MED_1	{The Mercenaries Guild welcomes you, entity of combat.}
+DNT_TRA_WGUILD_GREET_MED_1	{Welcome, fellow merchant of death. Enjoy much luck in war!}
+DNT_WAR_WGUILD_GREET_MED_1	{Interloper demonstrates increase in strength. Could soon be great warrior. Grah!}
+DNT_NPC_WGUILD_GREETING_HIGH_1	{Salutations and respect to such a fine warrior.}
+DNT_NPC_WGUILD_GREETING_HIGH_2	{Salutations and respect to such a fine warrior.}
+DNT_NPC_WGUILD_GREETING_HIGH_3	{Salutations and respect to such a fine warrior.}
+DNT_EXP_WGUILD_GREET_HIGH_1	{Biological entity is performing well with weaponry. Commendable.}
+DNT_TRA_WGUILD_GREET_HIGH_1	{Hello, friend in death! Fight hard, take loot, drink rival blood!}
+DNT_WAR_WGUILD_GREET_HIGH_1	{Death! Death! Death! Interloper has slain many foes!}
+DNT_NPC_WGUILD_GREETING_BEST_1	{I bow before you, supreme commander!}
+DNT_NPC_WGUILD_GREETING_BEST_2	{I bow before you, supreme commander!}
+DNT_NPC_WGUILD_GREETING_BEST_3	{I bow before you, supreme commander!}
+DNT_NPC_WGUILD_GREETING_BEST_4	{I bow before you, supreme commander!}
+DNT_NPC_WGUILD_GREETING_BEST_5	{I bow before you, supreme commander!}
+DNT_EXP_WGUILD_GREET_BEST_1	{Greetings, superior rank member.}
+DNT_TRA_WGUILD_GREET_BEST_1	{Welcome, admired friend!}
+DNT_WAR_WGUILD_GREET_BEST_1	{I salute you, supreme commander!}
+NPC_TGUILD_GREET_UNKNOWN_DESC_1	{Though their words are unclear, the badge on the lifeform's uniform is unmistakable. They are an envoy of the Merchant's Guild.
+They do not seem particularly interested in trading with me, however.}
+NPC_TGUILD_GREET_UNKNOWN_DESC_2	{I have seen this alien's insignia before. They are a member of the Merchants Guild.
+They do not seem to have any business for me at the moment. Perhaps the <SPECIAL>Mission Listings Agent<> on the station might have a way to prove my worth?}
+NPC_TGUILD_GREET_LOW_DESC_1	{I recognise this alien as a fellow trader, another member of the Merchants Guild.}
+NPC_TGUILD_GREET_LOW_DESC_2	{Their keen mercantile eyes give this lifeform away as a member of the Merchants Guild, a fellow trader looking to make their way in the galaxy.}
+NPC_TGUILD_GREET_LOW_DESC_3	{The lifeform bows gently, more in ritual than respect. They flash their badge, revealing themselves as the Merchants Guild representative in this system.}
+NPC_TGUILD_GREET_MED_DESC_1	{The alien, who appears to be the Merchant Guild envoy in this system, scanned me subtly as I approached. Having seen my rank with the Guild, they apologise for the intrusion and greet me with warmth.}
+NPC_TGUILD_GREET_MED_DESC_2	{The alien transmits a short data sequence, revealing themselves as the Merchants Guild's official representative in this system.
+Despite their apparent friendliness, I cannot help but think they are assessing me, working out how to best me in a deal.}
+NPC_TGUILD_GREET_MED_DESC_3	{The lifeform nods at me. I do not believe I have met them before, but they clearly recognise me. They must be the Merchants Guild representative in this system.}
+NPC_TGUILD_GREET_HIGH_DESC_1	{The alien greets me warmly. They work for the Merchants Guild, keeping an eye on business in this system. They have a message to relay.}
+NPC_TGUILD_GREET_HIGH_DESC_2	{The lifeform identifies themself as the Merchants Guild representative in this system. We perform the mutual exchange of units that Guild protocol demands.}
+NPC_TGUILD_GREET_HIGH_DESC_3	{The lifeform shows their identification, the badge of a middle-ranking envoy of the Merchants Guild. They bow, pleased to have me visit their system.}
+NPC_TGUILD_GREET_BEST_DESC_1	{The lifeform, an envoy of the Merchants Guild, seems excited to see me. They give a short, hesitant gesture, as if apologising for the lack of wealth and status in their system.}
+NPC_TGUILD_GREET_BEST_DESC_2	{The alien jabbers excitedly, transmitting a sequence of recent profitable deals. They are the Merchants Guild envoy in this system, and keen to impress.}
+NPC_TGUILD_GREET_BEST_DESC_3	{The lifeform greets me as a high-ranking member of the Merchants Guild, performing the special gestures required at such a meeting.}
+NPC_EGUILD_GREET_UNKNOWN_DESC_1	{The lifeform carries both the badge of the Explorers Guild and the worldly pose of one who has broken ground on many strange planets.
+For a supposedly curious lifeform, I do not seem to provoked much interest. Perhaps they deem me unworthy of study.}
+NPC_EGUILD_GREET_UNKNOWN_DESC_2	{I have seen this alien's insignia before. They are a member of the Explorers Guild.
+They do not seem interested in the data I have to offer. Perhaps the <SPECIAL>Mission Listings Agent<> on the station might have a way to prove my worth?}
+NPC_EGUILD_GREET_LOW_DESC_1	{The lifeform examines me before revealing their credentials as a member of the Explorers Guild.}
+NPC_EGUILD_GREET_LOW_DESC_2	{The alien reveals themselves as an envoy of the Explorers Guild. They appear to be assessing me, but to what end? To learn my worth as an explorer, or simply as an object of curiosity?}
+NPC_EGUILD_GREET_LOW_DESC_3	{The lifeform presents their Explorers Guild credentials, showing themselves as the official envoy for this system. For some reason, they also transmit a detailed record of every plant they've ever discovered.}
+NPC_EGUILD_GREET_MED_DESC_1	{The lifeform flashes a small holographic display, a 3D token of their status as the Explorers Guild envoy in this system.}
+NPC_EGUILD_GREET_MED_DESC_2	{The alien reveals their Explorers Guild credentials, the paperwork of an official envoy.}
+NPC_EGUILD_GREET_MED_DESC_3	{The lifeform shows their identification as an official of the Explorers Guild, but not before attempting to scan me for data.}
+NPC_EGUILD_GREET_HIGH_DESC_1	{The lifeform jabbers excitedly, happy to share their latest research with a fellow member of the Explorer's Guild.}
+NPC_EGUILD_GREET_HIGH_DESC_2	{The alien reveals themselves as an explorer of some standing with the Guild. They welcome me to their system.}
+NPC_EGUILD_GREET_HIGH_DESC_3	{The lifeform greets me warmly, revealing themselves as the Explorers Guild's leading researcher in this system.}
+NPC_EGUILD_GREET_BEST_DESC_1	{The lifeform subjects me to a brief analysis before bowing deeply. They are the official Explorers Guild representative in this system.}
+NPC_EGUILD_GREET_BEST_DESC_2	{The alien greets me with a selection of interesting images taken in this system. As the Explorers Guild envoy here, they are keen that I see the sights.}
+NPC_EGUILD_GREET_BEST_DESC_3	{The lifeform scans me, scans themselves, and finally scans the Explorers Guild insignia they have projected in front of them. The ritual over, they bow before me.}
+NPC_WGUILD_GREET_UNKNOWN_DESC_1	{The alien's aggressive tone and rough demeanor mark them out as a mercenary. I hope they are here in some official capacity, rather than undertaking a mission.}
+NPC_WGUILD_GREET_UNKNOWN_DESC_2	{The lifeform glares at me briefly, shaking their head. They seem to be a representative of the Guild of Mercenaries.
+Perhaps I could impress them by undertaking work from the <SPECIAL>Mission Listings Agent<>?}
+NPC_WGUILD_GREET_LOW_DESC_1	{The alien gives a terse salute. Their insignia is of a middle-ranking officer of the Mercenaries Guild.}
+NPC_WGUILD_GREET_LOW_DESC_2	{The lifeform barks at me in a grumpy tone. Their badge shows them as an envoy of the Mercenaries Guild.}
+NPC_WGUILD_GREET_LOW_DESC_3	{The alien looks at me, disappointed. They are an official of the Mercenaries Guild, and I think they expected me to salute.}
+NPC_WGUILD_GREET_MED_DESC_1	{The alien, wearing the uniform of a Mercenaries Guild envoy, looks me up and down. I appear to pass muster.}
+NPC_WGUILD_GREET_MED_DESC_2	{The lifeform, a gruff look upon their face, welcomes me to the system on behalf of the Mercenaries Guild.}
+NPC_WGUILD_GREET_MED_DESC_3	{The lifeform makes a gesture of respect, an acknowledgement from one Mercenaries Guild operative to another.}
+NPC_WGUILD_GREET_HIGH_DESC_1	{The lifeform wears the insignia of the Mercenaries Guild, and stands to attention as I approach.}
+NPC_WGUILD_GREET_HIGH_DESC_2	{The alien, scarred from battle, salutes me as I approach. They are the Mercenaries Guild commander in this system.}
+NPC_WGUILD_GREET_HIGH_DESC_3	{The lifeform, with their neatly pressed uniform and alert, precise mannerisms, welcomes me to the system on behalf of the local Mercenaries Guild.}
+NPC_WGUILD_GREET_BEST_DESC_1	{The lifeform snaps to attention as soon as they see me. Their Mercenaries Guild badge has been polished so vigourously that I can see my reflection in it.}
+NPC_WGUILD_GREET_BEST_DESC_2	{The lifeform makes a great show of their salute. As the official Mercenaries Guild envoy in this system, it is their duty to receive high-ranking members in a fitting style.}
+NPC_WGUILD_GREET_BEST_DESC_3	{The alien wears the badge of a Mercenaries Guild commander. They give me a particularly energetic salute.}
+DNT_NPC_GUILD_MISSION_OFFER_1	{The guild have a mission request.}
+DNT_NPC_GUILD_MISSION_OFFER_2	{The guild have a mission request.}
+DNT_NPC_GUILD_MISSION_OFFER_3	{The guild have a mission request.}
+DNT_NPC_GUILD_MISSION_OFFER_4	{The guild have a mission request.}
+DNT_NPC_GUILD_MISSION_OFFER_5	{The guild have a mission request.}
+DNT_EXP_GUILD_MISSION_OFFER_1	{The guild requests assistance with this mission.}
+DNT_TRA_GUILD_MISSION_OFFER_1	{The guild requests assistance with this mission.}
+DNT_WAR_GUILD_MISSION_OFFER_1	{The guild requests assistance with this mission.}
+DNT_NPC_GUILD_TITHE_OFFER_1	{The guild want you to have this share of recent profits.}
+DNT_NPC_GUILD_TITHE_OFFER_2	{The guild want you to have this share of recent profits.}
+DNT_NPC_GUILD_TITHE_OFFER_3	{The guild want you to have this share of recent profits.}
+DNT_NPC_GUILD_TITHE_OFFER_4	{The guild want you to have this share of recent profits.}
+DNT_NPC_GUILD_TITHE_OFFER_5	{The guild want you to have this share of recent profits.}
+DNT_EXP_GUILD_TITHE_OFFER_1	{Valuable guild entity: please accept this this percent of earning.}
+DNT_TRA_GUILD_TITHE_OFFER_1	{This share of profits is for you, friend.}
+DNT_WAR_GUILD_TITHE_OFFER_1	{This bounty is from the guild, interloper. Well-earned!}
+DNT_NPC_GUILD_PRESENT_OFFER_1	{I have a gift for you, from one guild member to another.}
+DNT_NPC_GUILD_PRESENT_OFFER_2	{I have a gift for you, from one guild member to another}
+DNT_NPC_GUILD_PRESENT_OFFER_3	{I have a gift for you, from one guild member to another}
+DNT_NPC_GUILD_PRESENT_OFFER_4	{I have a gift for you, from one guild member to another}
+DNT_NPC_GUILD_PRESENT_OFFER_5	{I have a gift for you, from one guild member to another}
+DNT_EXP_GUILD_PRESENT_OFFER_1	{Valuable guild entity: please accept this gift.}
+DNT_TRA_GUILD_PRESENT_OFFER_1	{This gift is for you, friend.}
+DNT_WAR_GUILD_PRESENT_OFFER_1	{A gift from the guild, interloper.}
+NPC_GUILD_MISSION_OFFER_DESC_1	{They appear to have some special Guild business that needs attending to, and request my assistance.}
+NPC_GUILD_MISSION_OFFER_DESC_2	{They hesitate, clearing hoping I will assist them with some official Guild business.}
+NPC_GUILD_MISSION_OFFER_DESC_3	{They transmit specific data, a mission that they cannot entrust to the listings agent. They hope I will be of assistance.}
+NPC_GUILD_MISSION_OFFER_DESC_4	{They appear to have a problem client, one with a task they feel they can only entrust to a Guild member in good standing.}
+NPC_GUILD_MISSION_OFFER_DESC_5	{They offer me the chance to take on a particularly lucrative mission, a task for a favoured client.}
+NPC_GUILD_TITHE_OFFER_DESC_1	{They have no particular business for me today, but are pleased to be able to present me my share of local operating profits.}
+NPC_GUILD_TITHE_OFFER_DESC_2	{The Guild here has no special tasks at the moment, but they have had a recent windfall. They are sharing the loot with all Guild members.}
+NPC_GUILD_TITHE_OFFER_DESC_3	{They present me with my share of recent Guild profits, accounting for my rank.}
+NPC_GUILD_TITHE_OFFER_DESC_4	{Their greeting over, the envoy turns to business. They tally up what I am due from the Guild, my share of recent profits minus membership fees owed.}
+NPC_GUILD_TITHE_OFFER_DESC_5	{They present me with an itemised list, a transaction record for the Guild's local operations. They offer me a sum of money, my share of the profits.}
+NPC_GUILD_PRESENT_OFFER_DESC_1	{They offer me a present, a product of the local system that they hope will assist me in my work.}
+NPC_GUILD_PRESENT_OFFER_DESC_2	{They have no specific work for me at the moment. They seem apologetic, and offer me a small gift as recompense.}
+NPC_GUILD_PRESENT_OFFER_DESC_3	{The Guild here has matters in hand, and has no need of any special operations. However, the envoy does have a gift for me, to mark the occasion.}
+NPC_GUILD_PRESENT_OFFER_DESC_4	{The Guild here is flourishing, and all members are being offered gifts as thanks for their work. The envoy presents me with an item they claim to have picked out for me specially.}
+NPC_GUILD_PRESENT_OFFER_DESC_5	{They make a great show of presenting me with a gift, an item acquired by a Guild operative on a recent mission.}
+NPC_GUILD_ACCEPT_MISSION	{Accept Mission}
+NPC_GUILD_ACCEPT_GIFT	{Accept Gift}
+NPC_GUILD_ACCEPT_GIFT_RES_1	{I accept the envoy's gift, and make a gesture of thanks.}
+NPC_GUILD_ACCEPT_GIFT_RES_2	{I take the present, thanking the Guild and its official.}
+NPC_GUILD_ACCEPT_GIFT_RES_3	{I take the gift, and promise to commend the envoy's work to their superiors.}
+NPC_GUILD_DECLINE_MISSION	{Decline Mission}
+NPC_GUILD_DECLINE_MISSION_RES_1	{I turn down their mission. I have other things that need doing.}
+NPC_GUILD_DECLINE_MISSION_RES_2	{I decline their task. The client will have to wait.}
+NPC_GUILD_DECLINE_MISSION_RES_3	{I decline to help the envoy with their task. I hope they will not be offended.}
+NPC_GUILD_DECLINE_GIFT	{Decline Gift}
+NPC_GUILD_DECLINE_GIFT_RES_1	{I turn down their offer. I am a member of the Guild, but it does not define me. I take nothing, I owe nothing.}
+NPC_GUILD_DECLINE_GIFT_RES_2	{I decline their offer. I do not need the Guild's assistance.}
+NPC_GUILD_DECLINE_GIFT_RES_3	{I reject the envoy's present. They seem offended.}
+NPC_GUILD_SECONDARY_DESC_1	{The envoy looks busy. I should leave them be.}
+NPC_GUILD_SECONDARY_DESC_2	{I should leave %NAME% be. They have important Guild business to attend to, no doubt.}
+NPC_GUILD_SECONDARY_DESC_3	{The Guild envoy in this system has nothing more to offer me.}
+NPC_GUILD_SECONDARY_DESC_4	{%NAME% has plenty of Guild business to work on without repeating information for me.}
+NPC_GUILD_SECONDARY_DESC_5	{I have caused enough excitement for %NAME% already. I should let them get on with their other Guild work.}
+INTRCT_GUILD_ENVOY	{Guild Envoy}
