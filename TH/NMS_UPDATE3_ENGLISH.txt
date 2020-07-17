@@ -1461,12 +1461,22 @@ FREIGHTER_NAME_21	{Unknown Doomed Freighter}
 FREIGHTER_NAME_22	{เศษซากของ SV %PROCNAME% III}
 FREIGHTER_NAME_23	{Hull of the MV %PROCNAME% IX}
 FREIGHTER_NAME_24	{ซากของ MS %PROCNAME% II}
-FREIGHTER_NAME_25	{Log from the Sea of %PROCNAME%}
-FREIGHTER_NAME_26	{Log of the %PROCNAME% Hauler}
-FREIGHTER_NAME_27	{Damaged Log, SS %PROCNAME%}
+FREIGHTER_NAME_25	{Remnants of the Sea of %PROCNAME%}
+FREIGHTER_NAME_26	{The %PROCNAME% Hauler}
+FREIGHTER_NAME_27	{Smashed Remains, SS %PROCNAME%}
 FREIGHTER_NAME_28	{MV Winds of %PROCNAME%}
 FREIGHTER_NAME_29	{MV Graceful %PROCNAME%}
 FREIGHTER_NAME_30	{เศษซากของ MS %PROCNAME% VII}
+FREIGHTER_NAME_31	{MS %PROCNAME% Hammer}
+FREIGHTER_NAME_32	{SV Butcher of %PROCNAME%}
+FREIGHTER_NAME_33	{MS Claw of %PROCNAME%}
+FREIGHTER_NAME_34	{MS %PROCNAME%'s Pride}
+FREIGHTER_NAME_35	{MS %PROCNAME%'s Glory}
+FREIGHTER_NAME_36	{MS Sister of %PROCNAME%}
+FREIGHTER_NAME_37	{MV Daughter of %PROCNAME%}
+FREIGHTER_NAME_38	{Abandoned Hulk}
+FREIGHTER_NAME_39	{Hollowed core of the MS %PROCNAME%}
+FREIGHTER_NAME_40	{SV Yellow %PROCNAME%}
 GLITCH_NAME_1	{BREACH // Label: '%PROCNAME%'}
 GLITCH_NAME_2	{ANOMALY // Label: '%PROCNAME%'}
 GLITCH_NAME_3	{BOUNDS LOSS // Label: '%PROCNAME%'}
@@ -2371,7 +2381,7 @@ ITEMGEN_TREASURE_COMMON_5	{คาดว่าอายุประมาณ <VAL
 Was this artifact part of a horde buried with its owner? The remains of a secret cache? Or just forgotten rubbish? Time has rendered it impossible to tell.}
 ITEMGEN_TREASURE_UNCOMMON_1	{คาดว่าอายุประมาณ <VAL_ON>%AGE%<> ปี 
 
-Valuable in and of itself, this artifact is made by priceless the glimpse it gives into the society that once ruled this planet.}
+Valuable in and of itself, this artifact is made priceless by the glimpse it gives into the society that once ruled this planet.}
 ITEMGEN_TREASURE_UNCOMMON_2	{คาดว่าอายุประมาณ <VAL_ON>%AGE%<> ปี 
 
 What caused this artifact's owner to bury it underground? Did they hope to return to claim it one day? Such questions may now never be answered.}
@@ -2761,7 +2771,7 @@ HELP_WHEN_SYSTEM_UNSELECTED	{<IMG>GALAXYWARP<> เลือกระบบเป
 UI_GALAXYMAP_GOHOME	{<IMG>GALAXYHOME<> เลือกตำแหน่งปัจจุบัน}
 UI_GALAXYMAP_SELECT	{<IMG>GALAXYWARP<> เลือกระบบเป้าหมาย}
 UI_GALAXYMAP_MOVEVIEWVR	{<IMG>GALAXY_GESTURE<> Move View}
-DISTANCE_FROM_CENTRE_TITLE	{ใจกลางกาแล็กซี}
+DISTANCE_FROM_CENTRE_TITLE	{ใจกลางกาแล็กซี (%NAME%)}
 DISTANCE_FROM_CENTRE_LY	{%DIST% ปีแสง}
 UI_GALAXYMAP_PLANETNAME	{%PLANET% (%DIST% ปีแสง)}
 UI_GALAXYMAP_SYSNAME	{ระบบ %SYSTEM%}
@@ -2988,56 +2998,56 @@ UI_TRADE_ITEM_ALLOY_5_DESC	{A densely layered package of superconducting fibres.
 Powerful, flexible, and water-resistant; the controlled magnetic weave of these fibres is vital in the creation of many <SPECIAL>scientific components<>.}
 UI_TRADE_ITEM_ALLOY_5_NAME	{SUPERCONDUCTING FIBRE}
 UI_TRADE_ITEM_ALLOY_5_NAME_L	{Superconducting Fibre}
-UI_TRADE_ITEM_COMMODITY_1_DESC	{A crate packed with hard drives, each of which contain vast amounts of decrypted user data.
+UI_TRADE_ITEM_COMMOD_1_DESC	{A crate packed with hard drives, each of which contain vast amounts of decrypted user data.
 
 Individually of low value, taken together these repositories can be processed and scanned for valuable data. This processing occurs in systems with <SPECIAL>advanced material<> economies.}
-UI_TRADE_ITEM_COMMODITY_1_NAME	{ข้อมูลผู้ใช้งานที่ถูกถอดรหัส}
-UI_TRADE_ITEM_COMMODITY_1_NAME_	{ข้อมูลผู้ใช้งานที่ถูกถอดรหัส}
-UI_TRADE_ITEM_COMMODITY_2_DESC	{Several spools of star silk.
+UI_TRADE_ITEM_COMMOD_1_NAME	{DECRYPTED USER DATA}
+UI_TRADE_ITEM_COMMOD_1_NAME_L	{Decrypted User Data}
+UI_TRADE_ITEM_COMMOD_2_DESC	{Several spools of star silk.
 
 Star silk is woven on enormous solar looms in orbit around trading planets. Cosmic ray impact triggers the pattern of the weave, which can then be used in <SPECIAL>advanced material<> processing.}
-UI_TRADE_ITEM_COMMODITY_2_NAME	{สตาร์ซิลค์}
-UI_TRADE_ITEM_COMMODITY_2_NAME_	{สตาร์ซิลค์}
-UI_TRADE_ITEM_COMMODITY_3_DESC	{Several canisters of comet droplets.
+UI_TRADE_ITEM_COMMOD_2_NAME	{สตาร์ซิลค์}
+UI_TRADE_ITEM_COMMOD_2_NAME_L	{สตาร์ซิลค์}
+UI_TRADE_ITEM_COMMOD_3_DESC	{Several canisters of comet droplets.UI_TRADE_ITEM_COMMODITY_3_DESC	{Several canisters of comet droplets.
 
 An elaborate trading name for chunks of meteorite, these rocks are nonetheless extremely valuable to the <SPECIAL>advanced material<> economies that can process them.}
-UI_TRADE_ITEM_COMMODITY_3_NAME	{COMET DROPLETS}
-UI_TRADE_ITEM_COMMODITY_3_NAME_	{Comet Droplets}
-UI_TRADE_ITEM_COMMODITY_4_DESC	{A packed crate of ion spheres.
+UI_TRADE_ITEM_COMMOD_3_NAME	{COMET DROPLETS}
+UI_TRADE_ITEM_COMMOD_3_NAME_L	{Comet Droplets}
+UI_TRADE_ITEM_COMMOD_4_DESC	{A packed crate of ion spheres.
 
 These delicate glass spheres house a small-scale replica of the upper atmosphere. Sparkly and hypnotic to look at, these baubles are also of importance in the manufacture of <SPECIAL>advanced material<> alloys.}
-UI_TRADE_ITEM_COMMODITY_4_NAME	{ION SPHERE}
-UI_TRADE_ITEM_COMMODITY_4_NAME_	{Ion Sphere}
-UI_TRADE_ITEM_COMMODITY_5_DESC	{A bundle of precisely calibrated teleport coordinators.
+UI_TRADE_ITEM_COMMOD_4_NAME	{ION SPHERE}
+UI_TRADE_ITEM_COMMOD_4_NAME_L	{Ion Sphere}
+UI_TRADE_ITEM_COMMOD_5_DESC	{A bundle of precisely calibrated teleport coordinators.
 
 These pin-prick sized circuits are vital to the delicate process of inserting reinforcing material into <SPECIAL>advanced alloys<>. They can also aid long-distance sales efforts.}
-UI_TRADE_ITEM_COMMODITY_5_NAME	{TELEPORT COORDINATORS}
-UI_TRADE_ITEM_COMMODITY_5_NAME_	{Teleport Coordinators}
-UI_TRADE_ITEM_COMPONENT_1_DESC	{Several huge cogs.
+UI_TRADE_ITEM_COMMOD_5_NAME	{TELEPORT COORDINATORS}
+UI_TRADE_ITEM_COMMOD_5_NAME_L	{Teleport Coordinators}
+UI_TRADE_ITEM_COMP_1_DESC	{Several huge cogs.
 
 Sturdy, well-made metal gears. While not advanced technology themselves, they're a vital component in countless pieces of <SPECIAL>high-tech<> machinery all over the galaxy.}
-UI_TRADE_ITEM_COMPONENT_1_NAME	{ENORMOUS METAL COG}
-UI_TRADE_ITEM_COMPONENT_1_NAME_	{Enormous Metal Cog}
-UI_TRADE_ITEM_COMPONENT_2_DESC	{Wrapped and greased pistons, ready for shipping.
+UI_TRADE_ITEM_COMP_1_NAME	{ENORMOUS METAL COG}
+UI_TRADE_ITEM_COMP_1_NAME_L	{Enormous Metal Cog}
+UI_TRADE_ITEM_COMP_2_DESC	{Wrapped and greased pistons, ready for shipping.
 
 <SPECIAL>High-tech<> components frequently require rapidly moving parts, or high-endurance motors. Without specially coated pistons, the failure rate of such parts would be significantly higher.}
-UI_TRADE_ITEM_COMPONENT_2_NAME	{NON-STICK PISTON}
-UI_TRADE_ITEM_COMPONENT_2_NAME_	{Non-Stick Piston}
-UI_TRADE_ITEM_COMPONENT_3_DESC	{A crate of mesh decouplers.
+UI_TRADE_ITEM_COMP_2_NAME	{NON-STICK PISTON}
+UI_TRADE_ITEM_COMP_2_NAME_L	{Non-Stick Piston}
+UI_TRADE_ITEM_COMP_3_DESC	{A crate of mesh decouplers.
 
 The creation of <SPECIAL>high-tech<> components often involves accidental mesh-coupling. These decouplers are particularly powerful, being able to deploy six prongs simultaneously.}
-UI_TRADE_ITEM_COMPONENT_3_NAME	{SIX-PRONGED MESH DECOUPLER}
-UI_TRADE_ITEM_COMPONENT_3_NAME_	{Six-Pronged Mesh Decoupler}
-UI_TRADE_ITEM_COMPONENT_4_DESC	{Packed and separated data containers for holographic crankshafts.
+UI_TRADE_ITEM_COMP_3_NAME	{SIX-PRONGED MESH DECOUPLER}
+UI_TRADE_ITEM_COMP_3_NAME_L	{Six-Pronged Mesh Decoupler}
+UI_TRADE_ITEM_COMP_4_DESC	{Packed and separated data containers for holographic crankshafts.
 
 Real crankshafts are frequently too large, noisy or hard-to-maintain for use in delicate machines. When faced with such a situation, <SPECIAL>high-tech<> manufacturers turn to these holographic substitutes.}
-UI_TRADE_ITEM_COMPONENT_4_NAME	{HOLOGRAPHIC CRANKSHAFT}
-UI_TRADE_ITEM_COMPONENT_4_NAME_	{Holographic Crankshaft}
-UI_TRADE_ITEM_COMPONENT_5_DESC	{A large crate of vector compressors.
+UI_TRADE_ITEM_COMP_4_NAME	{HOLOGRAPHIC CRANKSHAFT}
+UI_TRADE_ITEM_COMP_4_NAME_L	{Holographic Crankshaft}
+UI_TRADE_ITEM_COMP_5_DESC	{A large crate of vector compressors.
 
 The creation of interstellar drives often requires dimensions to be condensed and then re-rendered. Such <SPECIAL>high-tech<> component manufacture would not be possible without industrial-grade compressors such as these.}
-UI_TRADE_ITEM_COMPONENT_5_NAME	{HIGH CAPACITY VECTOR COMPRESSOR}
-UI_TRADE_ITEM_COMPONENT_5_NAME_	{High Capacity Vector Compressor}
+UI_TRADE_ITEM_COMP_5_NAME	{HIGH CAPACITY VECTOR COMPRESSOR}
+UI_TRADE_ITEM_COMP_5_NAME_L	{High Capacity Vector Compressor}
 UI_TRADE_ITEM_ENERGY_1_DESC	{A crate packed with spark canisters.
 
 Many industrial and <SPECIAL>mining<> processes have considerable power demands. A counterpart to the slow release of a battery, spark canisters are able to meet these demands instantaneously.}
@@ -3843,12 +3853,12 @@ The universe has been regenerated to make room for the various changes and featu
 Hello Games has been hard at work to improve and expand No Man’s Sky. We hope you enjoy :)
 Thank you so much,
 Hello Games}
-UI_TERRAIN_EDIT_TIP_PAD	{เปลี่ยนรูปทรง & พื้นผิว <IMG>TERRAINMENU<>
-ยกเลิกการกระทำล่าสุด  <IMG>UNDOTERRAIN<>
-กลับสู่โหมดขุด <IMG>TOGGLETERRAIN<>}
-UI_TERRAIN_EDIT_TIP_PC	{เปลี่ยนรูปทรง & พื้นผิว <IMG>TERRAINMENU<>
-ยกเลิกการกระทำล่าสุด  <IMG>UNDOTERRAIN<>
-กลับสู่โหมดขุด <IMG>TOGGLETERRAIN<>}
+UI_TERRAIN_EDIT_TIP_PAD	{<STELLAR>Hold<> <IMG>ATTACK<> to draw large shapes in <TECHNOLOGY>Create<> Mode
+Use <TECHNOLOGY>Flatten<> mode to quickly smooth an area
+<TECHNOLOGY>Restore<> mode allows edits to be removed and terrain restored}
+UI_TERRAIN_EDIT_TIP_PC	{<STELLAR>Hold<> <IMG>ATTACK<> to draw large shapes in <TECHNOLOGY>Create<> Mode
+Use <TECHNOLOGY>Flatten<> mode to quickly smooth an area
+<TECHNOLOGY>Restore<> mode allows edits to be removed}
 UI_TERRAIN_EDIT_TIP_PLANE_PAD	{<IMG>ROTTERRAINLEFT<>/<IMG>ROTTERRAINRIGHT<> หมุน
 <IMG>TERRAINMENU<> เปลี่ยนรูปทรง & พื้นผิว 
 <IMG>UNDOTERRAIN<> ยกเลิกการกระทำล่าสุด 
@@ -4049,6 +4059,10 @@ UI_SCANEVENT_GOTO_MAP	{เป้าหมายภารกิจอยู่ใ
 UI_SCANEVENT_GOTO_MAP_TELE	{Mission target is in another system
 Use a <TECHNOLOGY>Teleporter<> to instantly return to previous systems
 Find Teleporters in <COMMODITY>Space Stations<> or the <SPECIAL>Anomaly<>}
+UI_SCANEVENT_GOTO_NEXUS	{Mission target is aboard the Space Anomaly
+In space, summon the Anomaly from the Quick Menu (<IMG>QUICK_MENU<>)}
+UI_SCANEVENT_GOTO_PORTAL	{Mission target is in another system
+Return through the portal to complete objectives}
 UI_PREVIOUS	{หน้าที่แล้ว <IMG>FE_BACK<>}
 UI_PORTAL_ERROR	{ATLAS TRANSPORT ERROR <IMG>SLASH<> LOCATION CORRUPTED <IMG>SLASH<> APPROXIMATING DESTINATION}
 UI_LIGHT_YEARS_AWAY	{ไกลออกไป %AMOUNT% ปีแสง}
@@ -4126,6 +4140,7 @@ UI_BASE_MOVE_WARNING	{In version 1.3 (Atlas Rises), the universe has been regene
 UI_UNIT_SOLS	{วันสุริยะ}
 UI_UNIT_U	{u}
 UI_UNIT_KS	{ks}
+UI_UNIT_US	{u/s}
 UI_PIN_OBJ	{รวบรวม %ITEM%}
 UI_PIN_OBJ_TIP	{สถานะ: %CURRENT%/%AMOUNT%}
 UI_FREIGHTER_DRIVE_SUB	{เทคโนโลยีการเดินทางที่เร็วกว่าแสง}
@@ -4133,17 +4148,23 @@ UI_FREIGHTER_DRIVE_NAME	{ไฮเปอร์ไดรฟ์}
 UI_FREIGHTER_DRIVE_NAME_L	{ไฮเปอร์ไดรฟ์}
 UI_FREIGHTER_DRIVE_DESC	{ระบบขับเคลื่อนที่เร็วกว่าแสง ช่วยให้ยานสามารถเคลื่อนที่จากระบบดาวปัจจุบัน ไปยังระบบดาวใกล้เคียงได้ในระยะเวลาอันสั้น}
 UI_FREIGHTER_DRIVE1_SUB	{Hyperdrive Companion Unit}
-UI_FREIGHTER_DRIVE1_NAME	{FREIGHTER WARP REACTOR SIGMA}
-UI_FREIGHTER_DRIVE1_NAME_L	{Freighter Warp Reactor Sigma}
-UI_FREIGHTER_DRIVE1_DESC	{Hyperdrive is granted more robust deep space exploration capabilities and ability to leap to stars previously out of reach.}
+UI_FREIGHTER_DRIVE1_NAME	{WARP CORE RESONATOR}
+UI_FREIGHTER_DRIVE1_NAME_L	{Warp Core Resonator}
+UI_FREIGHTER_DRIVE1_DESC	{An augmentation for the colossal hyperdrive engine of an <STELLAR>interstellar freighter<>.
+
+Quantum resonation improves the robustness of the drive during FTL travel, granting the ability to leap to stars previously out of reach.}
 UI_FREIGHTER_DRIVE2_SUB	{Hyperdrive Companion Unit}
-UI_FREIGHTER_DRIVE2_NAME	{FREIGHTER WARP REACTOR TAU}
-UI_FREIGHTER_DRIVE2_NAME_L	{Freighter Warp Reactor Tau}
-UI_FREIGHTER_DRIVE2_DESC	{Hyperdrive benefits from advanced fusion that brings starship to higher warp speed and intensity. User's craft will become able to leap deeper into space, and into more distant planetary systems.}
+UI_FREIGHTER_DRIVE2_NAME	{PLASMATIC WARP INJECTOR}
+UI_FREIGHTER_DRIVE2_NAME_L	{Plasmatic Warp Injector}
+UI_FREIGHTER_DRIVE2_DESC	{An augmentation for the colossal hyperdrive engine of an <STELLAR>interstellar freighter<>.
+
+Hyperdrive benefits from advanced fusion that brings starship to higher warp speed and intensity. User's craft will become able to leap deeper into space, and into more distant planetary systems.}
 UI_FREIGHTER_DRIVE3_SUB	{Hyperdrive Companion Unit}
-UI_FREIGHTER_DRIVE3_NAME	{FREIGHTER WARP REACTOR THETA}
-UI_FREIGHTER_DRIVE3_NAME_L	{Freighter Warp Reactor Theta}
-UI_FREIGHTER_DRIVE3_DESC	{Uncapped, yet stabilised, fusion systems are threaded into user's hyperdrive. Allows starship to jump ever longer distances in deep space.}
+UI_FREIGHTER_DRIVE3_NAME	{REALITY DE-THREADER}
+UI_FREIGHTER_DRIVE3_NAME_L	{Reality De-Threader}
+UI_FREIGHTER_DRIVE3_DESC	{An augmentation for the colossal hyperdrive engine of an <STELLAR>interstellar freighter<>.
+
+Uncapped, yet stabilised, fusion systems are threaded into user's hyperdrive. Allows starship to jump ever longer distances in deep space.}
 UI_FREIGHTER_FUEL_1_NAME	{เชื้อเพลิงยานรบ (50 ตัน)}
 UI_FREIGHTER_FUEL_1_NAME_L	{เชื้อเพลิงยานรบ (50 ตัน)}
 UI_FREIGHTER_FUEL_1_DESC	{ถังขนาดเล็กที่บรรจุเชื้อเพลิงสำหรับยานรบ
@@ -4262,6 +4283,8 @@ UI_UPLOAD_FAUNA	{อัปโหลดสัตว์ทั้งหมด}
 UI_UPLOAD_FAUNA_SUB	{อัปโหลดสัตว์ทั้งหมดที่ยังค้างอยู่}
 UI_UPLOAD_FLORA	{อัปโหลดพืชทั้งหมด}
 UI_UPLOAD_FLORA_SUB	{อัปโหลดพืชทั้งหมดที่ยังค้างอยู่}
+UI_UPLOAD_MINERALS	{อัปโหลดแร่ทั้งหมด}
+UI_UPLOAD_MINERALS_SUB	{อัปโหลดแร่ทั้งหมดที่ยังค้างอยู่}
 UI_UPLOAD_WAYPOINT	{อัปโหลด WAYPOINTS ทั้งหมด}
 UI_UPLOAD_WAYPOINT_SUB	{อัปโหลด waypoints ทั้งหมดที่ยังค้างอยู่}
 SHIP_TURNLEFT	{เลี้ยวซ้าย}
@@ -4271,6 +4294,7 @@ CONTROL_FLIGHT_ALT	{จำกัด}
 CONTROL_FLIGHT_OLD	{คงที่}
 OPTION_CTRL_RETICLE	{เป้าเล็งของยาน: %OPTION%}
 GROWTIME_HEADER	{Growing Time}
+GROWTIME_FABRICATOR_HEADER	{Fabrication Time}
 UI_ABANDONED_INFO	{%RACE% (Abandoned)}
 FE_DESTROY	{ทิ้งสิ่งของ}
 SHIPNAME_HEADER	{ชื่อ}
@@ -4408,21 +4432,21 @@ REFINER_LOST_TITLE	{คำเตือน: เครื่องแปรสภ�
 REFINER_LOST_NOTIFY	{ค้นหา <TECHNOLOGY>เครื่องแปรสภาพขนาดเล็ก<> โดยใช้ เครื่องวิเคราะห์ กด <IMG>AIM<>
 เทคโนโลยีขนาดเล็ก คุณสามารถพกพาไปกับตัวได้ โดยใช้ <IMG>DECONSTRUCT<>}
 TEACHWORD	{เรียนรู้คำศัพท์}
-RGB_WARP_1_DESC	{Hyperdrive computational matrix is upgraded, preventing rapid disassembly when attempting to reach rare-class <FUEL>red stellar bodies<>.
+RGB_WARP_1_DESC	{Upgrades the hyperdrive's core bounding magnets, preventing rapid disassembly when attempting to reach rare-class <FUEL>red stellar bodies<>.
 
 User is advised to access Hyperdrive systems via the <VAL_ON>Galactic Map<>.}
-RGB_WARP_1_NAME	{WARP SHIELDING SIGMA}
-RGB_WARP_1_NAME_L	{Warp Shielding Sigma}
-RGB_WARP_2_DESC	{Hyperdrive shield matrix is upgraded, preventing temporal anomalies when attempting to reach rare-class <TRADEABLE>green stellar bodies<>.
++RGB_WARP_1_NAME	{AMPLIFIED WARP SHIELDING}
+RGB_WARP_1_NAME_L	{Amplified Warp Shielding}
+RGB_WARP_2_DESC	{Upgrades the hyperdrive's shield integrity, preventing reality glitches when attempting to reach rare-class <TRADEABLE>green stellar bodies<>.
 
 User is advised to access Hyperdrive systems via the <VAL_ON>Galactic Map<>.}
-RGB_WARP_2_NAME	{WARP SHIELDING TAU}
-RGB_WARP_2_NAME_L	{Warp Shielding Tau}
-RGB_WARP_3_DESC	{Hyperdrive protection matrix is upgraded, preventing reality glitches when attempting to reach rare-class <TECHNOLOGY>blue stellar bodies<>.
+RGB_WARP_2_NAME	{CHROMATIC WARP SHIELDING}
+RGB_WARP_2_NAME_L	{Chromatic Warp Shielding}
+RGB_WARP_3_DESC	{Upgrades the hyperdrive's computational matrix,  preventing temporal anomalies when attempting to reach rare-class <TECHNOLOGY>blue stellar bodies<>.
 
 User is advised to access Hyperdrive systems via the <VAL_ON>Galactic Map<>.}
-RGB_WARP_3_NAME	{WARP SHIELDING THETA}
-RGB_WARP_3_NAME_L	{Warp Shielding Theta}
+RGB_WARP_3_NAME	{TEMPORAL WARP COMPUTER}
+RGB_WARP_3_NAME_L	{Temporal Warp Computer}
 CHARGEBUTTON_DESC	{ชาร์จเทคโนโลยีด้วยแร่ธาตุนี้}
 SHIPJUMP1_DAMAGED	{ระบบการเคลื่อนที่ของยานอวกาศ
 
@@ -4886,7 +4910,7 @@ And what better way than to attack a Korvax factory? They are both robotic life 
 Enter the factory and hack the terminal within. If we gain data about the Sentinels? Good. If not, we'll have summoned enough of them to trace any energy spikes on that world of yours. The portals will be ours in no time.}
 NPC_CORE_ACT1_10C_OPT_A	{NPC_CORE_ACT1_3C_OPT_A}
 NPC_CORE_ACT1_11_LANG	{NPC_CORE_ACT1_2_LANG}
-NPC_CORE_ACT1_11_DESC	{The terminal houses a <TECHNOLOGY>upgrade module<>for my <AUDIO>TXT_RadioNoise<> <STELLAR>Exosuit<>. However, I find few clues for Apollo. 
+NPC_CORE_ACT1_11_DESC	{The terminal houses a <TECHNOLOGY>upgrade module<> for my <AUDIO>TXT_RadioNoise<> <STELLAR>Exosuit<>. However, I find few clues for Apollo. 
 It seems the Korvax within left this world many days ago, apparently recalled on a priority transmission to their species' flotilla. Something has them worried.}
 NPC_CORE_ACT1_11_OPT_A	{Probe factory logs}
 NPC_CORE_ACT1_11_OPT_B	{NPC_CORE_ACT1_2_OPT_B}
@@ -5492,7 +5516,7 @@ EXP_CORE_ACT2_17_RES_A	{The lifeform grabs at me and in the moment of contact, N
 EXP_CORE_ACT2_17_RES_B	{The Korvax does nothing. They remain there, arms outstretched.}
 EXP_CORE_ACT2_17A_DESC	{Even as I stand in space, my mind travels across the cosmos. I see life as the Korvax see it: a vast tapestry of wonder, of memories shared between countless beings and times.
 
-I stand on the Korvax homeworld as Gek ships fill the skies... I see the moment the first Korvax was melted down for its rare minerals.
+I stand on the Korvax homeworld as Gek ships fill the skies... I see the moment the first Korvax was melted down for their rare minerals.
 
 But even in the depths of their subjugation, there was hope. A bargain, a prayer to a greater being.
 
@@ -6834,8 +6858,8 @@ TUTORIAL_ANTIMATTER_TITLE	{The Eye of the Anomaly}
 TUTORIAL_ANTIMATTER_LANG	{เชื่อมต่อระบบแล้ว... กำลังเลือกกุญแจ... กำลังถอดรหัส...
 <AUDIO>UI_Destination_Reached<>สำเร็จ!}
 TUTORIAL_ANTIMATTER_DESC	{The terminal is clogged with an unnerving, p<DELAY>0.1<>u<DELAY>0.1<>l<DELAY>0.1<>s<DELAY>0.1<>a<DELAY>0.1<>ting, slime. Nevertheless, it appears to function. As I touch the input panel, the alien substance reacts violently.<DELAY>0.4<> I make a note to avoid getting closer.
-The device opens, revealing a single, unblinking, crimson eye<AUDIO>UI_Destination_Reached<>.<DELAY>0.4<> It deposits a sample of antimatter, accompanied by a strange message...}
-TUTORIAL_ANTIMATTER_OPT_A	{อ่านบันทึก และเก็บปฏิสสาร}
+The device opens, revealing a single, unblinking, crimson eye<AUDIO>UI_Destination_Reached<>.<DELAY>0.4<> It prints out a <TECHNOLOGY>blueprint<> for <FUEL>Antimatter<>, accompanied by a strange message...}
+TUTORIAL_ANTIMATTER_OPT_A	{รับพิมพ์เขียว และอ่านบันทึก}
 TUTORIAL_ANTIMATTER_OPT_B	{ออก}
 TUTORIAL_ANTIMATTER_RES_A	{<IMG>SLASH<> YOU WILL FIND US, WHEN THE TIME IS RIGHT <IMG>SLASH<>
 <IMG>SLASH<> 16 16<AUDIO>UI_Nanites_Received<> 16 16<AUDIO>UI_Nanites_Received<> 16 16 <AUDIO>UI_Nanites_Received<>16 <IMG>SLASH<>}
@@ -7016,6 +7040,11 @@ Push the throttle forwards to take off
 UI_CORE_TUTORIAL1_OSD3	{ยานซ่อมแซมแล้ว <IMG>SLASH<> ระบบขับดันทำงาน}
 UI_CORE_TUTORIAL1_MSG4	{<STELLAR>ทุกระบบทำงานสมบูรณ์<>
 บินออกจากดาวดวงนี้ เพื่อหาคำตอบให้กับตัวเอง}
+UI_CORE_TUTORIAL1_MSG4A	{<STELLAR>All systems functional<>
+Fly up and into <SPECIAL>space<>
+Hold <IMG>THRUST<> to accelerate}
+UI_CORE_TUTORIAL1_MSG4_VR	{<STELLAR>All systems functional<>
+Fly up and into <SPECIAL>space<>}
 UI_CORE_TUTORIAL1_MSG_STARS1	{<STELLAR>ระบบการบินของยานอวกาศ<>
 ทดสอบระบบของยาน: 0 / 3
 ทดสอบการควบคุม และการทำงานของยาน กด <IMG>THRUST<>}
@@ -7096,7 +7125,7 @@ UI_CORE_TUTORIAL1X_MSG4	{สร้าง <COMMODITY>เฮอร์เมติ�
 รวบรวม %ITEM% เพื่อแปรสภาพ ในเครื่องแปรสภาพ: %CURRENT%/%AMOUNT%}
 UI_CORE_TUTORIAL1AX_MSG5	{สร้าง <COMMODITY>เฮอร์เมติคซีล<>
 ใช้ <TECHNOLOGY>เครื่องแปรสภาพขนาดเล็ก<> สร้าง <FUEL>คอนเดนส์คาร์บอน<> จาก <FUEL>คาร์บอน<>}
-UI_CORE_TUTORIAL1X_MSG6	{ใช้ <IMG>SCAN<> ค้นหาน <CATALYST>โซเดียม<>
+UI_CORE_TUTORIAL1X_MSG6	{ใช้ <IMG>SCAN<> ค้นหา <CATALYST>โซเดียม<>
 เครื่องสแกนเสียหาย เปิดหน้าต่างภารกิจ กด <IMG>OPTIONS<> เพื่อดูคำแนะนำ}
 UI_CORE_TUTORIAL1X_MSG8	{สร้าง <CATALYST>โซเดียมไนเตรต<>
 รวบรวม %ITEM% เพื่อแปรสภาพ ในเครื่องแปรสภาพ: %CURRENT%/%AMOUNT%
@@ -7362,7 +7391,7 @@ UI_CORE_TUTORIAL2_MSG7A	{ติดตั้ง <TECHNOLOGY>ไฮเปอร์
 UI_CORE_TUTORIAL2_MSG7	{ติดตั้ง <TECHNOLOGY>ไฮเปอร์ไดรฟ์<>
 เข้าสู่ช่องเก็บของ และกด <IMG>TECHMENU<> เพื่อติดตั้ง}
 UI_CORE_TUTORIAL3_DESC	{สัญญาณลึกลับพาฉันมาที่ซากยานบรรทุกอากาศยานขึ้นสนิม ฉันพบพิมพ์เขียวสร้างไฮเปอร์ไดรฟ์ ท่างกลางกองเศษซากนี้ พร้อมด้วยข้อความแปลก ๆ ที่ดูเหมือนใครบางคนจะทิ้งไว้ให้ฉัน}
-UI_CORE_TUTORIAL3_OBJ1	{สร้างวาร์ปเซลล์: ค้นหาปฏิสสาร}
+UI_CORE_TUTORIAL3_OBJ1	{สร้างวาร์ปเซลล์: ค้นหาพิมพ์เขียวของปฏิสสาร}
 UI_CORE_TUTORIAL3_OBJ1_TIP	{การเดินทางไประบบดาวอื่น ต้องใช้ <FUEL>วาร์ปเซลล์<> เป็นพลังงานให้กับไฮเปอร์ไดรฟ์
 ตามสัญญาณไป และค้นหาแหล่งของ <FUEL>ปฏิสสาร<> เพื่อสร้างเชื้อเพลิงวาร์ป}
 UI_CORE_TUTORIAL3_OBJ2	{สร้างวาร์ปเซลล์}
@@ -7659,8 +7688,8 @@ UI_CORE_ACT1_STEP2_OBJ_TIP	{UI_CORE_ACT1_STEP1_OBJ_TIP}
 UI_CORE_ACT1_STEP2_MSG	{เดินทางไปยังพิกัดของคนแปลกหน้า}
 UI_CORE_ACT1_STEP2_MSGA	{ซ่อมแซม <TECHNOLOGY>อุปกรณ์ส่งสัญญาณฉุกเฉิน<> ของคนแปลกหน้า
 แปรสภาพ %ITEM% จาก <STELLAR>ทองแดง<>: %CURRENT%/%AMOUNT%}
-UI_CORE_ACT1_STEP2_MSGB	{ซ่อมแซม <TECHNOLOGY>อุปกรณ์ส่งสัญญาณฉุกเฉิน<> ของคนแปลกหน้า
-ใช้ <TECHNOLOGY>เครื่องแปรสภาพ<> สร้าง %ITEM% จาก <CATALYST>โซเดียม<>}
+UI_CORE_ACT1_STEP2_MSGB	{ซ่อมแซม <TECHNOLOGY>อุปกรณ์ส่งสัญญาณฉุกเฉิน<> ของคนแปลกหน้า โดยใช้ %ITEM%: %CURRENT%/%AMOUNT%
+ใช้ <TECHNOLOGY>เครื่องสแกน<> กด (<IMG>SCAN<>) เพื่อค้นหา <CATALYST>พืชที่มีโซเดียม<>}
 UI_CORE_ACT1_STEP2_MSGC	{ซ่อมแซม <TECHNOLOGY>อุปกรณ์ส่งสัญญาณฉุกเฉิน<> ของคนแปลกหน้า
 มีสิ่งที่ต้องใช้ครบแล้ว กลับไปยังอุปกรณ์ส่งสัญญาณฉุกเฉิน เพื่อทำการซ่อมแซม}
 UI_CORE_ACT1_STEP2_OSD	{ได้รับพิกัด}
@@ -8195,6 +8224,9 @@ UI_CORE_ACT2_STEP8_MSG2A	{Read the log of the crashed freighter}
 UI_CORE_ACT2_STEP8_MSG2A1	{Read the log of the crashed freighter: 0 / <STELLAR>3<>}
 UI_CORE_ACT2_STEP8_MSG2A2	{Read the log of the crashed freighter: 1 / <STELLAR>3<>}
 UI_CORE_ACT2_STEP8_MSG2A3	{Read the log of the crashed freighter: 2 / <STELLAR>3<>}
+UI_CORE_ACT2_STEP8_MSG_RET	{<STELLAR>Log Encryption Key<> required
+Return to the freighter crash site
+Search the crash site for <SPECIAL>Secure Containers<>}
 UI_CORE_ACT2_STEP8_MSG2B	{<STELLAR>Log Encryption Key<> required: 0 / 1
 Search the crash site for <SPECIAL>Secure Containers<>
 Use the <TECHNOLOGY>Analysis Visor<> and <TECHNOLOGY>Terrain Manipulator<> to search underground}
@@ -11084,6 +11116,8 @@ UI_DELIVERY_OBJ1_OSD_FAIL	{Delivery goods misplaced}
 UI_DELIVERY_OBJ1_MARKER_FAIL	{Secure Depot}
 UI_COLLECT_OBJ	{เสาะหาสิ่งของให้ผู้ว่าจ้าง}
 UI_COLLECT_OBJ_TIP	{มีหลากหลายวิธีในการหาเสาะสิ่งของให้กับผู้ว่าจ้าง ไม่ว่าจะเป็น การค้นหาบนดาวเคราะห์, ซื้อจากร้านค้า ซื้อจากมนุษย์ต่างดาว หรือแม้แต่สร้างขึ้นมาเอง}
+UI_COLLECT_OBJ_FORMAT	{Source %ITEM%: %CURRENT%/%AMOUNT%}
+UI_COLLECT_OBJ_FORMAT_TIP	{%TIP%}
 UI_COLLECT_OBJ1_MSG1	{รวบรวม %PRIMARYITEM%: <STELLAR>%CURRENT%/%AMOUNT%<>
 กด <IMG>SCAN<> เมื่ออยู่ในอวกาศ เพื่อทำการตรวจสอบทรัพยากรของดาวเคราะห์
 ใช้ <TECHNOLOGY>เครื่องวิเคราะห์<> ค้นหาบ่อแร่}
@@ -11146,7 +11180,7 @@ UI_HIDE_SEEK_TIMED_MSG	{เป้าหมายหลบหนีไป! ตา
 UI_HIDE_SEEK_FAIL_OSD	{เป้าหมายได้หลบหนีไปแล้ว <IMG>SLASH<> ภารกิจล้มเหลว}
 UI_HIDE_SEEK_SUCCESS_OSD	{มาถึงสถานที่เป้าหมายแล้ว}
 UI_HIDE_SEEK_BRIBE_DESC	{เขาทำท่าทางบอกว่าได้พบเจอกับเป้าหมายเมื่อไม่นานมานี้ และดูเหมือนฉันต้องจ่ายค่าตอบแทนเพื่อให้เขายอมบอก...}
-UI_HIDE_SEEK_TIMED_DESC	{The lifeform gestures frantically, indicating that they are not who I am looking for. They have recently seen the target, but mime that the fugative was in rather a hurry to leave...}
+UI_HIDE_SEEK_TIMED_DESC	{The lifeform gestures frantically, indicating that they are not who I am looking for. They have recently seen the target, but mime that the fugitive was in rather a hurry to leave...}
 UI_HIDE_SEEK_BRIBE_OPT_A	{ให้สินบน}
 UI_HIDE_SEEK_BRIBE_RES_A	{เขาได้ทำการส่งพิกัดสถานที่มายังชุดเอ็กโซของฉัน}
 DNT_EXP_HIDE_SEEK_BRIBE_LANG_1	{Korvax notes lifeform fled. Korvax notes direction. Korvax notes Korvax has own needs.}
@@ -12668,7 +12702,7 @@ TRA_FILLER_OPT_B_17	{Panic}
 TRA_FILLER_RES_A_17	{Nothing I do calms the Gek. They were anxious before I arrived, and will remain anxious after I leave.}
 TRA_FILLER_RES_B_17	{My panic only seems to increase the Gek's alarm. I leave, both of us screaming.}
 TRA_REQUEST_TEXT_37	{%NAME% squirms nervously. They seem worried about what I might ask.}
-TRA_FILLER_DESC_18	{The Gek gestures at me angrily as I approach. They wave their tiny hands and snap their break with considerable fury.}
+TRA_FILLER_DESC_18	{The Gek gestures at me angrily as I approach. They wave their tiny hands and snap their beak with considerable fury.}
 DNT_TRA_FILLER_LANG_18	{Not again! Too many like you, insulting Gek, laughing at pheromones! Go away!}
 TRA_FILLER_OPT_A_18	{Cower}
 TRA_FILLER_OPT_B_18	{Laugh}
@@ -13681,7 +13715,7 @@ FTH_NPC_RES_B_9	{Have you not felt it? The very fact that you and I are talking,
 Things are breaking apart. Give it time, you'll see. Nothing lasts forever.}
 FTH_NPC_RES_C_9	{I don't know whether to laugh or cry...
 Here, take this. I suppose I won't be needing it anymore. Do what you like.}
-FTH_NPC_DESC_10	{The Traveller does not say anything else. They just stare at me, occasionally seeming as if they are about to wretch.}
+FTH_NPC_DESC_10	{The Traveller does not say anything else. They just stare at me, occasionally seeming as if they are about to retch.}
 FTH_NPC_LANG_10	{Do not -<STELLAR> kzzkkkt <>- trust the water.}
 FTH_NPC_OPT_A_10	{Ask about the water}
 FTH_NPC_OPT_B_10	{Ask if they are alright}

@@ -55,6 +55,7 @@ WPN_NOAMMO_ALT	{ไม่มีกระสุน}
 WPN_NOTECH	{ไม่มีเทคโนโลยีเครื่องมือที่ทำงานอยู่}
 WPN_BROKEN	{%WEAPON% ได้รับความเสียหายหนัก}
 TECH_DAMAGED	{%TECH% เสียหายหนัก}
+WPN_SUPPRESSED	{Multi-Tool Unavailable}
 TECH_NEEDS_INSTALL	{ต้องทำการติดตั้ง %TECH%}
 RELOAD	{รีโหลด}
 OVERHEAT	{อุปกรณ์ร้อนเกินไป}
@@ -159,6 +160,7 @@ SIGNAL_DISRUPT	{เครื่องกระตุ้นสัญญาณถ�
 BLACK_HOLE_SUCCESS	{Black Hole Warp Successful. Distance Travelled %DISTANCE%}
 VALUE_UNITS	{ยูนิตส์}
 ENERGY	{พลังงาน}
+RELIC_GATE_SUCCESS	{Ancient Warp Pathway Successful. Distance Travelled %DISTANCE%}
 BATTLE_MARKER	{สัญญาณขัดข้อง}
 BOUNTY_MARKER	{ค่าหัว %AMOUNT%}
 BATTLE_ALERT	{Battle detected}
@@ -429,7 +431,7 @@ TRADE_BUY_PRICE	{ซื้อ %AMOUNT% ในราคา <COMMODITY>%PRICE%<> �
 TRADE_SELL_PRICE	{ขาย %AMOUNT% ในราคา <COMMODITY>%PRICE%<> ยูนิตส์}
 TRADE_INV_FULL	{เต็ม}
 TRADE_INV_EMPTY	{ช่องเก็บของว่างเปล่า}
-PLAYER_MONEY_TITLE	{ยูนิตส์:}
+PLAYER_MONEY_TITLE	{ยูนิตส์}
 PRESENCE_DOCKED	{ลงจอดที่ %PLACE_NAME%}
 PRESENCE_EXPLORE	{กำลังสำรวจ %PLACE_NAME%}
 PRESENCE_SPACE	{กำลังบินผ่าน %SYSTEM_NAME%}
@@ -623,6 +625,7 @@ GLXY_STAR_INVALID_JUMP	{ต้องการ %NAME%}
 GLXY_STAR_INVALID_JUMP_L	{ต้องการ %NAME%}
 GLXY_SCAN_SELECT	{<IMG>PLAYER_RIGHT<> เลือก}
 DISCS_UPLOADED_CREDIT	{อัปโหลดการค้นพบแล้วแล้ว ได้รับ %REWARD% ยูนิตส์}
+DISCS_UPLOADED_NANITES	{Discoveries uploaded. %REWARD% Nanites received.}
 SHIELD	{เกราะป้องกัน}
 CRITICAL_HIT	{critical}
 GLXY_SCAN_SELECT_NR	{<IMG>GALAXYSCANNXT<> SELECT NEAREST}
@@ -2275,7 +2278,7 @@ CTRL_BTN_SHOW_HUD	{Show HUD}
 CTRL_BTN_SWIM_UP	{Swim Up}
 CTRL_BTN_SWIM_DOWN	{Swim Down}
 CTRL_BTN_MELEE	{Melee Attack}
-CTRL_BTN_ALT_FIRE	{Secondary Action}
+CTRL_BTN_ALT_FIRE	{Activate Alt Weapon}
 CTRL_BTN_INTERACT	{Perform Interaction}
 CTRL_BTN_SCAN	{Perform Scan}
 CTRL_BTN_EXIT_SHIP	{Exit Ship}
@@ -2289,7 +2292,9 @@ CTRL_ANLG_LOOK	{Look}
 CTRL_ANLG_MOVE	{Move}
 CTRL_ANLG_TURN	{Turn}
 CTRL_ANLG_THRUST	{Thrust}
-CTRL_ANLG_BRAKE	{Brake (Analogue)}
+CTRL_ANLG_THRUST_ALT	{Thrust (Analogue)}
+CTRL_ANLG_BRAKE	{Brake}
+CTRL_ANLG_BRAKE_ALT	{Brake (Analogue)}
 CTRL_BTN_BRAKE	{Brake}
 REDEEM_REDEEM	{Redeem: %ENTITLEMENT%}
 REDEEM_REDEEMED	{Redeemed: %ENTITLEMENT%}
@@ -2323,8 +2328,8 @@ NOTIFY_CANT_LAND	{ไม่สามารถลงจอดได้ <IMG>SLASH
 NOTIFY_BINOCULARS	{เล็งไปที่เป้าหมาย และกด <IMG>BINOCSCAN<> ค้างไว้ เพื่อทำการวิเคราะห์
 กด <IMG>ZOOM<> เพื่อปรับระยะ}
 NOTIFY_BINOCULARS_VR	{เล็งไปที่เป้าหมาย และกด <IMG>BINOCSCAN<> ค้างไว้ เพื่อทำการวิเคราะห์
-กด <IMG>ZOOM<> เพื่อปรับระยะ
 กด <IMG>AIM<> เพื่อออกจากระบบวิเคราะห์}
+NOTIFY_BINOCULARS_VR_ALT	{Target objects and hold <IMG>BINOCSCAN<> to analyse}
 NOTIFY_BOOST	{กด <IMG>BOOST<> เร่งความเร็ว}
 NOTIFY_PRO_PERCENT	{พลังงานระบบป้องกัน%HAZARD% คงเหลือ %PERCENT%}
 NOTIFY_PRO_OFFLINE	{ระบบป้องกัน%HAZARD%หยุดทำงาน}
@@ -2449,6 +2454,7 @@ NOTIFY_NOBOOST_FREIGHTER	{%TECH% Jammed
 Interference from Freighter Ships}
 NOTIFY_PIRATE_WIN	{ยานศัตรูพ่ายแพ้}
 NOTIFY_PIRATE_BATTLE_WIN	{ยานศัตรูพ่ายแพ้}
+NOTIFY_PIRATE_BATTLE_REINFORCE	{WARNING - REINFORCEMENT SHIPS INBOUND}
 NOTIFY_SHIP_NOFUEL	{เติมเชื้อเพลิง %TECH% ด้วย %AMOUNT%}
 NOTIFY_CHARGE_LIST_2	{%FUEL1% หรือ %FUEL2%}
 NOTIFY_CHARGE_LIST_3	{%FUEL1%, %FUEL2% หรือ %FUEL3%}
@@ -2492,10 +2498,12 @@ HYPERDRIVE_HINT	{<TITLE>ใช้งาน ไฮเปอร์ไดรฟ์<
 NOTIFY_PRODUCT_UNKOWN	{%TITLE%
 ซื้อ %PRODUCT% ที่ระบบค้าขายสินค้า
 จากสถานีอวกาศ หรือสถานีค้าขาย}
-NOTIFY_NORUN	{เหนื่อย
-รอพลังกายฟื้นฟูก่อน}
-NOTIFY_NOJETPACK	{เจ็ทแพ็คหมด
-รอให้เจ็ทแพ็คชาร์จก่อน}
+NOTIFY_NORUN	{<STELLAR>เหนื่อย<>
+รอพลังกายฟื้นฟูก่อน
+ซื้ออุปกรณ์ <TECHNOLOGY>ปรับปรุงพละกำลัง<> ได้จากสถานีอวกาศ}
+NOTIFY_NOJETPACK	{<STELLAR>เจ็ทแพ็คหมด<>
+รอพลังกายฟื้นฟูก่อน
+ซื้ออุปกรณ์ <TECHNOLOGY>ปรับปรุงเจ็ทแพ็ค<> ได้จากสถานีอวกาศ}
 NOTIFY_CREATURE_SCAN_HINT	{<TITLE>วิเคราะห์ และอัปโหลดสิ่งที่ค้นพบ<>
 กด <IMG>AIM<> ค้างไว้ เพื่อใช้เครื่องวิเคราะห์
 เล็งไปยังสิ่งมีชีวิต เพื่อทำการวิเคราะห์}
@@ -2648,6 +2656,7 @@ NOTIFY_PRODUCT_ONLY_NORES3	{ต้องมี %AMOUNT1%, %AMOUNT2%
 และ %AMOUNT3% ในการสร้าง %PRODUCT%}
 NOTIFY_TAKEOFF_EXITONLY	{กด <IMG>EXITSHIP<> เพื่อออก}
 INSUFFICIENT_UNITS	{ยูนิตส์ไม่เพียงพอ}
+INSUFFICIENT_UNITS_L	{ยูนิตส์ไม่เพียงพอ}
 NOTIFY_LEAVE_GOTOSIGNAL	{<TITLE>เครื่องกระตุ้นสัญญาณ<>
 ค้นหา และใช้งาน <TRADEABLE>เครื่องกระตุ้นสัญญาณ<>
 เพื่อระบุตำแหน่งพื้นที่ที่น่าสนใจ}
@@ -2757,6 +2766,8 @@ NOTIFY_SENTINELS	{ทำลายโดรนก่อนที่มันจ�
 INTRCT_RES	{%AMOUNT% %RESOURCE% ถูกรวบรวม}
 INTRCT_NOROOM	{ช่องเก็บของเต็ม}
 INTRCT_NOROOM_L	{ช่องเก็บของเต็ม}
+INTRCT_NOROOM_FREIGHTER	{FREIGHTER INVENTORY FULL}
+INTRCT_NOROOM_FREIGHTER_L	{Freighter Inventory Full}
 INTRCT_UNITS	{%AMOUNT% ยูนิตส์ ถูกเพิ่มเข้ามาในบัญชีของคุณ}
 WAR_NAME	{วาย'คีน}
 EXP_NAME	{คอร์แว็กซ์}
@@ -2765,6 +2776,7 @@ ROBOT_NAME	{เซนทิเนล}
 ATLAS_NAME	{แอตลัส}
 UNKNOWN_NAME	{ไม่ทราบ}
 INTRCT_SAVE	{เซฟเกมแล้ว}
+INTRCT_SAVE_NO_POS	{เกมถูกเซฟแล้ว <IMG>SLASH<> ตำแหน่งไม่เซฟในการเล่นโหมดผู้เล่นหลายคน}
 INTRCT_PROD	{%AMOUNT% %RESOURCE% ถูกรวบรวม}
 INTRCT_EMPTY	{ไม่พบอะไรเลย}
 INTRCT_PRODRCP	{เรียนรู้วิธีสร้าง %RECIPE%}
@@ -3355,7 +3367,7 @@ EXP_NPC_OPT_A_21	{Use while thinking about my journey}
 EXP_NPC_OPT_B_21	{Use with a clear mind}
 EXP_NPC_OPT_C_21	{Leave well alone}
 EXP_NPC_RES_A_21	{Gingerly, I place the device upon my head. At first, nothing happens. And then there is a white flash, the the pain indescribable.
-As it fades, I catch of a glimpse of something. Words cannot describe it, but I knew with utmost certainty what it was. The heart of the Korvax Convergence.
+As it fades, I catch a glimpse of something. Words cannot describe it, but I knew with utmost certainty what it was. The heart of the Korvax Convergence.
 I cannot bear it. I remove the device. Nanites spill forth from my hands.}
 EXP_NPC_RES_B_21	{Gingerly, I place the device upon my head. At first, nothing happens. And then there is a white flash, the the pain indescribable.
 The feeling fades, and is replaced by a blank calmness, a deep tranquility. I see the endless stars drift by. I see my own body, so small, so insignificant. I see the crimson red orb...
@@ -3853,32 +3865,32 @@ EXP_FAC_OPT_A_3	{Attempt reconstruction}
 EXP_FAC_OPT_B_3	{Delete file}
 EXP_FAC_RES_A_3	{The data recovery operation completes successfully. One by one the errors clear from the terminal screen.}
 EXP_FAC_RES_B_3	{Manually deleting the corrupted file appears to free the machine from its degenerate loop. I can only hope it contained nothing valuable.}
-EXP_FAC_DESC_4	{The facilty rings with the blare of an alarm. However, it appears I am not the first intruder. The terminal display indicates a previous hijack attempt.}
+EXP_FAC_DESC_4	{The facility rings with the blare of an alarm. However, it appears I am not the first intruder. The terminal display indicates a previous hijack attempt.}
 DNT_EXP_FAC_LANG_4	{Virus detection warning! File extracting valuable data!}
 EXP_FAC_DESC_4A	{Strange, shifting glyphs dance across the terminals command prompt. Some alien code is taking over the system's research drive.}
 EXP_FAC_OPT_A_4	{Quarantine alien process}
 EXP_FAC_OPT_B_4	{Permit alien process}
 EXP_FAC_RES_A_4	{The quarantine operation is succesful and the alien code is purged from the system. The alarms fall silent.}
 EXP_FAC_RES_B_4	{I tap out a few commands, acknowleding but not removing the virus.
-There is a short, almost deliberate delay. Runes shift across the display.<DELAY>0.6<> The terminal grants me root access to the facilty. The alien code resumes its harvesting operation.}
+There is a short, almost deliberate delay. Runes shift across the display.<DELAY>0.6<> The terminal grants me root access to the facility. The alien code resumes its harvesting operation.}
 EXP_FAC_DESC_5	{The outpost appears to have been in the middle of complex planetary scan. Alarms sound against my intrusion, but the operation continues. I attempt to make sense of the output.}
 DNT_EXP_FAC_LANG_5	{Warning! Interruption forbidden! Sentinel scan ending soon! Control returning to overseer imminently!}
 EXP_FAC_DESC_5A	{The scan continues. It seems to be consuming all the facility's resources, preventing other operations. A large red override button blinks temptingly.}
 EXP_FAC_OPT_A_5	{Cancel planetary scan}
 EXP_FAC_OPT_B_5	{Wait}
 EXP_FAC_RES_A_5	{I hit the override button. The scan data is deleted.<DELAY>0.8<> A remote process, detecting the premature end of the scan, shuts down the entire facility.}
-EXP_FAC_RES_B_5	{I wait, patient. The scan finishes processing and uploads its data. With this special task complete, the facilty comes back online.}
+EXP_FAC_RES_B_5	{I wait, patient. The scan finishes processing and uploads its data. With this special task complete, the facility comes back online.}
 EXP_FAC_DESC_7	{My entry has caused the facility to go into immediate lockdown, interrupting its operation. Readouts on the terminal indicate some sort of deep-level exploratory or drilling operation.}
 DNT_EXP_FAC_LANG_7	{Geological scan in progress! Medial strata mined. Remote connection error! Immediate probe recall required!}
 EXP_FAC_DESC_7A	{A probe schematic flashes red. Some input appears to be required.}
 EXP_FAC_OPT_A_7	{Recall probe}
 EXP_FAC_OPT_B_7	{Restart probe}
 EXP_FAC_OPT_C_7	{Detonate probe}
-EXP_FAC_RES_A_7	{I hear the whirr of gears and the hissing of metal cable. The facilty shudders slightly as the machinery bites into the cable and begins to pull.
+EXP_FAC_RES_A_7	{I hear the whirr of gears and the hissing of metal cable. The facility shudders slightly as the machinery bites into the cable and begins to pull.
 After an agonising delay, the terminal reports a successful extraction. The alarms cease.}
 EXP_FAC_RES_B_7	{I try several times to restart the probe. It fails to respond to my commands. Meanwhile, the malfunction alerts grow ever harsher.}
 EXP_FAC_RES_C_7	{I hear a deep, distant noise, a subterranean roll of thunder. Alerts and alarms fill the terminal screen, most of them flashing angrily. The terminal refuses to accept further input.}
-EXP_FAC_DESC_8	{Alarms blare, sounding out against my intrusion. The facilty is remotely operated, and no-one responds to the klaxon's call.
+EXP_FAC_DESC_8	{Alarms blare, sounding out against my intrusion. The facility is remotely operated, and no-one responds to the klaxon's call.
 The terminal indicates the facility was undertaking a specialised piece of research.}
 DNT_EXP_FAC_LANG_8	{Experiment containment failure. Common fuel element overcharge explosion. Clarify should continue?}
 EXP_FAC_DESC_8A	{The terminal appears to be asking for manual confirmation of its experiment...}
@@ -3977,7 +3989,7 @@ EXP_FAC_OPT_C_21	{Leave creature alone}
 EXP_FAC_RES_A_21	{I boost power to the wiring loom.<DELAY>0.5<> A smell of roasted meat wafts up from the systems below. The system comes back online.}
 EXP_FAC_RES_B_21	{I send a surge of highly acidic cleaning fluid through the pipes. <DELAY>0.5<> The creature is swept away. I hear a faint hiss as it bubbles away to nothingness. The system comes back online.}
 EXP_FAC_RES_C_21	{I wait. Driven by the alarms, the creature struggles desperately for the exit. Eventually, it breaks free.<DELAY>0.4<> The system comes back online.}
-EXP_FAC_DESC_22	{The alarm has triggered the instant incineration the elements used here. The process they were being used for, however, is still online.}
+EXP_FAC_DESC_22	{The alarm has triggered the instant incineration of the elements used here. The process they were being used for, however, is still online.}
 DNT_EXP_FAC_LANG_22	{Databank back-up process stalled. Raw metal required to finish process.}
 EXP_FAC_DESC_22A	{My scanner is picking up traces of metal, leftovers from the previous production process.}
 EXP_FAC_OPT_A_22	{Supply metal}
@@ -5660,7 +5672,8 @@ WAR_MON_RES_A_11	{The lava surges, molten rock grabbing at my Exosuit. Time slow
 I close my eyes. When I open them, the edifice is reconstructed, the molten rock solid once more. I feel a hot, angry wind.}
 WAR_MON_RES_B_11	{The ancient warriors who once worshipped here bless my show of respect. The lava reshapes itself, forming an intricate plinth in front of me as it cools. The plinth is laden with gifts.
 The vision fades, but the gifts remain.}
-WAR_MON_DESC_12	{There are three vast columns of words on the ancient structure, each written in a different alphabet. The first column's words are like savage runes scratched in sand, the second shows precise sequences of dots. The final column has wide and welcoming letters, almost appearing hand-written in hard stone.}
+WAR_MON_DESC_12	{There are three vast columns of words on the ancient structure, each written in a different alphabet.
+The first column's words are like savage runes scratched in sand, the second shows precise sequences of dots. The final column has wide and welcoming letters, almost appearing hand-written in hard stone.}
 DNT_WAR_MON_LANG_12	{Grah! Learn language of the conquerors! Learn language of the conquered!}
 WAR_MON_DESC_12A	{The dirt and blood of ancient hand prints cover the base of each column.}
 WAR_MON_OPT_A_12	{Press hand against runes}
@@ -8499,9 +8512,7 @@ They gesture towards its starship. They are willing to sell it for the right pri
 TRA_SHIP_DESC_4	{The pilot clucks excitedly and pecks at their trading manifest. They are clearly delighted by an unscheduled opportunity to buy and sell goods.
 
 They click their beak and nod towards their starship. Even its craft would be available for the right price...}
-TRA_SHIP_DESC_5	{The trader is clearly excited by my approach. They peck at a list of the cargo carried in their starship.
-
-They make it clear that the starship is also for sale...}
+TRA_SHIP_DESC_5	{The trader is clearly excited by my approach. They peck at a list of the cargo carried in their hold. They make it clear that the starship is also for sale...}
 TRA_SHIP_DESC_6	{The trader waves towards their cargo hold. They are clearly excited by my appearance.
 
 They peck towards the cockpit with their beak, indicating that they are also willing to discuss the sale of the ship itself.}
@@ -8509,18 +8520,14 @@ DNT_TRA_SHIP_LANG_1	{Hello friend!}
 DNT_TRA_SHIP_LANG_2	{Trade friend! Cargo and starship negotiations begin!}
 DNT_TRA_SHIP_LANG_3	{Gek joy! Trading opportunity!}
 WAR_SHIP_DESC_1	{The warrior is open to trading, and to discuss the sale of their ship...}
-WAR_SHIP_DESC_2	{The warrior makes a bark of acceptance to show their willingness to trade.
-
-They prepare their cargo for inspection.}
+WAR_SHIP_DESC_2	{The warrior makes a bark of acceptance to show their willingness to trade. They prepare their cargo for inspection.}
 WAR_SHIP_DESC_3	{The warrior pilot covers their teeth and stares out towards me.
 
 They are clearly willing to trade, but they don't want to show emotion. Their kind are reluctant to give any advantages during negotiations.}
 WAR_SHIP_DESC_4	{The pilot looks displeased at my request to open trade negotiations, but then changes their mind. The equipment I carry has impressed them.
 
 They make a series of small barks. Their cargo and ship are ready for inspection.}
-WAR_SHIP_DESC_5	{The warrior barks with enthusiasm and prepares to open their cargo hold for inspection.
-
-They are open to trade negotiation, and the potential sale of their starship.}
+WAR_SHIP_DESC_5	{The warrior barks with enthusiasm and prepares to open their cargo hold for inspection. They are open to trade negotiation, and the potential sale of their starship.}
 WAR_SHIP_DESC_6	{The warrior runs their hand over their starship and barks. They make it known that they are willing to part with it for the right price.
 
 They ready their cargo manifest for inspection.}
@@ -11362,6 +11369,7 @@ PC_MOUSE_MOUSE_5	{Mouse 5}
 PC_MOUSE_MOUSE_WHEEL_DOWN	{Mouse Wheel Down}
 PC_MOUSE_MOUSE_WHEEL_UP	{Mouse Wheel Up}
 PC_MOUSE_RIGHT_MOUSE	{Right Mouse}
+PC_SETTINGS_V_LOW	{ต่ำมาก}
 PC_SETTINGS_CUSTOM	{Custom}
 PC_SETTINGS_HIGH	{สูง}
 PC_SETTINGS_LOW	{ต่ำ}
@@ -11933,9 +11941,11 @@ EXP_FREIGHT_LANG_1	{Battle analysis projection: destruction without aid of Trave
 TRA_FREIGHT_LANG_1	{Many thanks, friend! You have saved many lives and much great profit!}
 ALL_FREIGHTER_OPT_1	{Inspect freighter}
 ALL_FREIGHTER_OPT_2	{Refuse Reward}
+ALL_FREIGHTER_OPT_3	{Request payment instead}
 ALL_FREIGHTER_RES_1	{The Captain looks at me happily, almost relieved. Perhaps the burden of command had become too much for them?
 Their ship and its crew is now at my disposal, as well as command of the freighter's <STELLAR>Support Frigates<>.}
 ALL_FREIGHTER_RES_2	{The captain looks at me with increased respect. My actions in battle clearly made an impression, and my refusal of any reward has only amplified that impact.}
+ALL_FREIGHTER_RES_3	{The captain looks at me with respect. My actions in battle clearly made an impression.}
 NPC_FREIGHTER_CAPTAIN_LANG_1	{Welcome aboard. What brings you here? Freighter life rarely appeals to the independent pilot.
 Perhaps you need our services? Some cargo hauling, or some other business?}
 NPC_FREIGHTER_CAPTAIN_DESC_1	{An air of weary authority clearly marks this being as the freighter's Captain. Do they tire of the burden of ownership, I wonder?
@@ -12252,10 +12262,13 @@ GAMEMODE_HELP_DISCARD	{Hold <IMG>GMRESTART<> to discard save data}
 GAMEMODE_RESTART_CHECK	{แน่ใจนะว่าจะลบเซฟนี้?}
 BASEBUILD_LIMIT_REACHED	{สร้างไม่ได้ <IMG>SLASH<> Construction Limit Reached}
 BASEBUILD_OUT_OF_RANGE	{สร้างไม่ได้ <IMG>SLASH<> Base Out Of Range}
+BASEBUILD_WIRE_TOO_LONG	{สร้างไม่ได้ <IMG>SLASH<> Connection Too Long}
 BASEBUILD_INSUFFRESOURCES	{สร้างไม่ได้ <IMG>SLASH<> องค์ประกอบขาดหายไป}
 BASEBUILD_INVALID_POS	{สร้างไม่ได้ <IMG>SLASH<> ตำแหน่งไม่ถูกต้อง}
 BASEBUILD_INVALID_POS_BUILDING	{สร้างไม่ได้ <IMG>SLASH<> Must Attach To Structure}
 BASEBUILD_INVALID_POS_TERRAIN	{สร้างไม่ได้ <IMG>SLASH<> Must Place On Terrain}
+BASEBUILD_INVALID_PERMISSIONS	{สร้างไม่ได้ <IMG>SLASH<> No Edit Permission}
+TERRAIN_INVALID_PERMISSIONS	{สร้างไม่ได้ <IMG>SLASH<> No Edit Permission}
 NOTICE_COMPILING_SHADERS	{รอสักครู่...}
 BUILD_GROUP_CUBES	{Cuboid Rooms}
 BUILD_GROUP_DECALS	{Decals}
@@ -12620,6 +12633,8 @@ PHOTO_EDITCAM	{<IMG>PHOTO_CAM<> APPLY SETTINGS}
 INTRCT_SAVE_DISABLED	{Saving is disabled in Ambient Mode}
 PHOTO_RESET	{RESTORE DEFAULTS}
 PHOTO_CAMMODE_CONTROLS	{<IMG>PHOTO_HIDE<> ซ่อนเมนู  <IMG>PHOTO_SUN<> ย้ายดวงอาทิตย์  <IMG>PHOTO_CAMDOWN<>/<IMG>PHOTO_CAMUP<> ความสูง <IMG>PHOTO_CAM<> เปลี่ยนการตั้งค่า  <IMG>PHOTO_CAPTURE<> ถ่ายรูป  <IMG>PHOTO_EXIT<> ออก}
+PHOTO_CAMMODE_CONTROLS_VR1	{<IMG>PHOTO_HIDE<> ซ่อนเมนู  <IMG>PHOTO_SUN<> ย้ายดวงอาทิตย์  <IMG>PHOTO_CAMDOWN<>/<IMG>PHOTO_CAMUP<> ความสูง}
+PHOTO_CAMMODE_CONTROLS_VR2	{<IMG>PHOTO_CAM<> เปลี่ยนการตั้งค่า  <IMG>PHOTO_CAPTURE<> ถ่ายรูป  <IMG>PHOTO_EXIT<> ออก}
 GMAP_HOMESYSTEM	{Home System}
 GMAP_HOMESYSTEM_CAPS	{HOME SYSTEM}
 GMAP_HOMEBASE	{Current Claimed Base}
@@ -12665,6 +12680,7 @@ BASE_BUILDING_TERM_FRIEND_TITLE	{Guest Planet Mainframe}
 OPTION_HDR	{HDR}
 OPTION_SSAO	{SSAO}
 OPTION_HBAO	{HBAO}
+OPTION_GTAO	{GTAO}
 BASE_BUILDING_AMBIENT_TEXT	{Claim and Begin Creative Mode}
 BASE_BUILDING_UPLOAD_TEXT	{อัปโหลดฐาน}
 BASE_BUILDING_DELETE_TEXT	{รื้อถอนฐาน}
@@ -12734,6 +12750,7 @@ VEHICLE_MARKER	{Your Exocraft}
 VEHICLE_WORD	{EXOCRAFT}
 INTRCT_VEHICLE	{Exocraft}
 DISC_UI_TIMELINE	{DISCOVERY TIMELINE}
+DISC_UI_ALL_SYSTEMS	{VISITED SYSTEMS}
 DISC_UI_HISTORY	{DISCOVERY HISTORY}
 DISC_UI_TIMELINE_PLAIN	{ลำดับเหตุการณ์}
 DISC_UI_HISTORY_PLAIN	{HISTORY}
@@ -12771,16 +12788,22 @@ NPC_TRADE_TECH_FRAGMENTS	{ซื้อพิมพ์เขียว}
 NPC_TRADE_TECH_DECLINE	{ปฏิเสธ}
 INTRCT_MSGMOD_KEYB_HEADER	{กรอกข้อความ}
 INTRCT_MSGMOD_INSTRUCTION	{เครื่องส่งข้อความได้รอให้คุณป้อนข้อความ เพื่อฝากไปถึงผู้มาเยือน}
+INTRCT_MSGMOD_INSTRUCTION_MSG	{The Message Module holds a message that you left earlier. It reads:
+
+%MESSAGE%}
 INTRCT_MSGMOD	{เครื่องฝากข้อความ}
 INTRCT_MSGMOD_ACCEPT	{ข้อความของคุณถูกบันทึกแล้ว}
 INTRCT_MSGMOD_CANCEL	{ในขณะนี้คุณไม่ได้ฝากข้อความใหม่}
 INTRCT_MSGMOD_READ	{คุณพบข้อความจากเจ้าของ}
+INTRCT_MSGMOD_READ_MSG	{You find a message from the owner. It reads:
+
+%MESSAGE%}
 INTRCT_MSGMOD_READ_BLANK	{เจ้าของยังไม่ได้ฝากข้อความไว้}
 TECH_ALREADY_INSTALLED	{เทคโนโลยีนี้ถูกติดตั้งแล้ว}
 TECH_AWARDED	{ได้รับพิมพ์เขียวเทคโนโลยี}
 TECH_ALREADY_KNOWN	{ได้เรียนรู้พิมพ์เขียวของเทคโนโลยีนี้แล้ว}
 CTRL_BTN_QUIT_MENU	{Options / Quit}
-PLAYER_TECH_TITLE	{นาไนต์:}
+PLAYER_TECH_TITLE	{นาไนต์}
 TECH_REQUIRED_STANDING	{Required Rank: %STANDING%}
 TECH_FRAGMENT_COST	{ซื้อในราคา %PRICE% %FRAGMENTS%}
 TECH_FRAGMENT_SINGULAR	{นาไนต์}
@@ -12864,7 +12887,9 @@ SHIP_WEAPONS_LASERS_HEATTIME	{Heat Dispersion}
 SHIP_ARMOUR_SHIELD_STRENGTH	{Shield Strength}
 SHIP_HYPERDRIVE_JUMPDISTANCE	{ระยะไฮเปอร์ไดรฟ์}
 SHIP_HYPERDRIVE_JUMPSPERCELL	{Warp Cell Efficiency}
-SHIP_PULSEDRIVE_MINIJUMPFUELSPE	{Pulse Drive Power}
+FREIGHTER_HYPERDRIVE_JUMPSPERCE	{Warp Cell Efficiency}
+SHIP_PULSEDRIVE_MINIJUMPFUELSPE	{Pulse Drive Fuel Efficiency}
+SHIP_PULSEDRIVE_MINIJUMPSPEED	{Pulse Drive Power}
 SHIP_LAUNCHER_TAKEOFFCOST	{เชื้อเพลิงการบินขึ้น}
 SHIP_MANEUVERABILITY	{Maneuverability}
 BASESTATS_TYPE_SHIP	{ยานอวกาศ}
@@ -12921,7 +12946,7 @@ UI_BASE_STEAM	{สตีมเวิร์กชอป}
 UI_DMG_NUMBERS	{ตัวเลขความเสียหาย}
 RENAME_VEHICLE	{เปลี่ยนชื่อ}
 STATS_SHIP_ATTACK	{พลังโจมตี}
-STATS_SHIP_SHIELD	{Shield Absorb}
+STATS_SHIP_SHIELD	{Shield Strength}
 STATS_SHIP_HYPERDRIVE	{Hyperdrive Range}
 STATS_WEAPON_ATTACK	{พลังโจมตี}
 STATS_WEAPON_MINING	{Mining Yield}
@@ -12935,7 +12960,8 @@ BASE_UPLOAD_SUBTITLE	{Take a screenshot and upload to Steam Workshop}
 BASE_UPLOAD_SCREEN	{Screenshot}
 CTRL_BTN_VEHI_ACCELERATE	{Accelerate}
 CTRL_BTN_VEHI_BRAKE	{Brake Exocraft}
-CTRL_ANLG_VEHI_BRAKE	{Brake Exocraft (Analogue)}
+CTRL_ANLG_VEHI_BRAKE	{Brake Exocraft}
+CTRL_ANLG_VEHI_BRAKE_ALT	{Brake Exocraft (Analogue)}
 CTRL_BTN_VEHI_STEER	{Steer}
 CTRL_BTN_VEHI_EXIT	{Exit Exocraft}
 CTRL_BTN_VEHI_JUMP	{พุ่งขึ้น}
@@ -13036,7 +13062,7 @@ Create your Race Track by dropping <TECHNOLOGY>Checkpoints<> while driving}
 EDITING_RACE	{<TITLE>Editing Race Track<>
 Press <IMG>PLACE_RACE_NODE<> to drop <TECHNOLOGY>checkpoints<>
 Remove checkpoints with <IMG>REMOVE_RACENODE<>
-Return to the pad to finish editing}
+Return to the <TECHNOLOGY>Race Initiator<> to finish editing}
 INTERACT_WITH_RACE	{<TITLE>Race Track<>
 Press <IMG>HORN<> to start racing}
 QUICK_MENU_TIP_VEHICLE_RESTART	{Restart Race}
@@ -13156,6 +13182,18 @@ BLD_INFRALADDER_DESCRIPTION	{A ladder used in conjunction with Structural Platfo
 BLD_INFRALADDER_SUBTITLE	{สิ่งก่อสร้าง}
 BLD_COLOURLIGHT_NAME	{ไฟส่องสว่างแบบสี}
 BLD_COLOURLIGHT_NAME_L	{ไฟส่องสว่างแบบสี}
+BLD_BLUELIGHT_NAME	{BLUE LIGHT}
+BLD_BLUELIGHT_NAME_L	{Blue Light}
+BLD_PINKLIGHT_NAME	{PINK LIGHT}
+BLD_PINKLIGHT_NAME_L	{Pink Light}
+BLD_YELLOWLIGHT_NAME	{YELLOW LIGHT}
+BLD_YELLOWLIGHT_NAME_L	{Yellow Light}
+BLD_GREENLIGHT_NAME	{GREEN LIGHT}
+BLD_GREENLIGHT_NAME_L	{Green Light}
+BLD_REDLIGHT_NAME	{RED LIGHT}
+BLD_REDLIGHT_NAME_L	{Red Light}
+BLD_WHITELIGHT_NAME	{WHITE LIGHT}
+BLD_WHITELIGHT_NAME_L	{White Light}
 BLD_COLOURLIGHT_DESCRIPTION	{ไฟส่องสว่างแบบสี เพื่อความสวยงามของฐานของคุณ}
 BLD_COLOURLIGHT_SUBTITLE	{เครื่องประดับตกแต่ง}
 BLD_MAINROOMFRAME_NAME	{CYLINDRICAL ROOM FRAME}
@@ -13495,8 +13533,8 @@ VEHICLESCAN_DESC	{A large and complex field-based subspace radar.
 Due to their large power consumption and inherent subatomic instability, they are found only installed on Exocraft.
 
 Press <IMG>QUICK_MENU<> to activate the เครื่องกระตุ้นสัญญาณ}
-VEHICLESCAN_U1_NAME	{EXOCRAFT SIGNAL BOOSTER UPGRADE SIGMA}
-VEHICLESCAN_U1_NAME_L	{Exocraft Signal Booster Upgrade Sigma}
+VEHICLESCAN_U1_NAME	{ADVANCED SIGNAL BOOSTER}
+VEHICLESCAN_U1_NAME_L	{Advanced Signal Booster}
 VEHICLESCAN_U1_SUBTITLE	{Exocraft Signal Booster Upgrade}
 VEHICLESCAN_U1_DESC	{Allows for additional building types to be acquired by the Exocraft Signal Booster.}
 VEHICLESCAN_U2_NAME	{EXOCRAFT SIGNAL BOOSTER UPGRADE TAU}
@@ -13761,6 +13799,10 @@ BLD_WALLDOOR_NAME	{SHUTTER DOOR}
 BLD_WALLDOOR_NAME_L	{Shutter Door}
 BLD_WALLDOOR_DESCRIPTION	{An autonomous shutter door, programmed to open in the presence of its constructor.}
 BLD_WALLDOOR_SUBTITLE	{Wall Access Route}
+BLD_CRATECYLINDER_DESCRIPTION	{Regularly fabricates useful items for its constructor.
+Item retrieval requires an <TECHNOLOGY>AtlasPass v1<> for identity verification.}
+BLD_CRATE_DESCRIPTION	{Regularly fabricates useful items for its constructor.}
+BLD_CRATE_SUBTITLE	{Fabricator}
 RAILDMG1_NAME	{BLAZE JAVELIN DAMAGE SIGMA}
 RAILDMG1_NAME_L	{Blaze Javelin Damage Sigma}
 RAILDMG1_SUBTITLE	{Blaze Javelin Companion Unit}
