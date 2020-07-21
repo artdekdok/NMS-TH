@@ -1211,9 +1211,9 @@ PHOTO_CAMMODE_CONTROLS_NEW	{<IMG>PHOTO_HIDE<> ซ่อนเมนู  <IMG>PHO
 UI_UNLOCK_INFO	{Topics will unlock as you progress through the game.}
 UI_ENABLED	{ใช้งาน}
 UI_LEAVE	{<IMG>FE_BACK<> ย้อนกลับ}
-UI_JOINGAME	{Multiplayer}
+UI_JOINGAME	{เล่นหลายคน}
 UI_PLAYGAME	{เล่นเกม}
-UI_JOINGAME_SUB	{Play with friends and instantly visit their worlds.}
+UI_JOINGAME_SUB	{เล่นกับเพื่อน และเข้าไปยังโลกของเขา}
 UI_PLAYGAME_SUB	{ผู้เล่นอื่นอาจจะเข้าร่วมเกมของคุณ}
 UI_NMS	{NO MAN'S SKY}
 UI_SAVESLOT	{โหลดเซฟ}
@@ -1712,7 +1712,8 @@ TRADE_SELL_UNITS	{<IMG>SELECT<> ขาย %AMOUNT% ในราคา <IMG>UNITS
 TRADE_SELL_UNITS_WANTED	{<IMG>SELECT<> ซื้อในราคา <IMG>UNITS<> %PRICE%}
 TRADE_SELL_UNITS_POS	{<IMG>SELECT<> ขาย %AMOUNT% ในราคา <POS_AVG><IMG>UNITS<> %PRICE%<>}
 TRADE_SELL_UNITS_WANTED_POS	{<IMG>SELECT<> ซื้อในราคา <POS_AVG><IMG>UNITS<> %PRICE%<>}
-ในราคาTRADE_SELL_UNITS_WANTED_NEG	{<IMG>SELECT<> ซื้อในราคา <NEG_AVG><IMG>UNITS<> %PRICE%<>}
+TRADE_SELL_UNITS_NEG	{<IMG>SELECT<> ขาย %AMOUNT% ในราคา <NEG_AV><IMG>UNITS<> %PRICE%<>}
+TRADE_SELL_UNITS_WANTED_NEG	{<IMG>SELECT<> ซื้อในราคา <NEG_AVG><IMG>UNITS<> %PRICE%<>}
 TRADE_SELL_NANITES	{ขายในราคา %PRICE% นาไนต์}
 TRADE_BUY_BUILDING_PRICE	{<IMG>SELECT<> ต้องการ %PRICE% ข้อมูลที่เสียหาย}
 TRADE_RANK_REQUIRED	{ต้องการ %RACE% ระดับ %NUM%}
@@ -1957,7 +1958,6 @@ UI_SHIPSLOT_DMG12_NAME_L	{Melted Fuel Cell}
 UI_SHIPSLOT_DMG_SUB	{ส่วนที่เสียหายของยาน}
 UI_SHIPSLOT_DMG_DESC	{ระบบของยานที่<FUEL>เสียหายหนัก<>
 
-ช่องเหล่านี้ไม่สามารถใช้<STELLAR>เก็บสิ่งของ<> หรือ<TECHNOLOGY>เทคโนโลยี<>ได้ จนกว่าจะถูกซ่อมแซม ทำการซ่อมแซม กด <IMG>REPAIR<>}
 ช่องเหล่านี้ไม่สามารถใช้ <STELLAR>เก็บสิ่งของ<> หรือ <TECHNOLOGY>เทคโนโลยี<> ได้ จนกว่าจะถูกซ่อมแซม ทำการซ่อมแซม กด <IMG>REPAIR<>
 
 การซ่อมแซมจะทำให้ได้ช่องมาใช้งาน}
@@ -6073,7 +6073,7 @@ TEMPERAMENT_PREDATOR7	{ไม่เกรงกลัว}
 TEMPERAMENT_PREDATOR8	{เลือดเย็น}
 TEMPERAMENT_PREDATOR9	{ไม่กลัวตาย}
 TEMPERAMENT_PREDATOR10	{ฉลาด}
-TEMPERAMENT_PREDATOR11	{สุขุม}
+TEMPERAMENT_PREDATOR11	{หลักแหลม}
 TEMPERAMENT_PREDATOR12	{เพลิดเพลินไปกับการล่า}
 TEMPERAMENT_PREDATOR13	{กล้าหาญ}
 TEMPERAMENT_PREDATOR14	{ตามเหยื่อได้เป็นวัน}
@@ -7903,8 +7903,7 @@ UP_PULSEDRIVE_COMP_7	{Plasma Exhaust}
 UP_PULSEDRIVE_COMP_8	{Fuel Pipes}
 UP_PULSEDRIVE_COMP_9	{Neutrino Injector}
 UP_PULSEDRIVE_COMP_10	{Electron Loom}
-UP_LASER1_DESC	{อุปกรณ์ปรับปรุง<TECHNOLOGY>ลำแสงแยกสสาร<> <TRADEABLE>ระดับต่ำ<> กด <IMG>FE_ALT1<> เพื่อเริ่มติดตั้ง
-UP_LASER1_DESC	{{อุปกรณ์ปรับปรุง<TECHNOLOGY>ลำแสงแยกสสาร<> <TRADEABLE>ระดับต่ำ<> กด <VAL_ON><IMG>FE_ALT1<><> เพื่อ<VAL_ON>เริ่มติดตั้ง<>
+UP_LASER1_DESC	{อุปกรณ์ปรับปรุง<TECHNOLOGY>ลำแสงแยกสสาร<> <TRADEABLE>ระดับต่ำ<> กด <VAL_ON><IMG>FE_ALT1<><> เพื่อ<VAL_ON>เริ่มติดตั้ง<>
 
 The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
 
@@ -7917,7 +7916,7 @@ UP_LASER2_DESC	{อุปกรณ์ปรับปรุง<TECHNOLOGY>ลำ�
 The module is flexible, and exact upgrade statistics are <SPECIAL>unknown<> until installation is complete.
 
 Potential upgrades include: <STELLAR>power output<>, <STELLAR>heat toleration<> and <STELLAR>fuel efficiency<>.}
-UP_LASER2_NAME	{โมดูลลำแสงแยกสสาร
+UP_LASER2_NAME	{โมดูลลำแสงแยกสสาร}
 UP_LASER2_NAME_L	{โมดูลลำแสงแยกสสาร}
 UP_LASER2_SUB	{อุปกรณ์ปรับปรุงลำแสงแยกสสารระดับ 2}
 UP_LASER3_DESC	{อุปกรณ์ปรับปรุง<TECHNOLOGY>ลำแสงแยกสสาร<> <TRADEABLE>ระดับสูง<> กด <VAL_ON><IMG>FE_ALT1<><> เพื่อ<VAL_ON>เริ่มติดตั้ง<>
@@ -12281,7 +12280,7 @@ UI_CATAPROD3_NAME_L	{คลอไรด์แลตทิซ}
 UI_CATAPROD3_DESC	{A tightly-bonded form of คลอรีน Rigidly-packed molecules offer unrivalled conductivity. Not known to form spontaneously: creation requires highly-focused energy inputs.
 
 Synthesised from <CATALYST>คลอรีน<>}
-UI_CATAPROD3_SUB	{คลอรีนที่มีความเข้มข้นสูงConcentrated Chlorine Deposit}
+UI_CATAPROD3_SUB	{คลอรีนที่มีความเข้มข้นสูง}
 UI_OXYPROD3_NAME	{ผลึกซุปเปอร์ออกไซด์}
 UI_OXYPROD3_NAME_L	{ผลึกซุปเปอร์ออกไซด์}
 UI_OXYPROD3_DESC	{A para-magnetic form of Oxygen, this rare substance has much to offer in the production of <TECHNOLOGY>advanced technologies<>. Requires conversion prior to input into Life Support systems. Direct inhalation is NOT recommended.
@@ -12957,7 +12956,7 @@ DNT_WAR_TRADER_OFFLOAD_LANG_3	{I'm a Vy'keen! Want to buy these specific items?}
 ALL_TRADER_OFFLOAD_DESC_1	{Excited to see another pilot, the trader offers me one of their collection of rare and precious items.}
 ALL_TRADER_OFFLOAD_DESC_2	{The pilot seems like a normal trader, but instead of the usual range of goods, they carry only trinkets and curios. I wonder what lead to such an unusual cargo...}
 ALL_TRADER_OFFLOAD_DESC_3	{This trader doesn't speak like the other merchants I've met. They appear to be a specialist, carrying only the most unusual items...}
-ALL_TRADER_OFFLOAD_DESC_4	{I do not know exactly who this pilot is. A trader? A historian? A grave robber? Either way, they appear to be peddling
+ALL_TRADER_OFFLOAD_DESC_4	{I do not know exactly who this pilot is. A trader? A historian? A grave robber? Either way, they appear to be peddling trinkets.}
 ALL_TRADER_OFFLOAD_DESC_5	{The trader transmits their cargo manifest, revealing a strange collection. Their hold is full of relics, items of importance to their people. They appear willing to part with them...}
 ALL_TRADER_OFFLOAD_OPT_A	{Bargain for Relic}
 ALL_TRADER_OFFLOAD_OPT_D	{ปฏิเสธ}

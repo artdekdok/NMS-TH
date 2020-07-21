@@ -8073,7 +8073,7 @@ UI_GEODE_ASTEROID_HINT_MSG	{เปิดช่องเก็บของ กด
 ก้อนทองคำ ประกอบไปด้วย<COMMODITY>ทองคำ<>จำนวนมาก}
 UI_STARCHART_NAME	{แผนที่ดาว}
 UI_STARCHART_NAME_L	{แผนที่ดาว}
-UI_STARCHART_SUB	{ข้อมูลแผนที่
+UI_STARCHART_SUB	{ข้อมูลแผนที่}
 UI_STARCHART_SUB_SECURE	{Secret Cartographic Data}
 UI_STARCHART_SUB_DISTRESS	{Emergency Cartographic Data}
 UI_STARCHART_SUB_HABITABLE	{Commercial Cartographic Data}

@@ -3008,7 +3008,7 @@ UI_TRADE_ITEM_COMMOD_2_DESC	{Several spools of star silk.
 Star silk is woven on enormous solar looms in orbit around trading planets. Cosmic ray impact triggers the pattern of the weave, which can then be used in <SPECIAL>advanced material<> processing.}
 UI_TRADE_ITEM_COMMOD_2_NAME	{สตาร์ซิลค์}
 UI_TRADE_ITEM_COMMOD_2_NAME_L	{สตาร์ซิลค์}
-UI_TRADE_ITEM_COMMOD_3_DESC	{Several canisters of comet droplets.UI_TRADE_ITEM_COMMODITY_3_DESC	{Several canisters of comet droplets.
+UI_TRADE_ITEM_COMMOD_3_DESC	{Several canisters of comet droplets.
 
 An elaborate trading name for chunks of meteorite, these rocks are nonetheless extremely valuable to the <SPECIAL>advanced material<> economies that can process them.}
 UI_TRADE_ITEM_COMMOD_3_NAME	{COMET DROPLETS}
@@ -3905,7 +3905,7 @@ UI_MAINTAIN_SUB3_DESC	{กองโลหะผุกร่อน ที่โ�
 จัดการด้วยความระมัดระวัง}
 UI_MAINTAIN_SUB4_NAME	{เมือกมีชีวิต}
 UI_MAINTAIN_SUB4_NAME_L	{เมือกมีชีวิต}
-UI_MAINTAIN_SUB4_DESC	{เมือกหนา เคลื่อนไหวอย่างนุ่มนวล เหมือนกับมีการเต้นของหัวใจของมันเอง
+UI_MAINTAIN_SUB4_DESC	{เมือกหนา เคลื่อนไหวเป็นจังหวะ เหมือนกับอัตราการเต้นของหัวใจ
 
 แหล่งอาหาร: <FUEL>ไม่ทราบ<>}
 UI_MAINTAIN_SUB5_NAME	{สสารเหนียวหนืด}
