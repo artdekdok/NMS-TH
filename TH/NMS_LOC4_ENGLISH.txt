@@ -2024,8 +2024,8 @@ UI_DROPPOD_MAINT_TITLE	{ระบบปรับปรุงชุดเอ็�
 UI_DROPPOD_MAINT_SUB	{ซ่อมแซมส่วนที่เสียหายเพื่อรับช่องของชุดเอ็กโซ}
 UI_RETURN	{ย้อนกลับ <IMG>EXITMENU<>}
 NOTIFY_LAND_TOOFAST	{ลงจอดไม่ได้ <IMG>SLASH<> ความเร็วมากเกินไป}
-NO_JOIN_MP_OLD_SAVE	{This save must be loaded in single player to be compatible with this version of No Man's Sky}
-NO_LOAD_INVALID_SAVE	{This save is incompatible with this version of No Man's Sky, and cannot be loaded}
+NO_JOIN_MP_OLD_SAVE	{โหลดเซฟนี้ในโหมดเล่นคนเดียวก่อน จากนัั้นทำการเซฟเกม แล้วค่อยกลับมายังโหมดผู้เล่นหลายคน}
+NO_LOAD_INVALID_SAVE	{เซฟนี้ไม่สามารถใช้กับเวอร์ชั่นปัจจุบัน และไม่สามารถโหลดได้}
 UI_SAVESLOT_OLD	{UPGRADE REQUIRED}
 UI_SAVESLOT_INVALID	{INCOMPATIBLE SAVE}
 UI_HANDIN_MP_MISSION	{Complete Mission}
